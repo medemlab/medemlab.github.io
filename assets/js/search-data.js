@@ -3,36 +3,57 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "about",
+    id: "nav-medem",
+    title: "MEDEM?",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-people",
-          title: "PEOPLE",
-          description: "members of MEDEM Lab",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
-        },{id: "nav-publications",
-          title: "publications",
-          description: "publications of MEDEM Lab, by categories in reversed chronological order.",
+  },{id: "dropdown-professor",
+              title: "Professor",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/books/";
+              },
+            },{id: "dropdown-students",
+              title: "Students",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/book/";
+              },
+            },{id: "dropdown-alumni",
+              title: "Alumni",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/blog/";
+              },
+            },{id: "nav-publications",
+          title: "PUBLICATIONS",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
           title: "PROJECTS",
-          description: "Research projects conducted by MEDEM Lab.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-patents",
+          title: "PATENTS",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/patents/";
+          },
         },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          title: "TEACHING",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
