@@ -5,6 +5,8 @@
 title: MEDEM Lab # the website title (if blank, full name will be used instead)
 first_name: T.
 last_name: Lee
+description: Metal Design & Mechanics Lab supervised by Prof. T. Lee
+footer_text: ©Copyright 2026 MEDEM Lab
 keywords: MEDEM, Pusan National University, Taekyung Lee, metal, mechanics, fracture, fatigue, machine learning, research, mechanical engineering # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 💥 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
