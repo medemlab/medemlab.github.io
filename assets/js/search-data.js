@@ -24,8 +24,8 @@ ninja.data = [{
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
+          title: "Projects",
+          description: "Research projects conducted in MEDEM Lab.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -448,8 +448,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-webpage-under-construction",
+          title: 'Webpage under construction',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
