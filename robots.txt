@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://medem.github.io/sitemap.xml
+Sitemap: https://medemlab.github.io/sitemap.xml
