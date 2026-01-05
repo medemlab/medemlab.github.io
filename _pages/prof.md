@@ -1,16 +1,6 @@
 ---
 layout: profiles
-title: PEOPLE
-nav: true
-nav_order: 2
-dropdown: true
-children:
-  - title: Professor
-    permalink: /books/
-  - title: Students
-    permalink: /book/
-  - title: Alumni
-    permalink: /blog/
+title: Professor
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
