@@ -14,7 +14,7 @@ ninja.data = [{
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/books/";
+                window.location.href = "/prof/";
               },
             },{id: "dropdown-students",
               title: "Students",
@@ -37,26 +37,33 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "PROJECTS",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "nav-patents",
+        },{id: "dropdown-scope",
+              title: "Scope",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/scope/";
+              },
+            },{id: "dropdown-projects",
+              title: "Projects",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/projects/";
+              },
+            },{id: "nav-patents",
           title: "PATENTS",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/patents/";
           },
-        },{id: "nav-teaching",
-          title: "TEACHING",
+        },{id: "nav-projects",
+          title: "PROJECTS",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/teaching/";
+            window.location.href = "/projects/";
           },
         },{id: "nav-news",
           title: "NEWS",
