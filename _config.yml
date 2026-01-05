@@ -18,6 +18,16 @@ impressum_path: # set to path to include impressum link in the footer, use the s
 back_to_top: true # set to false to disable the back to top button
 
 # -----------------------------------------------------------------------------
+# Custom
+# -----------------------------------------------------------------------------
+logo:
+  light: assets/img/MEDEM_CI.png
+  dark: assets/img/MEDEM_CI.png
+
+scholar_userid: Oha_H-oAAAAJ
+orcid_id: 0000-0002-1589-3900
+
+# -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
 
