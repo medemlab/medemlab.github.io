@@ -263,7 +263,7 @@ scholar:
   last_name: [Lee]
   first_name: [Taekyung]
 
-  style: IEEE
+  style: apa
   locale: en
 
   source: /_bibliography/
