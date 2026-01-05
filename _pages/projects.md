@@ -2,7 +2,6 @@
 layout: page
 title: PROJECTS
 permalink: /projects/
-description: Research projects conducted by MEDEM Lab.
 nav: true
 nav_order: 4
 display_categories: [work, fun]

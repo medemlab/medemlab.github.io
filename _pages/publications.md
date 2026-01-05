@@ -1,8 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
-description: publications of MEDEM Lab, by categories in reversed chronological order.
+title: PUBLICATIONS
 nav: true
 nav_order: 3
 ---
