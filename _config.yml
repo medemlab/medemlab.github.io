@@ -46,32 +46,6 @@ socials_in_search: true
 posts_in_search: true
 bib_search: true
 
-navbar_pages:
-  - title: ABOUT
-    permalink: /
-  - title: PEOPLE
-    dropdown: true
-    pages:
-      - title: PROFESSOR
-        permalink: /prof/
-      - title: MEMBERS
-        permalink: /members/
-      - title: ALUMNI
-        permalink: /alumni/
-  - title: RESEARCH
-    dropdown: true
-    pages:
-      - title: SCOPE
-        permalink: /scope/
-      - title: PROJECTS
-        permalink: /projects/
-      - title: PATENTS
-        permalink: /patents/
-  - title: PUBLICATIONS
-    permalink: /publications/
-  - title: NEWS
-    permalink: /news/
-
 # Dimensions
 max_width: 930px
 

@@ -2,7 +2,9 @@
 layout: page
 title: ALUMNI
 permalink: /alumni/
-nav: false
+nav: true
+nav_order: 3
+parent: PEOPLE
 ---
 
 under construction
