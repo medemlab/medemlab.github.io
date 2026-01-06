@@ -21,14 +21,14 @@ ninja.data = [{
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/book/";
+                window.location.href = "/students/";
               },
             },{id: "dropdown-alumni",
               title: "Alumni",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/blog/";
+                window.location.href = "/alumni/";
               },
             },{id: "nav-publications",
           title: "PUBLICATIONS",
@@ -57,13 +57,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/patents/";
-          },
-        },{id: "nav-projects",
-          title: "PROJECTS",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
           },
         },{id: "nav-news",
           title: "NEWS",
