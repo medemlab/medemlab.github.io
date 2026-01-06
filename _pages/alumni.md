@@ -1,7 +1,7 @@
 ---
 layout: page
-title: PATENTS
-permalink: /patents/
+title: ALUMNI
+permalink: /alumni/
 nav: false
 ---
 

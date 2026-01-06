@@ -1,7 +1,7 @@
 ---
 layout: page
-title: PATENTS
-permalink: /patents/
+title: MEMBERS
+permalink: /members/
 nav: false
 ---
 

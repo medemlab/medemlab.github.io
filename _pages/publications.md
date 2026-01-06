@@ -2,8 +2,7 @@
 layout: page
 permalink: /publications/
 title: PUBLICATIONS
-nav: true
-nav_order: 3
+nav: false
 ---
 
 <!-- _pages/publications.md -->

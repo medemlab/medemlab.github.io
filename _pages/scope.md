@@ -1,7 +1,7 @@
 ---
 layout: page
-title: PATENTS
-permalink: /patents/
+title: RESEARCH SCOPE
+permalink: /scope/
 nav: false
 ---
 
