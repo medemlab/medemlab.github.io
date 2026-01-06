@@ -12,3 +12,5 @@ children:
   - title: Alumni
     permalink: /alumni/
 ---
+
+{% include profiles.liquid %}
