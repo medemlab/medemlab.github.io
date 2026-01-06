@@ -9,7 +9,56 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "post-a-post-with-plotly-js",
+  },{id: "nav-professor",
+          title: "PROFESSOR",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/professor/";
+          },
+        },{id: "nav-research-scope",
+          title: "RESEARCH SCOPE",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/scope/";
+          },
+        },{id: "nav-members",
+          title: "MEMBERS",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/members/";
+          },
+        },{id: "nav-alumni",
+          title: "ALUMNI",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/alumni/";
+          },
+        },{id: "nav-patents",
+          title: "PATENTS",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/patents/";
+          },
+        },{id: "nav-publications",
+          title: "PUBLICATIONS",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-news",
+          title: "NEWS",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
+          },
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
