@@ -1,6 +1,7 @@
 ---
 layout: profiles
-title: Professor
+title: PRINCIPAL INVESTIGATOR
+permalink: /prof/
 
 profiles:
   # if you want to include more than one profile, just replicate the following block

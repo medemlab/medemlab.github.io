@@ -8,7 +8,7 @@ children:
   - title: Professor
     permalink: /prof/
   - title: Students
-    permalink: /book/
+    permalink: /students/
   - title: Alumni
-    permalink: /blog/
+    permalink: /alumni/
 ---

@@ -43,5 +43,3 @@ latest_posts:
 1. 금속재료의 동적파괴 평가 및 원리 규명.
 2. 금속제품 및 금속무기의 성능 향상.
 3. 인공지능 기반 금속 제조공정 최적화.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
