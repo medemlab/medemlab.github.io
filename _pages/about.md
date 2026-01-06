@@ -8,7 +8,13 @@ profile:
   align: right
   image: MEDEM_CI.png
   image_circular: false # crops the image to make it circular
+  address: >
+    <p>School of Mechanical Engineering</p>
+    <p>Pusan National University</p>
   more_info: >
+    <p>Office #607, Mech. Bldg.,</p>
+    <p>Pusan Nat'l. Univ.,</p>
+    <p>Busan, Korea</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -22,6 +28,7 @@ latest_posts:
   enabled: false
   scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
+  
 ---
 **MEDEM Lab** is established in 2018 by Prof. Taekyung Lee at Pusan National University, Korea. We specialize in research that combines microstructural characterization from materials science with fracture analysis from mechanical engineering, such as:
 1. Elucidating mechanisms under the dynamic fracture of metals.
