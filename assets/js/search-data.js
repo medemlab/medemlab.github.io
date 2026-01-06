@@ -9,56 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "dropdown-professor",
-              title: "Professor",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/prof/";
-              },
-            },{id: "dropdown-students",
-              title: "Students",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/students/";
-              },
-            },{id: "dropdown-alumni",
-              title: "Alumni",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/alumni/";
-              },
-            },{id: "nav-publications",
-          title: "PUBLICATIONS",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/publications/";
-          },
-        },{id: "dropdown-scope",
-              title: "Scope",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/scope/";
-              },
-            },{id: "dropdown-projects",
-              title: "Projects",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/projects/";
-              },
-            },{id: "nav-patents",
-          title: "PATENTS",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/patents/";
-          },
-        },{id: "nav-news",
+  },{id: "nav-news",
           title: "NEWS",
           description: "",
           section: "Navigation",
