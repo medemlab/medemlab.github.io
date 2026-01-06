@@ -264,7 +264,6 @@ display_categories: ["external-services"] # these categories will be displayed o
 scholar:
   last_name: [Lee]
   first_name: [Taekyung]
-  allow_title_match: true
 
   style: ieee
   locale: en
