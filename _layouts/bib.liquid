@@ -159,6 +159,10 @@
       {% if entry.number %}
       {% capture entrytype %}{{ entrytype }}, no. {{ entry.number }}{% endcapture %}
       {% endif %}
+      {% if entry.pages %}
+      {% capture entrytype %}{{ entrytype }}, pp. {{ entry.pages}}{% endcapture %}
+      {% capture entrytype %}{{ entrytype }}, in press{% endcapture %}
+      {% endif %}
     {% elsif proceedings contains entry.type %}
       {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
     {% elsif thesis contains entry.type %}
