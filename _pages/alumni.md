@@ -22,7 +22,7 @@ permalink: /alumni/
               <div class="card h-100 shadow-sm border-0">
                 <div class="card-body text-center">
                   <h5 class="card-title"><strong>{{ profile.last_name }},  {{ profile.first_name }}</strong></h5>
-                  <p class="card-text mb-1">{{ profile.degree }} ({{ profile.graduation_year }} {{ profile.graduation_season }})</p>
+                  <p class="card-text mb-1">{{ profile.graduation_year }} {{ profile.graduation_season }})</p>
                   {% if profile.current_affl %}
                     <p class="card-text text-primary small"><strong>{{ profile.current_affl }}</strong></p>
                   {% endif %}
