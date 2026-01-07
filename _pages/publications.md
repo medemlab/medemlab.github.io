@@ -5,6 +5,7 @@ title: PUBLICATIONS
 nav: true
 nav_order: 3
 ---
+Total Publications: {{ site.scholar.bibliography.entries | size }}
 
 <!-- _pages/publications.md -->
 
