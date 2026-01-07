@@ -441,6 +441,16 @@ ninja.data = [{
           description: "",
           section: "Profiles",handler: () => {
               window.location.href = "/profiles/002_ByungJe_Kwak/";
+            },},{id: "profiles-in-su-kim",
+          title: 'In-Su Kim',
+          description: "",
+          section: "Profiles",handler: () => {
+              window.location.href = "/profiles/003_In-Su_Kim/";
+            },},{id: "profiles-유진영",
+          title: '유진영',
+          description: "",
+          section: "Profiles",handler: () => {
+              window.location.href = "/profiles/004_Jinyeong_Yu/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
