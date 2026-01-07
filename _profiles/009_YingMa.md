@@ -3,7 +3,7 @@ layout: about
 title: Ma, Ying
 first_name: Ying
 last_name: Ma
-category: Alumni    # Professor / Member / Almuni
+category: Member    # Professor / Member / Almuni
 course: PhD        # (Members) Post-Doc / PhD / MS / Undergrad
                     # (Alumni) PhD / MS
 importance: 9

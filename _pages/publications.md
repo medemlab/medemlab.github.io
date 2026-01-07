@@ -5,7 +5,11 @@ title: PUBLICATIONS
 nav: true
 nav_order: 3
 ---
-Total Publications: {{ site.scholar.bibliography.entries | size }}
+{% capture total_pubs %}{% bibliography %}{% endcapture %}
+{% assign pubs_array = total_pubs | split: '<div class="row"' %}
+{% assign total_count = pubs_array.size | minus: 1 %}
+
+Total Publications: {{ total_count }}
 
 <!-- _pages/publications.md -->
 
