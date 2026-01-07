@@ -20,7 +20,7 @@ permalink: /alumni/
           {% for profile in alumni_members %}
             <div class="col-sm-12 mb-3">
               <strong>{{ profile.last_name }}, {{ profile.first_name }}</strong> <br>
-              {{ profile.graduation_year }} {{ profile.graduation_season }}</br>
+              {{ profile.graduation_year }} {{ profile.graduation_season }}<br>
               {% if profile.current_affl %}{{ profile.current_affl }}{% endif %}
             </div>
           {% endfor %}
