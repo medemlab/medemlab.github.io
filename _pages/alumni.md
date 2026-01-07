@@ -19,9 +19,9 @@ permalink: /alumni/
         <div class="row">
           {% for profile in alumni_members %}
             <div class="col-sm-12 mb-3">
-              <strong>{{ profile.first_name }} {{ profile.last_name }}</strong> ({{ profile.degree }}) <br>
-              Degree: {{ profile.graduation_year }} {{ profile.graduation_season }}
-              {% if profile.current_affl %}Current Affiliation: {{ profile.current_affl }}{% endif %}
+              <strong>{{ profile.last_name }}, {{ profile.first_name }}</strong> <br>
+              {{ profile.graduation_year }} {{ profile.graduation_season }}</br>
+              {% if profile.current_affl %}{{ profile.current_affl }}{% endif %}
             </div>
           {% endfor %}
         </div>
