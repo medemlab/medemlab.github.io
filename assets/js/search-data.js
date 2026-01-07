@@ -428,14 +428,19 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "news-please-check-a-previous-version-of-website-https-sites-google-com-site-medemlab",
-          title: 'Please check a previous version of website: https://sites.google.com/site/medemlab',
+      },{id: "news-website-v2-is-under-construction",
+          title: 'Website V2 is under construction.',
           description: "",
           section: "News",},{id: "profiles-taein-kong",
           title: 'Taein Kong',
           description: "",
           section: "Profiles",handler: () => {
               window.location.href = "/profiles/001_Taein_Kong/";
+            },},{id: "profiles-byung-je-kwak",
+          title: 'Byung Je Kwak',
+          description: "",
+          section: "Profiles",handler: () => {
+              window.location.href = "/profiles/002_ByungJe_Kwak/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
