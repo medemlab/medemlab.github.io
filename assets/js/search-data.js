@@ -428,18 +428,15 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+      },{id: "news-please-check-a-previous-version-of-website-https-sites-google-com-site-medemlab",
+          title: 'Please check a previous version of website: https://sites.google.com/site/medemlab',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "profiles-taein-kong",
+          title: 'Taein Kong',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-webpage-under-construction",
-          title: 'Webpage under construction',
-          description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "Profiles",handler: () => {
+              window.location.href = "/profiles/001_Taein_Kong/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
