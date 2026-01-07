@@ -6,12 +6,6 @@ nav: true
 nav_order: 3
 ---
 
----
-layout: page
-title: PUBLICATIONS
-...
----
-
 {% capture total_pubs %}{% bibliography %}{% endcapture %}
 {% assign pubs_array = total_pubs | split: '<div class="row"' %}
 {% assign total_count = pubs_array.size | minus: 1 %}
