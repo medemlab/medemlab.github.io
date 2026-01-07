@@ -9,21 +9,28 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-people",
-          title: "PEOPLE",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
-        },{id: "nav-professor",
-          title: "PROFESSOR",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/professor/";
-          },
-        },{id: "nav-research-scope",
+  },{id: "dropdown-professor",
+              title: "PROFESSOR",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/professor/";
+              },
+            },{id: "dropdown-members",
+              title: "MEMBERS",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/members/";
+              },
+            },{id: "dropdown-alumni",
+              title: "ALUMNI",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/alumni/";
+              },
+            },{id: "nav-research-scope",
           title: "RESEARCH SCOPE",
           description: "",
           section: "Navigation",
