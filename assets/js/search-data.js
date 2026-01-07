@@ -551,6 +551,16 @@ ninja.data = [{
           description: "",
           section: "Profiles",handler: () => {
               window.location.href = "/profiles/024_JaeWon_Yoon/";
+            },},{id: "profiles-허수빈",
+          title: '허수빈',
+          description: "",
+          section: "Profiles",handler: () => {
+              window.location.href = "/profiles/025_Supin_Heo/";
+            },},{id: "profiles-권용준",
+          title: '권용준',
+          description: "",
+          section: "Profiles",handler: () => {
+              window.location.href = "/profiles/026_Yongjun_Kwon/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
