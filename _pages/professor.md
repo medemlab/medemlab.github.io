@@ -2,9 +2,8 @@
 layout: page
 title: PROFESSOR
 permalink: /professor/
-nav: true
-nav_order: 1
-parent: PEOPLE
+#nav: true
+#nav_order: 1
 ---
 
 under construction
