@@ -13,7 +13,7 @@ permalink: /alumni/
       <div class="position-group">
         {% case type %}
           {% when 'PhD' %} <h2 class="category">박사/Ph.D.</h2>
-          {% when 'MS' %} <h2 class="category">석사/M.S. Alumni</h2>
+          {% when 'MS' %} <h2 class="category">석사/M.S.</h2>
         {% endcase %}
         
         <div class="row">

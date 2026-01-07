@@ -21,7 +21,7 @@ permalink: /members/
         <div class="row">
           {% for profile in members %}
             <div class="col-sm-6 mb-3">
-              <strong>{{ profile.first_name }} {{ profile.last_name }}</strong><br>
+              <strong>{{ profile.last_name }}, {{ profile.first_name }}</strong><br>
               {{ profile.degree }} (Entry: {{ profile.admission_year }})
             </div>
           {% endfor %}
