@@ -451,6 +451,21 @@ ninja.data = [{
           description: "",
           section: "Profiles",handler: () => {
               window.location.href = "/profiles/004_Jinyeong_Yu/";
+            },},{id: "profiles-이명재",
+          title: '이명재',
+          description: "",
+          section: "Profiles",handler: () => {
+              window.location.href = "/profiles/005_Myoungjae_Lee/";
+            },},{id: "profiles-배민화",
+          title: '배민화',
+          description: "",
+          section: "Profiles",handler: () => {
+              window.location.href = "/profiles/006_MinHwa_Bae/";
+            },},{id: "profiles-천세호",
+          title: '천세호',
+          description: "",
+          section: "Profiles",handler: () => {
+              window.location.href = "/profiles/007_Seho_Cheon/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
