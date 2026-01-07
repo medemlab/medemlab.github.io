@@ -471,96 +471,101 @@ ninja.data = [{
           description: "",
           section: "Profiles",handler: () => {
               window.location.href = "/profiles/008_SeungJun_Oh/";
+            },},{id: "profiles-ma-ying",
+          title: 'Ma, Ying',
+          description: "",
+          section: "Profiles",handler: () => {
+              window.location.href = "/profiles/009_YingMa/";
             },},{id: "profiles-강태진",
           title: '강태진',
           description: "",
           section: "Profiles",handler: () => {
-              window.location.href = "/profiles/009_Tae-Jin_Kang/";
+              window.location.href = "/profiles/010_Tae-Jin_Kang/";
             },},{id: "profiles-",
           title: '',
           description: "",
           section: "Profiles",handler: () => {
-              window.location.href = "/profiles/010_HyeonJin_Lee/";
+              window.location.href = "/profiles/011_HyeonJin_Lee/";
             },},{id: "profiles-황슬기",
           title: '황슬기',
           description: "",
           section: "Profiles",handler: () => {
-              window.location.href = "/profiles/011_SeulGi_Hwang/";
+              window.location.href = "/profiles/012_SeulGi_Hwang/";
             },},{id: "profiles-이성호",
           title: '이성호',
           description: "",
           section: "Profiles",handler: () => {
-              window.location.href = "/profiles/012_SeongHo_Lee/";
+              window.location.href = "/profiles/013_SeongHo_Lee/";
             },},{id: "profiles-김민섭",
           title: '김민섭',
           description: "",
           section: "Profiles",handler: () => {
-              window.location.href = "/profiles/013_Minseob_Kim/";
+              window.location.href = "/profiles/014_Minseob_Kim/";
             },},{id: "profiles-문무성",
           title: '문무성',
           description: "",
           section: "Profiles",handler: () => {
-              window.location.href = "/profiles/014_Mooseong_Mun/";
+              window.location.href = "/profiles/015_Mooseong_Mun/";
             },},{id: "profiles-변수정",
           title: '변수정',
           description: "",
           section: "Profiles",handler: () => {
-              window.location.href = "/profiles/015_Sujeong_Byun/";
+              window.location.href = "/profiles/016_Sujeong_Byun/";
             },},{id: "profiles-김지우",
           title: '김지우',
           description: "",
           section: "Profiles",handler: () => {
-              window.location.href = "/profiles/016_Jiwoo_Kim/";
+              window.location.href = "/profiles/017_Jiwoo_Kim/";
             },},{id: "profiles-박동준",
           title: '박동준',
           description: "",
           section: "Profiles",handler: () => {
-              window.location.href = "/profiles/017_DongJune_Park/";
+              window.location.href = "/profiles/018_DongJune_Park/";
             },},{id: "profiles-송종한",
           title: '송종한',
           description: "",
           section: "Profiles",handler: () => {
-              window.location.href = "/profiles/018_JongHan_Song/";
+              window.location.href = "/profiles/019_JongHan_Song/";
             },},{id: "profiles-이승엽",
           title: '이승엽',
           description: "",
           section: "Profiles",handler: () => {
-              window.location.href = "/profiles/019_SeungYeop_Lee/";
+              window.location.href = "/profiles/020_SeungYeop_Lee/";
             },},{id: "profiles-이정훈",
           title: '이정훈',
           description: "",
           section: "Profiles",handler: () => {
-              window.location.href = "/profiles/020_JeonghoonLee/";
+              window.location.href = "/profiles/021_JeonghoonLee/";
             },},{id: "profiles-이진규",
           title: '이진규',
           description: "",
           section: "Profiles",handler: () => {
-              window.location.href = "/profiles/021_Jingyu_Lee/";
+              window.location.href = "/profiles/022_Jingyu_Lee/";
             },},{id: "profiles-김성원",
           title: '김성원',
           description: "",
           section: "Profiles",handler: () => {
-              window.location.href = "/profiles/022_Sungwon_Kim/";
+              window.location.href = "/profiles/023_Sungwon_Kim/";
             },},{id: "profiles-이수정",
           title: '이수정',
           description: "",
           section: "Profiles",handler: () => {
-              window.location.href = "/profiles/023_Sujeong_Lee/";
+              window.location.href = "/profiles/024_Sujeong_Lee/";
             },},{id: "profiles-윤재원",
           title: '윤재원',
           description: "",
           section: "Profiles",handler: () => {
-              window.location.href = "/profiles/024_JaeWon_Yoon/";
+              window.location.href = "/profiles/025_JaeWon_Yoon/";
             },},{id: "profiles-허수빈",
           title: '허수빈',
           description: "",
           section: "Profiles",handler: () => {
-              window.location.href = "/profiles/025_Supin_Heo/";
+              window.location.href = "/profiles/026_Supin_Heo/";
             },},{id: "profiles-권용준",
           title: '권용준',
           description: "",
           section: "Profiles",handler: () => {
-              window.location.href = "/profiles/026_Yongjun_Kwon/";
+              window.location.href = "/profiles/027_Yongjun_Kwon/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
