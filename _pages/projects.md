@@ -4,8 +4,8 @@ title: PROJECTS
 permalink: /projects/
 display_categories: [수행중, 종료]
 horizontal: true
-nav_order: 2
-parent: RESEARCH
+#nav: true
+#nav_order: 2
 ---
 
 <!-- pages/projects.md -->

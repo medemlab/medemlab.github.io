@@ -2,9 +2,8 @@
 layout: page
 title: MEMBERS
 permalink: /members/
-nav: true
-nav_order: 2
-parent: PEOPLE
+#nav: true
+#nav_order: 2
 ---
 
 <div class="profiles">
