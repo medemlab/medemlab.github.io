@@ -30,42 +30,28 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/alumni/";
               },
-            },{id: "nav-research-scope",
-          title: "RESEARCH SCOPE",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/scope/";
-          },
-        },{id: "nav-members",
-          title: "MEMBERS",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/members/";
-          },
-        },{id: "nav-research",
-          title: "RESEARCH",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/research/";
-          },
-        },{id: "nav-alumni",
-          title: "ALUMNI",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/alumni/";
-          },
-        },{id: "nav-patents",
-          title: "PATENTS",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/patents/";
-          },
-        },{id: "nav-publications",
+            },{id: "dropdown-scope",
+              title: "SCOPE",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/scope/";
+              },
+            },{id: "dropdown-projects",
+              title: "PROJECTS",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/projects/";
+              },
+            },{id: "dropdown-patents",
+              title: "PATENTS",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/patents/";
+              },
+            },{id: "nav-publications",
           title: "PUBLICATIONS",
           description: "",
           section: "Navigation",
