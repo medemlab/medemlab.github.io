@@ -1,25 +1,30 @@
 ---
 layout: page
-permalink: /publications/
 title: PUBLICATIONS
+permalink: /publications/
 nav: true
 nav_order: 3
 ---
-<div class="citation-summary mb-4" style="border-bottom: 1px solid #ddd; padding-bottom: 15px;">
-  <h5 class="text-muted">
-    Researcher Statistics: 
-    <span class="text-primary" style="font-weight: bold;">{{ site.data.citations.total_citations }}</span> Citations 
-    (Source: <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank">Google Scholar</a>)
-  </h5>
+
+{% capture total_pubs %}{% bibliography %}{% endcapture %}
+{% assign pubs_array = total_pubs | split: '<div class="row"' %}
+{% assign total_count = pubs_array.size | minus: 1 %}
+
+<div class="publication-stats mb-5 p-3 border rounded shadow-sm bg-white">
+  <div class="row align-items-center text-center">
+    <div class="col-md-6 border-right">
+      <h5 class="text-muted mb-1">Total Publications</h5>
+      <span class="h3 font-weight-bold text-primary">{{ total_count }}</span>
+    </div>
+    <div class="col-md-6">
+      <h5 class="text-muted mb-1">Total Citations</h5>
+      <span class="h3 font-weight-bold text-success">
+        {{ site.data.citations.total_citations | default: "275" }}
+      </span>
+    </div>
+  </div>
 </div>
 
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
-
 <div class="publications">
-
-Total Publications: {{ total_count }}
-{% bibliography %}
-
+  {% bibliography %}
 </div>
