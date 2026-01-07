@@ -466,6 +466,21 @@ ninja.data = [{
           description: "",
           section: "Profiles",handler: () => {
               window.location.href = "/profiles/007_Seho_Cheon/";
+            },},{id: "profiles-",
+          title: '',
+          description: "",
+          section: "Profiles",handler: () => {
+              window.location.href = "/profiles/008_SeungJun_Oh/";
+            },},{id: "profiles-",
+          title: '',
+          description: "",
+          section: "Profiles",handler: () => {
+              window.location.href = "/profiles/009_Tae-Jin_Kang/";
+            },},{id: "profiles-",
+          title: '',
+          description: "",
+          section: "Profiles",handler: () => {
+              window.location.href = "/profiles/010_HyeonJin_Lee/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
