@@ -1,4 +1,4 @@
-{% assign lab_members = site.profiles | map: 'last_name' %}
+{% capture lab_member_names %}{% for p in site.profiles %}{{ p.first_name }} {{ p.last_name }}|{% endfor %}{% endcapture %}
 ---
 ---
 <div class="row">
@@ -59,28 +59,23 @@
         {% assign author_array_limit = site.max_author_limit %}
       {% endif %}
 
-      {%- for author in entry.author_array limit: author_array_limit -%}
-      {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
-      {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
-
-      {% assign author_is_self = false %}
-      {% if site.scholar.last_name contains author_last_name %}
-        {% if site.scholar.first_name contains author.first %}
-          {% assign author_is_self = true %}
-        {% endif %}
-      {%- endif -%}
-
-      {% assign author_is_member = false %}
-      {% if lab_members contains author_last_name %}
-        {% assign author_is_member = true %}
-      {% endif %}
-        
+{%- for author in entry.author_array limit: author_array_limit -%}
+        {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
         {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
+        {%- assign author_full_name = author.first | append: ' ' | append: author_last_name -%}
+
+        {% assign author_is_self = false %}
         {% if site.scholar.last_name contains author_last_name %}
           {% if site.scholar.first_name contains author.first %}
             {% assign author_is_self = true %}
           {% endif %}
         {%- endif -%}
+
+        {% assign author_is_member = false %}
+        {% if lab_member_names contains author_full_name %}
+          {% assign author_is_member = true %}
+        {% endif %}
+
         {% assign coauthor_url = null %}
         {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
         {% if site.data.coauthors[clean_last_name] %}
@@ -98,16 +93,18 @@
           {%- endif %}
           {%- if forloop.last and author_array_limit == author_array_size %}and {% endif -%}
         {% endif %}
-      {%- if author_is_self or author_is_member -%}
-        <ins>{{ author.first }} {{ author_last_html }}</ins>
-      {%- else -%}
-        {%- if coauthor_url -%}
-          <a href="{{ coauthor_url }}">{{ author.first }} {{ author_last_html }}</a>
+
+        {%- if author_is_self or author_is_member -%}
+          <ins>{{ author.first }} {{ author_last_html }}</ins>
         {%- else -%}
-          {{ author.first }} {{ author_last_html }}
+          {%- if coauthor_url -%}
+            <a href="{{ coauthor_url }}">{{ author.first }} {{ author_last_html }}</a>
+          {%- else -%}
+            {{ author.first }} {{ author_last_html }}
+          {%- endif -%}
         {%- endif -%}
-      {%- endif -%}
       {% endfor %}
+
       {%- assign more_authors = author_array_size | minus: author_array_limit -%}
 
       {%- assign more_authors_hide = more_authors | append: ' more author' -%}
