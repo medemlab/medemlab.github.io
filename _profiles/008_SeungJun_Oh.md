@@ -10,6 +10,7 @@ importance: 8
 graduation_year: 2023
 graduation_season: Spring # Spring / Fall
 degree: M.S.
-current_affl: [서해철도주식회사](https://www.seohaerail.co.kr/)
+current_affl: "서해철도주식회사"
+affl_url: "https://www.seohaerail.co.kr"
 excluded_from: 2025 # ~년부터 출판된 논문에는 밑줄 제외
 ---

@@ -21,10 +21,21 @@ permalink: /alumni/
             <div class="col">
               <div class="card h-100 shadow-sm border-0">
                 <div class="card-body text-center">
-                  <h5 class="card-title"><strong>{{ profile.last_name }},  {{ profile.first_name }}</strong></h5>
-                  <p class="card-text mb-1">{{ profile.graduation_year }} {{ profile.graduation_season }})</p>
+                  <h5 class="card-title"><strong>{{ profile.first_name }} {{ profile.last_name }}</strong></h5>
+                  <p class="card-text mb-1">{{ profile.degree }} ({{ profile.graduation_year }} {{ profile.graduation_season }})</p>
+          
                   {% if profile.current_affl %}
-                    <p class="card-text text-primary small"><strong>{{ profile.current_affl }}</strong></p>
+                    <p class="card-text text-primary small">
+                      <strong>
+                        {% if profile.affl_url %}
+                          <a href="{{ profile.affl_url }}" target="_blank" rel="noopener noreferrer" class="text-primary" style="text-decoration: none;">
+                            {{ profile.current_affl }} <i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i>
+                          </a>
+                        {% else %}
+                          {{ profile.current_affl }}
+                        {% endif %}
+                      </strong>
+                    </p>
                   {% endif %}
                 </div>
               </div>
