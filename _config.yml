@@ -142,14 +142,15 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-  books:
-    output: false
   news:
     defaults:
       layout: post
     output: true
   projects:
     output: true
+  profiles:
+    output: true
+    permalink: /profiles/:path/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
