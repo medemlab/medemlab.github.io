@@ -1,12 +1,12 @@
 ---
 layout: about
-title: 권용준
-first_name: Yongjun
-last_name: Kwon
+title: 이진규
+first_name: Jingyu
+last_name: Lee
 category: Member    # Professor / Member / Almuni
 course: MS        # (Members) Post-Doc / PhD / MS / Undergrad
                     # (Alumni) PhD / MS
-importance: 25
+importance: 22
 graduation_year: ""
 graduation_season: "" # Spring / Fall
 degree: ""

@@ -6,7 +6,7 @@ last_name: Kim
 category: Alumni    # Professor / Member / Almuni
 course: MS        # (Members) Post-Doc / PhD / MS / Undergrad
                     # (Alumni) PhD / MS
-importance: 16
+importance: 17
 graduation_year: 2024
 graduation_season: Spring # Spring / Fall
 degree: M.S.

@@ -1,16 +1,16 @@
 ---
 layout: about
-title: 강태진
-first_name: Tae-Jin
-last_name: Kang
+title: 황슬기
+first_name: Seul Gi
+last_name: Hwang
 category: Alumni    # Professor / Member / Almuni
 course: MS        # (Members) Post-Doc / PhD / MS / Undergrad
                     # (Alumni) PhD / MS
-importance: 9
+importance: 12
 graduation_year: 2023
 graduation_season: Spring # Spring / Fall
 degree: M.S.
-current_affl: "LG전자"
-affl_url: "https://www.lge.co.kr/company/main"
+current_affl: "한국조선해양기자재공업협동조합(KOMEA)"
+affl_url: "http://www.komea.kr"
 excluded_from: 2025 # ~년부터 출판된 논문에는 밑줄 제외
 ---

@@ -1,12 +1,12 @@
 ---
 layout: about
-title: 이정훈
-first_name: Jeonghoon
-last_name: Lee
+title: 윤재원
+first_name: Jae Won
+last_name: Yoon
 category: Member    # Professor / Member / Almuni
-course: PhD        # (Members) Post-Doc / PhD / MS / Undergrad
+course: MS        # (Members) Post-Doc / PhD / MS / Undergrad
                     # (Alumni) PhD / MS
-importance: 20
+importance: 25
 graduation_year: ""
 graduation_season: "" # Spring / Fall
 degree: ""

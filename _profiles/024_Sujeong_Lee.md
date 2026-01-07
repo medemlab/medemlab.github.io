@@ -1,8 +1,8 @@
 ---
 layout: about
-title: 윤재원
-first_name: Jae Won
-last_name: Yoon
+title: 이수정
+first_name: Sujeong
+last_name: Lee
 category: Member    # Professor / Member / Almuni
 course: MS        # (Members) Post-Doc / PhD / MS / Undergrad
                     # (Alumni) PhD / MS

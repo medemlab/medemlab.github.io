@@ -1,12 +1,12 @@
 ---
 layout: about
-title: 이수정
-first_name: Sujeong
-last_name: Lee
+title: 권용준
+first_name: Yongjun
+last_name: Kwon
 category: Member    # Professor / Member / Almuni
 course: MS        # (Members) Post-Doc / PhD / MS / Undergrad
                     # (Alumni) PhD / MS
-importance: 23
+importance: 27
 graduation_year: ""
 graduation_season: "" # Spring / Fall
 degree: ""

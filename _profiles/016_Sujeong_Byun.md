@@ -6,7 +6,7 @@ last_name: Byun
 category: Alumni    # Professor / Member / Almuni
 course: MS        # (Members) Post-Doc / PhD / MS / Undergrad
                     # (Alumni) PhD / MS
-importance: 15
+importance: 16
 graduation_year: 2024
 graduation_season: Spring # Spring / Fall
 degree: M.S.

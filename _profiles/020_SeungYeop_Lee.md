@@ -6,7 +6,7 @@ last_name: Lee
 category: Alumni    # Professor / Member / Almuni
 course: MS        # (Members) Post-Doc / PhD / MS / Undergrad
                     # (Alumni) PhD / MS
-importance: 19
+importance: 20
 graduation_year: 2026
 graduation_season: Spring # Spring / Fall
 degree: M.S.

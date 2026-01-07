@@ -1,12 +1,12 @@
 ---
 layout: about
-title: 이진규
-first_name: Jingyu
-last_name: Lee
+title: 김성원
+first_name: Sungwon
+last_name: Kim
 category: Member    # Professor / Member / Almuni
 course: MS        # (Members) Post-Doc / PhD / MS / Undergrad
                     # (Alumni) PhD / MS
-importance: 21
+importance: 23
 graduation_year: ""
 graduation_season: "" # Spring / Fall
 degree: ""

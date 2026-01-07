@@ -6,7 +6,7 @@ last_name: Mun
 category: Alumni    # Professor / Member / Almuni
 course: MS        # (Members) Post-Doc / PhD / MS / Undergrad
                     # (Alumni) PhD / MS
-importance: 14
+importance: 15
 graduation_year: 2023
 graduation_season: Fall # Spring / Fall
 degree: M.S.

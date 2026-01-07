@@ -6,7 +6,7 @@ last_name: Lee
 category: Member    # Professor / Member / Almuni
 course: PhD        # (Members) Post-Doc / PhD / MS / Undergrad
                     # (Alumni) PhD / MS
-importance: 12
+importance: 13
 graduation_year: ""
 graduation_season: "" # Spring / Fall
 degree: ""

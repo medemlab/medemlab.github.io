@@ -1,12 +1,12 @@
 ---
 layout: about
-title: 김성원
-first_name: Sungwon
-last_name: Kim
+title: 허수빈
+first_name: Supin
+last_name: Heo
 category: Member    # Professor / Member / Almuni
 course: MS        # (Members) Post-Doc / PhD / MS / Undergrad
                     # (Alumni) PhD / MS
-importance: 22
+importance: 26
 graduation_year: ""
 graduation_season: "" # Spring / Fall
 degree: ""

@@ -1,12 +1,12 @@
 ---
 layout: about
-title: 허수빈
-first_name: Supin
-last_name: Heo
+title: 이정훈
+first_name: Jeonghoon
+last_name: Lee
 category: Member    # Professor / Member / Almuni
-course: MS        # (Members) Post-Doc / PhD / MS / Undergrad
+course: PhD        # (Members) Post-Doc / PhD / MS / Undergrad
                     # (Alumni) PhD / MS
-importance: 25
+importance: 21
 graduation_year: ""
 graduation_season: "" # Spring / Fall
 degree: ""
