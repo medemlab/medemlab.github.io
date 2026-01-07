@@ -466,13 +466,13 @@ ninja.data = [{
           description: "",
           section: "Profiles",handler: () => {
               window.location.href = "/profiles/007_Seho_Cheon/";
-            },},{id: "profiles-",
-          title: '',
+            },},{id: "profiles-오승준",
+          title: '오승준',
           description: "",
           section: "Profiles",handler: () => {
               window.location.href = "/profiles/008_SeungJun_Oh/";
-            },},{id: "profiles-",
-          title: '',
+            },},{id: "profiles-강태진",
+          title: '강태진',
           description: "",
           section: "Profiles",handler: () => {
               window.location.href = "/profiles/009_Tae-Jin_Kang/";
@@ -481,6 +481,16 @@ ninja.data = [{
           description: "",
           section: "Profiles",handler: () => {
               window.location.href = "/profiles/010_HyeonJin_Lee/";
+            },},{id: "profiles-",
+          title: '',
+          description: "",
+          section: "Profiles",handler: () => {
+              window.location.href = "/profiles/011_SeulGi_Hwang/";
+            },},{id: "profiles-이성호",
+          title: '이성호',
+          description: "",
+          section: "Profiles",handler: () => {
+              window.location.href = "/profiles/012_SeongHo_Lee/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
