@@ -12,9 +12,20 @@ nav_order: 3
 
 <div class="publications">
   {% include bib_search.liquid %}
-  
-  <div class="total-stats mb-3">
-    Total Publications: <strong>{{ total_count }}</strong>
+
+  <div class="publication-stats mb-5 p-4 border-0 shadow rounded bg-white">
+    <div class="row text-center">
+      <div class="col-md-6 border-right">
+        <h6 class="text-uppercase text-muted ls-1 mb-2" style="letter-spacing: 1px;">Total Publications</h6>
+        <span class="display-4 font-weight-bold" style="color: #2c3e50;">{{ total_count }}</span>
+      </div>
+      <div class="col-md-6">
+        <h6 class="text-uppercase text-muted ls-1 mb-2" style="letter-spacing: 1px;">Total Citations</h6>
+        <span class="display-4 font-weight-bold" style="color: #e64a19;">
+          {{ site.data.citations.total_citations | default: "275" }}
+        </span>
+      </div>
+    </div>
   </div>
 
   {{ total_pubs }}
@@ -22,15 +33,10 @@ nav_order: 3
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    // Liquid에서 계산한 총 개수를 가져옵니다.
     var total = {{ total_count }};
-    // _layouts/bib.liquid에 추가한 span 태그들을 모두 가져옵니다.
     var bibNumbers = document.querySelectorAll('.bib-number');
-    
     bibNumbers.forEach(function(span, index) {
-      // 최신순 정렬이므로: 전체 개수 - 현재 순서(index) = 역순 번호
-      // 예: 전체 50개일 때 첫 번째(index 0) 논문은 50번, 마지막(index 49) 논문은 1번
-      span.textContent = (total - index) + ".";
+      span.textContent = "[" + (total - index) + "]"; // [#] 형태로 가독성 향상
     });
   });
 </script>
