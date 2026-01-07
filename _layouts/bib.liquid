@@ -1,8 +1,8 @@
-{% assign pub_count = site.scholar.bibliography.entries | size %}
+{% assign pub_count = site.publications | size %} (참고: 만약 이 코드로도 숫자가 안 나오면 site.publications 대신 site.scholar.references를 써보세요.)
   <style>
-    .bibliography { counter-reset: pub-counter {{ pub_count | plus: 1 }}; list-style: none; padding-left: 35px; }
-    .bibliography > li { counter-increment: pub-counter -1; position: relative; }
-    .bibliography > li::before { content: "[" counter(pub-counter) "]"; font-weight: bold; position: absolute; left: -35px; width: 30px; text-align: right; }
+    body { counter-reset: pub-counter {{ pub_count | plus: 1 }}; } (참고: 카운터 초기화 대상을 .bibliography에서 body로 넓혀서 리셋 문제를 방지합니다.)
+    .bibliography > li { counter-increment: pub-counter -1; list-style: none; position: relative; }
+    .bibliography > li::before { content: "[" counter(pub-counter) "]"; font-weight: bold; position: absolute; left: -40px; width: 35px; text-align: right; }
   </style>
 ---
 ---
