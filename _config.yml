@@ -197,7 +197,7 @@ keep_files:
 
 # Plug-ins
 plugins:
-  - jekyll-archives-v2
+  #- jekyll-archives-v2
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
@@ -240,18 +240,6 @@ jekyll-minifier:
 terser:
   compress:
     drop_console: true
-
-# -----------------------------------------------------------------------------
-# Jekyll Archives
-# -----------------------------------------------------------------------------
-
-# jekyll-archives 설정을 비활성화하여 빌드 에러를 방지합니다.
-jekyll-archives:
-  enabled: [] 
-
-# 블로그를 사용하지 않으므로 태그 및 카테고리 노출 설정을 비웁니다.
-display_tags: []
-display_categories: []
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
