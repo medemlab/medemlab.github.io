@@ -2,6 +2,7 @@
 layout: page
 title: Alumni
 permalink: /alumni/
+nav: false
 ---
 
 <div class="profiles">
@@ -23,7 +24,7 @@ permalink: /alumni/
                 <div class="card-body text-center d-flex flex-column justify-content-center">
                   <h5 class="card-title mb-2"><strong>{{ profile.first_name }} {{ profile.last_name }}</strong></h5>
                   <p class="card-text mb-2 text-dark">
-                    {{ profile.degree }} {{ profile.graduation_season }}
+                    {{ profile.graduation_year }} {{ profile.graduation_season }}
                   </p>
                   
                   {% if profile.current_affl %}

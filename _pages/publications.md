@@ -9,8 +9,6 @@ nav_order: 3
 {% assign pubs_array = total_pubs | split: '<div class="row"' %}
 {% assign total_count = pubs_array.size | minus: 1 %}
 
-Total Publications: {{ total_count }}
-
 <!-- _pages/publications.md -->
 
 <!-- Bibsearch Feature -->
@@ -19,6 +17,7 @@ Total Publications: {{ total_count }}
 
 <div class="publications">
 
+Total Publications: {{ total_count }}
 {% bibliography %}
 
 </div>
