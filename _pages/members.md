@@ -2,23 +2,32 @@
 layout: page
 title: MEMBERS
 permalink: /members/
-#nav: true
-#nav_order: 2
 ---
 
 <div class="profiles">
-  {% assign types = "postdoc,phd,ms,undergrad" | split: "," %}
-  {% assign titles = "Post-Doc,Ph.D. Candidate,M.S. Candidate,Undergraduate" | split: "," %}
-
-  {% for type in types %}
-    {% assign group = site.data.profiles | where: "type", type %}
-    {% if group.size > 0 %}
-      <h2 class="category" style="margin-top: 50px;">{{ titles[forloop.index0] }}</h2>
-      {% for profile in group %}
-        <hr>
-        <div class="name"><strong>{{ profile.name }}</strong></div>
-        <div class="desc">{{ profile.description }}</div>
-      {% endfor %}
+  {% assign member_types = "Postdoc,PhD,MS,Undergrad" | split: "," %}
+  {% for type in member_types %}
+    {% assign members = site.profiles | where: "category", "Member" | where: "degrees", type | sort: "importance" %}
+    
+    {% if members.size > 0 %}
+      <div class="position-group">
+        {% case type %}
+          {% when 'Postdoc' %} <h2 class="category">박사후연구원/Post-Doc</h2>
+          {% when 'PhD' %} <h2 class="category">박사과정/Ph.D. Candidates</h2>
+          {% when 'MS' %} <h2 class="category">석사과정/M.S. Candidates</h2>
+          {% when 'Undergrad' %} <h2 class="category">학부연구생/Undergrads</h2>
+        {% endcase %}
+        
+        <div class="row">
+          {% for profile in members %}
+            <div class="col-sm-6 mb-3">
+              <strong>{{ profile.first_name }} {{ profile.last_name }}</strong><br>
+              {{ profile.degree }} (Entry: {{ profile.admission_year }})
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% unless forloop.last %}<hr>{% endunless %}
     {% endif %}
   {% endfor %}
 </div>

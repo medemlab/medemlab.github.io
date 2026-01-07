@@ -2,8 +2,6 @@
 layout: page
 title: ALUMNI
 permalink: /alumni/
-#nav: true
-#nav_order: 3
 ---
 
 <div class="profiles">
@@ -14,8 +12,8 @@ permalink: /alumni/
     {% if alumni_members.size > 0 %}
       <div class="position-group">
         {% case type %}
-          {% when 'PhD' %} <h2 class="category">Ph.D. Alumni</h2>
-          {% when 'MS' %} <h2 class="category">M.S. Alumni</h2>
+          {% when 'PhD' %} <h2 class="category">박사/Ph.D.</h2>
+          {% when 'MS' %} <h2 class="category">석사/M.S. Alumni</h2>
         {% endcase %}
         
         <div class="row">
