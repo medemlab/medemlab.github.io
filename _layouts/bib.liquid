@@ -1,3 +1,9 @@
+{% assign pub_count = site.scholar.bibliography.entries | size %}
+  <style>
+    .bibliography { counter-reset: pub-counter {{ pub_count | plus: 1 }}; list-style: none; padding-left: 35px; }
+    .bibliography > li { counter-increment: pub-counter -1; position: relative; }
+    .bibliography > li::before { content: "[" counter(pub-counter) "]"; font-weight: bold; position: absolute; left: -35px; width: 30px; text-align: right; }
+  </style>
 ---
 ---
 <div class="row">
