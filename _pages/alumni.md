@@ -22,7 +22,7 @@ nav: false
             <div class="col">
               <div class="card h-100 shadow-sm border">
                 <div class="card-body text-center d-flex flex-column justify-content-center">
-                  <h5 class="card-title mb-2"><strong>{{ profile.first_name }} {{ profile.last_name }}</strong></h5>
+                  <h5 class="card-title mb-2"><strong>{{ profile.last_name }}, {{ profile.first_name }}</strong></h5>
                   <p class="card-text mb-2 text-dark">
                     {{ profile.graduation_year }} {{ profile.graduation_season }}
                   </p>
