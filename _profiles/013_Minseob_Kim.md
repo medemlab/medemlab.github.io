@@ -1,16 +1,16 @@
 ---
 layout: about
-title: 황슬기
-first_name: Seul Gi
-last_name: Hwang
+title: 김민섭
+first_name: Mingseob
+last_name: Kim
 category: Alumni    # Professor / Member / Almuni
 course: MS        # (Members) Post-Doc / PhD / MS / Undergrad
                     # (Alumni) PhD / MS
-importance: 11
+importance: 13
 graduation_year: 2023
-graduation_season: Spring # Spring / Fall
+graduation_season: Fall # Spring / Fall
 degree: M.S.
-current_affl: "한국조선해양기자재공업협동조합(KOMEA)"
-affl_url: "http://www.komea.kr"
+current_affl: "현대자동차"
+affl_url: "https://www.hyundai.com/kr/ko/info/ideology"
 excluded_from: 2025 # ~년부터 출판된 논문에는 밑줄 제외
 ---

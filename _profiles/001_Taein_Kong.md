@@ -11,5 +11,6 @@ graduation_year: 2020
 graduation_season: Fall # Spring / Fall
 degree: M.S.
 current_affl: "LS전선"
+affl_url: "https://www.lscns.co.kr/kr/main.asp"
 excluded_from: 2022 # ~년부터 출판된 논문에는 밑줄 제외
 ---
