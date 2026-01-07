@@ -7,7 +7,7 @@ permalink: /members/
 <div class="profiles">
   {% assign member_types = "Postdoc,PhD,MS,Undergrad" | split: "," %}
   {% for type in member_types %}
-    {% assign members = site.profiles | where: "category", "Member" | where: "degrees", type | sort: "importance" %}
+    {% assign members = site.profiles | where: "category", "Member" | where: "course", type | sort: "importance" %}
     
     {% if members.size > 0 %}
       <div class="position-group">

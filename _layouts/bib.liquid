@@ -51,18 +51,16 @@
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
-    <div class="author">
+<div class="author">
       {% assign author_array_size = entry.author_array | size %}
-
       {% assign author_array_limit = author_array_size %}
       {% if site.max_author_limit and author_array_size > site.max_author_limit %}
         {% assign author_array_limit = site.max_author_limit %}
       {% endif %}
 
-{%- for author in entry.author_array limit: author_array_limit -%}
+      {%- for author in entry.author_array limit: author_array_limit -%}
         {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
         {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
-        {%- assign author_full_name = author.first | append: ' ' | append: author_last_name -%}
 
         {% assign author_is_self = false %}
         {% if site.scholar.last_name contains author_last_name %}
@@ -72,9 +70,20 @@
         {%- endif -%}
 
         {% assign author_is_member = false %}
-        {% if lab_member_names contains author_full_name %}
-          {% assign author_is_member = true %}
-        {% endif %}
+        {% for member in site.profiles %}
+          {% if member.first_name == author.first and member.last_name == author_last_name %}
+            {% if member.excluded_from %}
+              {% assign pub_year = entry.year | plus: 0 %}
+              {% assign limit_year = member.excluded_from | plus: 0 %}
+              {% if pub_year < limit_year %}
+                {% assign author_is_member = true %}
+              {% endif %}
+            {% else %}
+              {% assign author_is_member = true %}
+            {% endif %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
 
         {% assign coauthor_url = null %}
         {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
@@ -104,7 +113,7 @@
           {%- endif -%}
         {%- endif -%}
       {% endfor %}
-
+      
       {%- assign more_authors = author_array_size | minus: author_array_limit -%}
 
       {%- assign more_authors_hide = more_authors | append: ' more author' -%}
