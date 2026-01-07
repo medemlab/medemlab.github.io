@@ -1,4 +1,4 @@
-{% assign pub_count = site.publications | size %}
+{% assign pub_count = site.scholar.references | size %}
   <style>
     body { counter-reset: pub-counter {{ pub_count | plus: 1 }}; } 
     .bibliography > li { counter-increment: pub-counter -1; list-style: none; position: relative; }
