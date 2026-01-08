@@ -5,12 +5,22 @@
 
 @use "sass:color";
 
-// Colors
+// 1. 핵심 컬러 정의 (Metallic & Professional)
+$black-color: #1a1a1a !default;      // 깊이 있는 Black (텍스트 및 배경)
+$white-color: #ffffff !default;
+$grey-color: #828282 !default;
+$grey-color-light: #e0e0e0 !default; // Silver (구분선 및 카드 배경)
+$grey-color-dark: #1c1c1d !default;
+
+// 2. 포인트 컬러 (PNU Blue & Gold)
+$blue-color: #003876 !default;       // PNU Blue (메뉴, 링크 강조)
+$blue-color-dark: #002147 !default;
+$yellow-color: #C5A028 !default;     // Gold (핵심 수치 및 마우스 호버 강조)
+
+// 기타 보조 색상 (기존 유지 혹은 채도 조절)
 $red-color: #ff3636 !default;
 $red-color-dark: #b71c1c !default;
 $orange-color: #f29105 !default;
-$blue-color: #0076df !default;
-$blue-color-dark: #00369f !default;
 $cyan-color: #2698ba !default;
 $light-cyan-color: color.adjust($cyan-color, $lightness: 25%);
 $green-color: #00ab37 !default;
@@ -22,25 +32,20 @@ $purple-color: #b509ac !default;
 $light-purple-color: color.adjust($purple-color, $lightness: 25%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
-$yellow-color: #efcc00 !default;
 
-$grey-color: #828282 !default;
-$grey-color-light: color.adjust($grey-color, $lightness: 40%);
-$grey-color-dark: #1c1c1d;
 $grey-900: #212529;
 
-$white-color: #ffffff !default;
-$black-color: #000000 !default;
+// 3. 테마 적용 매핑 (이 부분이 실제 웹사이트에 반영됩니다)
+$global-theme-color: $blue-color;    // 강조 포인트: Blue
+$global-text-color: $black-color;    // 기본 글자: Black
+$global-link-color: $blue-color;     // 링크 색상: Blue
+$global-hover-color: $yellow-color;  // 마우스 올릴 때: Gold
 
-// Theme colors
-
-$code-bg-color-light: rgba($purple-color, 0.05);
+$code-bg-color-light: rgba($blue-color, 0.05); // 코드 배경도 블루 톤으로 변경
 $code-bg-color-dark: #2c3237 !default;
 
-// Font awesome location
+// Font awesome & Tabler icons
 $fa-font-path: "../webfonts";
-
-// Tabler icons location
 $ti-font-path: "../fonts";
 
 // Back To Top button config
