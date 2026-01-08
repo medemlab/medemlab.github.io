@@ -37,7 +37,7 @@ horizontal: true
   /* 3. CI 이미지 영역 (정사각형 설정) */
   .ci-container {
     background-color: #fff;
-    padding: 20px;
+    padding: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,8 +48,8 @@ horizontal: true
   }
 
   .ci-img {
-    max-height: 85%;
-    max-width: 85%;
+    max-height: 95%;
+    max-width: 95%;
     object-fit: contain;
   }
   
