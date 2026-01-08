@@ -40,22 +40,22 @@ horizontal: true
 
   /* CI 이미지 영역 스타일 */
   .ci-container {
-    background-color: #fff; /* CI는 보통 흰 배경에서 잘 보임. 다크모드에서도 유지 */
-    padding: 15px;
+    background-color: #fff;
+    padding: 20px; /* 여백 약간 증가 */
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
-    min-height: 120px; /* 최소 높이 보장 */
+    min-height: 180px; /* 기존 120px에서 1.5배 확장 */
     border-right: 1px solid var(--global-divider-color);
   }
 
   .ci-img {
-    max-height: 80px;
-    max-width: 100%;
+    max-height: 120px; /* 기존 80px에서 1.5배 확장 */
+    max-width: 90%;   /* 좌우 꽉 차지 않게 소폭 조정 */
     object-fit: contain;
   }
-
+  
   /* 텍스트 스타일 */
   .project-business {
     font-size: 0.9rem;
@@ -106,7 +106,7 @@ horizontal: true
       <div class="card project-card shadow-sm h-100 overflow-hidden">
         <div class="row g-0 h-100 align-items-center">
           
-          <div class="col-md-3 col-lg-2 h-100">
+          <div class="col-md-4 col-lg-3 h-100">
             <div class="ci-container h-100">
               {% if project.img %}
               <img src="{{ project.img | relative_url }}" alt="{{ project.agency }} CI" class="ci-img rounded-start">
