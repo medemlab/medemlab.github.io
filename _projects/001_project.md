@@ -5,7 +5,7 @@ description: ""
 category: 완료 # 또는 '완료' (필수)
 related_publications: false
 
-img: /assets/img/CI_MEDEM.png # 지원기관 CI 이미지 경로 (필수)
+img: /assets/img/CI_KIMS.png # 지원기관 CI 이미지 경로 (필수)
 importance: 1 # 정렬 순서 (낮을수록 상단 표시)
 business_name: "재료연 주요사업" # 사업명
 agency: "한국재료연구원" # 지원기관명
