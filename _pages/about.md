@@ -6,7 +6,7 @@ subtitle: Metal Design & Mechanics Lab
 
 profile:
   align: right
-  image: 
+  image: CI_MEDEM.png 
   image_circular: false # crops the image to make it circular
   address: >
     <p>School of Mechanical Engineering</p>
