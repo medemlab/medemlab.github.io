@@ -581,6 +581,36 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/018_project/";
+            },},{id: "projects-금속3d프린팅-기반-열방호-소재-특화연구실-실제-운용환경에서의-금속-3d-프린팅-부품-적용성-평가",
+          title: '금속3D프린팅 기반 열방호 소재 특화연구실 / 실제 운용환경에서의 금속 3D 프린팅 부품 적용성...',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/019_project/";
+            },},{id: "projects-지역원자력산업-기반-에너지기술공유대학",
+          title: '지역원자력산업 기반 에너지기술공유대학',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/020_project/";
+            },},{id: "projects-︎-︎-︎-︎-︎-설계용-︎-︎-︎-︎-︎",
+          title: '◼︎◼︎◼︎◼︎◼︎ 설계용 ◼︎◼︎◼︎◼︎◼︎',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/021_project/";
+            },},{id: "projects-차세대-︎-︎-︎-︎-︎-연구",
+          title: '차세대 ◼︎◼︎◼︎◼︎◼︎ 연구',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/022_project/";
+            },},{id: "projects-디퓨전커플-기반-하이스루풋-실험과-인공지능을-결합한-차세대-합금-설계법-개발",
+          title: '디퓨전커플 기반 하이스루풋 실험과 인공지능을 결합한 차세대 합금 설계법 개발',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/023_project/";
+            },},{id: "projects-︎-︎-︎-︎-︎",
+          title: '◼︎◼︎◼︎◼︎◼︎',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/024_project/";
             },},{
         id: 'social-orcid',
         title: 'ORCID',
