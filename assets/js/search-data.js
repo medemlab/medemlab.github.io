@@ -571,51 +571,16 @@ ninja.data = [{
           description: "",
           section: "Profiles",handler: () => {
               window.location.href = "/profiles/999_Jinyeong_Yu/";
-            },},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+            },},{id: "projects-타이타늄-합금-형단조-공정용-프리폼-설계-및-특성평가",
+          title: '타이타늄 합금 형단조 공정용 프리폼 설계 및 특성평가',
+          description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/001_project/";
+            },},{id: "projects-해외수요-대응-15mw-이상급-초대형-해상풍력발전용-고청정-잉곳-및-seamless-ring-단조품-제조기술-개발",
+          title: '해외수요 대응 15MW 이상급 초대형 해상풍력발전용 고청정 잉곳 및 Seamless Ring 단조품 제조기술...',
+          description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/018_project/";
             },},{
         id: 'social-orcid',
         title: 'ORCID',
