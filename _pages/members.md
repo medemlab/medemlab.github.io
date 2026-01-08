@@ -47,7 +47,6 @@ permalink: /members/
               <div class="card h-100 shadow-sm">
                 <div class="card-body text-center d-flex flex-column justify-content-center">
                   <h5 class="card-title mb-2"><strong>{{ profile.last_name }}, {{ profile.first_name }}</strong></h5>
-                  <p class="card-text mb-0">{{ profile.degree }}</p>
                 </div>
               </div>
             </div>
