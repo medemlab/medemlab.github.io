@@ -20,73 +20,70 @@ horizontal: true
     display: block;
   }
   
-  /* 2. 링크 밑줄 제거 */
-  a[id] {
-    text-decoration: none !important;
-  }
+  a[id] { text-decoration: none !important; }
 
-  /* 3. 프로젝트 카드 커스텀 스타일 */
+  /* 2. 프로젝트 카드 스타일 */
   .project-card {
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-    border: 1px solid var(--global-divider-color); /* 다크모드 대응 테두리 */
-    background-color: var(--global-card-bg); /* 다크모드 대응 배경 */
+    border: 1px solid var(--global-divider-color);
+    background-color: var(--global-card-bg);
   }
 
-  /* 호버 효과 (선택사항) */
   .project-card:hover {
     transform: translateY(-3px);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
   }
 
-  /* CI 이미지 영역 스타일 */
+  /* 3. CI 이미지 영역 (정사각형 설정) */
   .ci-container {
     background-color: #fff;
-    padding: 20px; /* 여백 약간 증가 */
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
-    min-height: 180px; /* 기존 120px에서 1.5배 확장 */
+    /* 정사각형 유지 핵심 설정 */
+    aspect-ratio: 1 / 1; 
+    width: 100%;
     border-right: 1px solid var(--global-divider-color);
   }
 
   .ci-img {
-    max-height: 120px; /* 기존 80px에서 1.5배 확장 */
-    max-width: 90%;   /* 좌우 꽉 차지 않게 소폭 조정 */
+    max-height: 85%;
+    max-width: 85%;
     object-fit: contain;
   }
   
-  /* 텍스트 스타일 */
+  /* 4. 텍스트 스타일 */
   .project-business {
-    font-size: 0.9rem;
-    color: var(--global-theme-color); /* 테마색 적용 */
+    font-size: 0.95rem;
+    color: var(--global-theme-color);
     font-weight: 600;
   }
 
   .project-title {
-    font-weight: 800; /* Publications처럼 두껍게 */
-    font-size: 1.3rem;
-    margin-bottom: 0.75rem;
-    color: var(--global-text-color); /* 다크모드 대응 */
+    font-weight: 800;
+    font-size: 1.4rem;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: var(--global-text-color);
   }
 
   .project-info-text {
-    color: var(--global-text-color); /* 다크모드 대응 */
-    opacity: 0.85;
+    color: var(--global-text-color);
+    opacity: 0.9;
+    font-size: 0.95rem;
   }
-  
-  /* 모바일 대응: 좁은 화면에서는 이미지가 위로 가게 */
+
+  /* 모바일 대응 */
   @media (max-width: 767.98px) {
     .ci-container {
-        border-right: none;
-        border-bottom: 1px solid var(--global-divider-color);
-        min-height: auto;
-        padding: 20px;
+      border-right: none;
+      border-bottom: 1px solid var(--global-divider-color);
+      aspect-ratio: auto;
+      height: 200px;
     }
   }
 </style>
-
-{% comment %} ... 상단 style 블록은 이전과 동일 ... {% endcomment %}
 
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
@@ -96,8 +93,6 @@ horizontal: true
   </a>
   
   {% assign categorized_projects = site.projects | where: "category", category %}
-  
-  {% comment %} 중요도(importance) 숫자가 클수록 상단에 오도록 reverse 추가 {% endcomment %}
   {% assign sorted_projects = categorized_projects | sort: "importance" | reverse %}
 
   <div class="row row-cols-1 g-4">
@@ -106,20 +101,20 @@ horizontal: true
       <div class="card project-card shadow-sm h-100 overflow-hidden">
         <div class="row g-0 h-100 align-items-center">
           
-          <div class="col-md-4 col-lg-3 h-100">
-            <div class="ci-container h-100">
+          <div class="col-md-4">
+            <div class="ci-container">
               {% if project.img %}
-              <img src="{{ project.img | relative_url }}" alt="{{ project.agency }} CI" class="ci-img rounded-start">
+              <img src="{{ project.img | relative_url }}" alt="{{ project.agency }} CI" class="ci-img">
               {% else %}
               <span class="text-muted font-weight-bold">{{ project.agency | default: "No Image" }}</span>
               {% endif %}
             </div>
           </div>
           
-          <div class="col-md-9 col-lg-10">
-            <div class="card-body py-3">
+          <div class="col-md-8">
+            <div class="card-body py-3 px-4">
               {% if project.business_name %}
-              <div class="project-business mb-1">{{ project.business_name }}</div>
+              <div class="project-business">{{ project.business_name }}</div>
               {% endif %}
               
               <h3 class="card-title project-title">
@@ -130,19 +125,19 @@ horizontal: true
                 {%- endif %}
               </h3>
               
-              <div class="project-info-text mt-3">
+              <div class="project-info-text">
                 <div class="row">
-                    <div class="col-md-6 mb-2 mb-md-0">
-                        <i class="fa-solid fa-building-columns mr-2 text-muted"></i> 
-                        <strong>지원기관:</strong> {{ project.agency }}
-                    </div>
-                    <div class="col-md-6">
-                        <i class="fa-regular fa-calendar-days mr-2 text-muted"></i> 
-                        <strong>기간:</strong> {{ project.start_year }} - {{ project.end_year }}
-                        <span class="badge ml-2 {% if project.category == '수행중' %}bg-success{% else %}bg-secondary{% endif %}" style="font-size: 0.8em; vertical-align: middle;">
-                            {{ project.category }}
-                        </span>
-                    </div>
+                  <div class="col-12 mb-2">
+                    <i class="fa-solid fa-building-columns mr-2 text-muted"></i> 
+                    <strong>지원기관:</strong> {{ project.agency }}
+                  </div>
+                  <div class="col-12">
+                    <i class="fa-regular fa-calendar-days mr-2 text-muted"></i> 
+                    <strong>기간:</strong> {{ project.start_year }} - {{ project.end_year }}
+                    <span class="badge ml-2 {% if project.category == '수행중' %}bg-success{% else %}bg-secondary{% endif %}" style="font-size: 0.8em;">
+                      {{ project.category }}
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
