@@ -7,10 +7,11 @@ nav_order: 3
 ---
 
 <style>
-  h2.year {
+  /* 연도 헤더 클래스명(.bibliography)에 맞춰 수정 */
+  h2.bibliography {
     color: var(--global-theme-color) !important; /* 라이트-블루, 다크-골드 자동 반영 */
-    border-bottom: 1px solid var(--global-divider-color);
-    padding-bottom: 10px;
+    border-bottom: 1px solid var(--global-divider-color) !important;
+    padding-bottom: 10px !important;
     margin-top: 50px !important;
     font-weight: 800 !important;
     text-transform: uppercase;
