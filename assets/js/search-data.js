@@ -428,8 +428,8 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "news-website-v2-is-under-construction",
-          title: 'Website V2 is under construction.',
+      },{id: "news-development-of-the-website-ver-2-has-now-begun-on-the-github-pages-site",
+          title: 'Development of the website ver. 2 has now begun on the GitHub Pages...',
           description: "",
           section: "News",},{id: "profiles-taein-kong",
           title: 'Taein Kong',
