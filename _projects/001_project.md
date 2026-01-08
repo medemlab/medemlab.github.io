@@ -3,7 +3,6 @@ layout: page
 title: "타이타늄 합금 형단조 공정용 프리폼 설계 및 특성평가" # 과제명 (필수)
 description: ""
 category: 완료 # 또는 '완료' (필수)
-related_publications: false
 
 img: /assets/img/CI_KIMS.png # 지원기관 CI 이미지 경로 (필수)
 importance: 1 # 정렬 순서 (낮을수록 상단 표시)

@@ -1,9 +1,7 @@
 ---
 layout: page
 title: "해외수요 대응 15MW 이상급 초대형 해상풍력발전용 고청정 잉곳 및 Seamless Ring 단조품 제조기술 개발" # 과제명 (필수)
-description: ""
 category: 수행중 # '수행중' 또는 '완료' (필수)
-related_publications: true
 
 img: /assets/img/CI_KETEP.png # 지원기관 CI 이미지 경로 (필수)
 importance: 18 # 정렬 순서 (낮을수록 상단 표시)
