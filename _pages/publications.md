@@ -19,6 +19,7 @@ nav_order: 3
   </div>
 
   {{ total_pubs }}
+  <span style="color: #C5A028; font-size: 3rem; font-weight: bold;">{{ total_count }}</span>
 </div>
 
 <script>
