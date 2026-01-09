@@ -606,6 +606,56 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/007_project/";
+            },},{id: "projects-︎-︎-︎-︎-︎를-위한-피로특성-분석",
+          title: '◼︎◼︎◼︎◼︎◼︎를 위한 피로특성 분석',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/008_project/";
+            },},{id: "projects-인공지능-제어-펄스를-활용한-mg합금의-미세조직-최적화-및-자가-치유-기술",
+          title: '인공지능 제어 펄스를 활용한 Mg합금의 미세조직 최적화 및 자가 치유 기술',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/009_project/";
+            },},{id: "projects-︎-︎-︎-︎-︎을-위한-피로물성-확보-및-기법연구",
+          title: '◼︎◼︎◼︎◼︎◼︎을 위한 피로물성 확보 및 기법연구',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/010_project/";
+            },},{id: "projects-︎-︎-︎-︎-︎-밸브-파손-및-피로-예측",
+          title: '◼︎◼︎◼︎◼︎◼︎ 밸브 파손 및 피로 예측',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/011_project/";
+            },},{id: "projects-︎-︎-︎-︎-︎-피로물성-확보-및-︎-︎-︎-︎-︎-개발-연구",
+          title: '◼︎◼︎◼︎◼︎◼︎ 피로물성 확보 및 ◼︎◼︎◼︎◼︎◼︎ 개발 연구',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/012_project/";
+            },},{id: "projects-1250mpa급-고비강도-타이타늄합금-대형-블레이드-제조기술-개발",
+          title: '1250MPa급 고비강도 타이타늄합금 대형 블레이드 제조기술 개발',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/013_project/";
+            },},{id: "projects-︎-︎-︎-︎-︎-대상-조직-연계-물성-d-b-구축",
+          title: '◼︎◼︎◼︎◼︎◼︎ 대상 조직 연계 물성 D/B 구축',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/014_project/";
+            },},{id: "projects-︎-︎-︎-︎-︎",
+          title: '◼︎◼︎◼︎◼︎◼︎',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/015_project/";
+            },},{id: "projects-부산-울산-지역에너지-클러스터-인력양성",
+          title: '부산·울산 지역에너지 클러스터 인력양성',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/016_project/";
+            },},{id: "projects-청정에너지-융합-발전-융합대학원",
+          title: '청정에너지 융합 발전 융합대학원',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/017_project/";
             },},{id: "projects-해외수요-대응-15mw-이상급-초대형-해상풍력발전용-고청정-잉곳-및-seamless-ring-단조품-제조기술-개발",
           title: '해외수요 대응 15MW 이상급 초대형 해상풍력발전용 고청정 잉곳 및 Seamless Ring 단조품 제조기술...',
           description: "",
