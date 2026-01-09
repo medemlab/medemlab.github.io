@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-01-07'
+  last_updated: '2026-01-09'
 papers:
   Oha_H-oAAAAJ:08ZZubdj9fEC:
-    citations: 15
+    citations: 16
     title: Effect of interlayer cooling on the microstructure and mechanical properties of titanium alloys fabricated using directed energy deposition
     year: '2023'
   Oha_H-oAAAAJ:1qzjygNMrQYC:
@@ -42,7 +42,7 @@ papers:
     title: Application of support vector regression and genetic algorithm to reduce web warping in flexible roll-forming process
     year: '2021'
   Oha_H-oAAAAJ:4TOpqqG69KYC:
-    citations: 51
+    citations: 52
     title: Role of Mo/V carbides in hydrogen embrittlement of tempered martensitic steel
     year: '2015'
   Oha_H-oAAAAJ:4fKUyHm3Qg0C:
@@ -106,7 +106,7 @@ papers:
     title: "Enhanced yield symmetry and strength-ductility balance of caliber-rolled Mg\u20136Zn-0.5 Zr with ultrafine-grained structure and bulk dimension"
     year: '2019'
   Oha_H-oAAAAJ:HE397vMXCloC:
-    citations: 0
+    citations: 1
     title: Effect of Al content on the microstructural characteristics and tensile and fatigue properties of extruded SEN Mg alloys
     year: '2025'
   Oha_H-oAAAAJ:IWHjjKOFINEC:
@@ -286,7 +286,7 @@ papers:
     title: Graded grain structure to improve hydrogen-embrittlement resistance of TWIP steel
     year: '2020'
   Oha_H-oAAAAJ:abG-DnoFyZgC:
-    citations: 34
+    citations: 35
     title: Accelerated recrystallization behavior of commercially pure titanium subjected to an alternating-current electropulse
     year: '2021'
   Oha_H-oAAAAJ:b0M2c_1WBrUC:
@@ -418,7 +418,7 @@ papers:
     title: Role of deformation twins in static recrystallization kinetics of high-purity alpha titanium
     year: '2016'
   Oha_H-oAAAAJ:qxL8FJ1GzNcC:
-    citations: 126
+    citations: 127
     title: Effects of vanadium carbides on hydrogen embrittlement of tempered martensitic steel
     year: '2016'
   Oha_H-oAAAAJ:r0BpntZqJG4C:
