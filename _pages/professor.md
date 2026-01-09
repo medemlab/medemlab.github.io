@@ -82,7 +82,7 @@ permalink: /professor/
 <div class="professor-page">
   <div class="row align-items-center">
     <div class="col-md-4 text-center mb-4 mb-md-0">
-      <img src="{{ '/assets/img/prof_lee.jpg' | relative_url }}" class="prof-img" alt="Taekyung Lee">
+      <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="prof-img" alt="Taekyung Lee">
     </div>
     <div class="col-md-8">
       <h1 class="prof-name">Taekyung Lee, Ph.D.</h1>
