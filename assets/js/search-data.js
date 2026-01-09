@@ -576,6 +576,36 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/001_project/";
+            },},{id: "projects-고강도-고인성-mg-봉재-제조를-위한-통전공형압연-신기술-개발",
+          title: '고강도/고인성 Mg 봉재 제조를 위한 통전공형압연 신기술 개발',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/002_project/";
+            },},{id: "projects-조선-해양플랜트-열교환기용-cp-ti의-스마트-가열-신기술-개발",
+          title: '조선·해양플랜트 열교환기용 CP-Ti의 스마트 가열 신기술 개발',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/003_project/";
+            },},{id: "projects-통합소재설계법을-활용한-적층제조-기반-생체소재용-ti-신소재-및-조형체-개발",
+          title: '통합소재설계법을 활용한 적층제조 기반 생체소재용 Ti 신소재 및 조형체 개발',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/004_project/";
+            },},{id: "projects-︎-︎-︎-︎-︎-소재-분석-및-특정",
+          title: '◼︎◼︎◼︎◼︎◼︎ 소재 분석 및 특정',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/005_project/";
+            },},{id: "projects-︎-︎-︎-︎-︎-종류-및-특성-파악",
+          title: '◼︎◼︎◼︎◼︎◼︎ 종류 및 특성 파악',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/006_project/";
+            },},{id: "projects-︎-︎-︎-︎-︎-부품-파괴-원인-분석",
+          title: '◼︎◼︎◼︎◼︎◼︎ 부품 파괴 원인 분석',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/007_project/";
             },},{id: "projects-해외수요-대응-15mw-이상급-초대형-해상풍력발전용-고청정-잉곳-및-seamless-ring-단조품-제조기술-개발",
           title: '해외수요 대응 15MW 이상급 초대형 해상풍력발전용 고청정 잉곳 및 Seamless Ring 단조품 제조기술...',
           description: "",
