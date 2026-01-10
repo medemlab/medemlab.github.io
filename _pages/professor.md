@@ -99,7 +99,7 @@ nav_order: 1
 
 <div class="professor-page">
   <div class="row align-items-start">
-    <div class="col-md-4 text-center mb-4 mb-md-0">
+    <div class="col-md-3 text-center mb-3 mb-md-0">
       <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="prof-img" alt="Taekyung Lee">
     </div>
     <div class="col-md-8">
@@ -121,8 +121,8 @@ nav_order: 1
             <strong>부산대학교</strong> 기계공학부 교수 (2025-현재)<br>
             <strong>부산대학교</strong> 기계공학부 부교수 (2021-2025)<br>
             <strong>부산대학교</strong> 기계공학부 조교수 (2017-2021)<br>
-            <strong>일본 Kumamoto University</strong> 조교수 (2016-2017)<br>
-            <strong>미국 Northwestern University</strong> 박사후연구원 (2015)
+            일본 <strong>Kumamoto University</strong> 조교수 (2016-2017)<br>
+            미국 <strong>Northwestern University</strong> 박사후연구원 (2015)
           </span>
         </div>
         <div>
@@ -138,18 +138,30 @@ nav_order: 1
 
   <hr class="mt-5">
 
-  <h2 class="section-title"><i class="fa-solid fa-pen-nib mr-2"></i> 학술지 편집위원</h2>
+<h2 class="prof-pos"><i class="fa-solid fa-briefcase mr-2"></i> 학력 및 경력</h2>
   <ul class="custom-list">
-    <li><span class="year-span">2023 - 현재</span> <strong>Journal of Magnesium and Alloys</strong> / Youth Committee Member <a href="https://www.jmamg.com/index.aspx" class="list-link"><i class="fa-solid fa-link"></i></a></li>
-    <li><span class="year-span">2022 - 현재</span> <strong>Metals and Materials International</strong> <a href="https://www.springer.com/journal/12540" class="list-link"><i class="fa-solid fa-link"></i></a></li>
-    <li><span class="year-span">2022 - 현재</span> <strong>Transactions of Materials Processing</strong> <a href="http://kstp.or.kr/journal/archive.html" class="list-link"><i class="fa-solid fa-link"></i></a></li>
-    <li><span class="year-span">2022 - 현재</span> <strong>Korean Journal of Metals and Materials</strong> <a href="http://kjmm.org/" class="list-link"><i class="fa-solid fa-link"></i></a></li>    
+    <li><span class="year-span">2025 - 현재</span> 부산대학교 기계공학부 교수</li>
+    <li><span class="year-span">2021 - 2025</span> 부산대학교 기계공학부 부교수</li>
+    <li><span class="year-span">2017 - 2021</span> 부산대학교 기계공학부 조교수</li>
+    <li><span class="year-span">2016 - 2017</span> Kumamoto University(일본) 조교수</li>
+    <li><span class="year-span">2015 - 2015</span> Northwestern University(미국) 박사후연구원</li>
+    <br>
+    <li><span class="year-span">2014</span> POSTECH 신소재공학과 공학박사</li>
+    <li><span class="year-span">2009</span> POSTECH 신소재공학과 공학사</li>
   </ul>
 
-  <h2 class="section-title"><i class="fa-solid fa-users mr-2"></i> 학회 활동</h2>
+  <h2 class="prof-pos"><i class="fa-solid fa-pen-nib mr-2"></i> 학술지 편집위원</h2>
+  <ul class="custom-list">
+    <li><span class="year-span">2023 - 현재</span> Journal of Magnesium and Alloys / Youth Committee Member <a href="https://www.jmamg.com/index.aspx" class="list-link"><i class="fa-solid fa-link"></i></a></li>
+    <li><span class="year-span">2022 - 현재</span> Metals and Materials International <a href="https://www.springer.com/journal/12540" class="list-link"><i class="fa-solid fa-link"></i></a></li>
+    <li><span class="year-span">2022 - 현재</span> Transactions of Materials Processing <a href="http://kstp.or.kr/journal/archive.html" class="list-link"><i class="fa-solid fa-link"></i></a></li>
+    <li><span class="year-span">2022 - 현재</span> Korean Journal of Metals and Materials <a href="http://kjmm.org/" class="list-link"><i class="fa-solid fa-link"></i></a></li>    
+  </ul>
+
+  <h2 class="prof-pos"><i class="fa-solid fa-users mr-2"></i> 학회 활동</h2>
   <ul class="custom-list">
     <li><span class="year-span">2025 - 현재</span> <strong>한국군사과학기술학회</strong> 정회원</li>
-    <li><span class="year-span">2025 - 현재</span> <strong>The Japan Institute of Light Metals</strong> 정회원</li>
+    <li><span class="year-span">2025 - 현재</span> <strong>The Japan Institute of Light Metals(JILM)</strong> 정회원</li>
     <li><span class="year-span">2022 - 현재</span> <strong>한국소성·가공학회</strong> 편집이사</li>
     <li><span class="year-span">2023 - 현재</span> <strong>대한금속·재료학회</strong> 인공지능재료과학분과 간사위원</li>
     <li><span class="year-span">2020 - 현재</span> <strong>대한금속·재료학회</strong> 마그네슘분과 간사위원</li>
@@ -157,24 +169,24 @@ nav_order: 1
     <li><span class="year-span">2020 - 2023</span> <strong>대한금속·재료학회</strong> 타이타늄분과 총무간사</li>
   </ul>
 
-  <h2 class="section-title"><i class="fa-solid fa-handshake mr-2"></i> 산학연 컨소시엄 및 자문위원회</h2>
+  <h2 class="prof-pos"><i class="fa-solid fa-handshake mr-2"></i> 산학연 컨소시엄 및 자문위원회</h2>
   <ul class="custom-list">
     <li><span class="year-span">2024 - 현재</span> <strong>한화에어로스페이스</strong> Hub-University Global R&D</li>
     <li><span class="year-span">2022 - 현재</span> <strong>LG전자</strong> 리빙가전 신기술 산학연구회 구조·소재분과</li>
     <li><span class="year-span">2022 - 현재</span> <strong>LG전자</strong> 차세대 HVAC 기술컨소시엄 재료분과</li>
   </ul>
   
-  <h2 class="section-title"><i class="fa-solid fa-university mr-2"></i> 대학 내부기관 및 사업단</h2>
+  <h2 class="prof-pos"><i class="fa-solid fa-university mr-2"></i> 대학 내부기관 및 사업단</h2>
   <ul class="custom-list">
-    <li><span class="year-span">2024 - 현재</span> <strong>지역 원자력산업 기반 에너지기술공유대학</strong> <a href="https://nuclear.aerodrone.kr/" class="list-link"><i class="fa-solid fa-link"></i></a></li>
-    <li><span class="year-span">2023 - 현재</span> <strong>하이브리드 제조혁신 엔지니어링 센터(HIMEC)</strong> <a href="https://pnu-himec.pusan.ac.kr/" class="list-link"><i class="fa-solid fa-link"></i></a></li>
-    <li><span class="year-span">2023 - 현재</span> <strong>미래모빌리티센터</strong> <a href="https://futuremobility.pusan.ac.kr/" class="list-link"><i class="fa-solid fa-link"></i></a></li>
-    <li><span class="year-span">2020 - 현재</span> <strong>첨단기계부품소재 고급인력교육연구단(BK21)</strong> <a href="https://bk21four-me.pusan.ac.kr/" class="list-link"><i class="fa-solid fa-link"></i></a></li>
-    <li><span class="year-span">2018 - 현재</span> <strong>기계기술연구원(RIMT)</strong> <a href="https://rimt.pusan.ac.kr/" class="list-link"><i class="fa-solid fa-link"></i></a></li>
-    <li><span class="year-span">2021 - 2025</span> <strong>청정에너지 융합 발전 융합대학원</strong></li>
+    <li><span class="year-span">2024 - 현재</span> 지역 원자력산업 기반 에너지기술공유대학 <a href="https://nuclear.aerodrone.kr/" class="list-link"><i class="fa-solid fa-link"></i></a></li>
+    <li><span class="year-span">2023 - 현재</span> 하이브리드 제조혁신 엔지니어링 센터(HIMEC) <a href="https://pnu-himec.pusan.ac.kr/" class="list-link"><i class="fa-solid fa-link"></i></a></li>
+    <li><span class="year-span">2023 - 현재</span> 미래모빌리티센터 <a href="https://futuremobility.pusan.ac.kr/" class="list-link"><i class="fa-solid fa-link"></i></a></li>
+    <li><span class="year-span">2020 - 현재</span> 첨단기계부품소재 고급인력교육연구단(BK21) <a href="https://bk21four-me.pusan.ac.kr/" class="list-link"><i class="fa-solid fa-link"></i></a></li>
+    <li><span class="year-span">2018 - 현재</span> 기계기술연구원(RIMT) <a href="https://rimt.pusan.ac.kr/" class="list-link"><i class="fa-solid fa-link"></i></a></li>
+    <li><span class="year-span">2021 - 2025</span> 청정에너지 융합 발전 융합대학원</li>
   </ul>
 
-  <h2 class="section-title"><i class="fa-solid fa-trophy mr-2"></i> 수상 경력</h2>
+  <h2 class="prof-pos"><i class="fa-solid fa-trophy mr-2"></i> 수상 경력</h2>
   <ul class="custom-list">
     <li><span class="year-span">2025</span> 한국소성·가공학회 제14회 신진학술상</li>
     <li><span class="year-span">2025</span> KIM 논문상 제1부문 & 제2부문</li>
@@ -186,4 +198,14 @@ nav_order: 1
     <li><span class="year-span">2018</span> MMI 논문상</li>
   </ul>
 
-  <h2 class="section-title"><i class="fa-solid fa-chalkboard-user mr-2"></i> 강의 과목
+  <h2 class="prof-pos"><i class="fa-solid fa-chalkboard-user mr-2"></i> 강의 과목
+    <ul class="custom-list">
+    <li>경량금속재료특록 (Theory of Lightweight Metals)</li>
+    <li>피로파괴론 (Fatigue Fracture)</li>
+    <li>미래차 금속재료공학 (Metallic Materials Engineering for Future Vehicles)</li>
+    <ul class="custom-list">
+    <li>고체역학 (Solid Mechanics)</li>
+    <li>응용고체역학 (Advanced Solid Mechanics)</li>
+    <li>공학선형대수학 (Engineering Linear Algebra)</li>
+    <li>공학미분방정식 (Engineering Differential Equation)</li>
+  </ul>

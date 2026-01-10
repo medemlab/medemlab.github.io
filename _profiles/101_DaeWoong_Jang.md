@@ -2,7 +2,7 @@
 layout: about
 title: 장대웅
 first_name: Dae Woong
-last_name: Kamg
+last_name: Jang
 category: Member    # Professor / Member / Almuni
 course: Undergrad        # (Members) Post-Doc / PhD / MS / Undergrad
                     # (Alumni) PhD / MS
