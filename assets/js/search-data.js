@@ -428,8 +428,11 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "news-github-기반으로-새로운-연구실-홈페이지를-오픈하였습니다",
-          title: 'GitHub 기반으로 새로운 연구실 홈페이지를 오픈하였습니다!',
+      },{id: "news-전류펄스의-열-효과와-비열-효과를-분리하여-분석할-수-있는-독창적-방법론에-대한-연구가-journal-of-magnesium-and-alloys에-게재되었습니다",
+          title: '전류펄스의 열 효과와 비열 효과를 분리하여 분석할 수 있는 독창적 방법론에 대한 연구가...',
+          description: "",
+          section: "News",},{id: "news-github-기반으로-새로운-연구실-홈페이지를-제작-중입니다",
+          title: 'GitHub 기반으로 새로운 연구실 홈페이지를 제작 중입니다.',
           description: "",
           section: "News",},{id: "profiles-taein-kong",
           title: 'Taein Kong',
