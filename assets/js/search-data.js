@@ -434,7 +434,7 @@ ninja.data = [{
           section: "News",},{id: "news-물리식-기반-인공지능을-활용하여-gr-19-티타늄-합금의-고온-성형성을-예측한-연구가-journal-of-materials-research-and-technology에-게재되었습니다",
           title: '물리식 기반 인공지능을 활용하여 Gr. 19 티타늄 합금의 고온 성형성을 예측한 연구가 Journal...',
           description: "",
-          section: "News",},{id: "news-전류펄스의-열-효과와-비열-효과를-분리하여-분석할-수-있는-독창적-방법론에-대한-연구가-journal-of-magnesium-and-alloys에-게재-https-doi-org-10-1016-j-jma-2025-11-017-되었습니다",
+          section: "News",},{id: "news-전류펄스의-열-효과와-비열-효과를-분리하여-분석할-수-있는-독창적-방법론에-대한-연구가-journal-of-magnesium-and-alloys에-게재-되었습니다",
           title: '전류펄스의 열 효과와 비열 효과를 분리하여 분석할 수 있는 독창적 방법론에 대한 연구가...',
           description: "",
           section: "News",},{id: "news-github-기반으로-새로운-연구실-홈페이지를-제작-중입니다",
