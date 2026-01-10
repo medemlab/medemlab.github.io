@@ -1,8 +1,8 @@
 ---
 layout: about
-title: 권용준
-first_name: Yongjun
-last_name: Kwon
+title: 장대웅
+first_name: Dae Woong
+last_name: Kamg
 category: Member    # Professor / Member / Almuni
 course: Undergrad        # (Members) Post-Doc / PhD / MS / Undergrad
                     # (Alumni) PhD / MS

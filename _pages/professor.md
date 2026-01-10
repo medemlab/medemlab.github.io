@@ -41,12 +41,12 @@ permalink: /professor/
     margin-bottom: 20px;
   }
 
-  .contact-info {
+  .basic-info {
     font-size: 0.95rem;
     line-height: 1.8;
   }
 
-  .contact-info i {
+  .basic-info i {
     width: 25px;
     color: var(--global-theme-color);
   }
@@ -85,22 +85,30 @@ permalink: /professor/
       <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" class="prof-img" alt="Taekyung Lee">
     </div>
     <div class="col-md-8">
-      <h1 class="prof-name">Taekyung Lee, Ph.D.</h1>
-      <p class="prof-pos">Associate Professor</p>
+      <h1 class="prof-name">이태경 교수</h1>
+      <p class="prof-pos">Prof. Taekyung LEE</p>
       
-      <div class="contact-info">
-        <div><i class="fa-solid fa-building"></i> School of Mechanical Engineering, Pusan National University</div>
-        <div><i class="fa-solid fa-location-dot"></i> 201, Mechanical Engineering Building, 2 Busandaehak-ro 63beon-gil, Geumjeong-gu, Busan, 46241, Korea</div>
-        <div><i class="fa-solid fa-envelope"></i> <a href="mailto:taekyung@pusan.ac.kr">taekyung@pusan.ac.kr</a></div>
-        <div><i class="fa-solid fa-phone"></i> +82-51-510-2321</div>
-        <div><i class="fa-solid fa-link"></i> <a href="https://medemlab.github.io" target="_blank">medemlab.github.io</a></div>
+      <div class="basic-info">
+        <div><i class="fa-solid fa-building"></i>
+          부산대학교 장전캠퍼스 기계관 607호</div>
+        <div><i class="fa-solid fa-envelope"></i>
+          taeklee (at) pnu.edu</div>
+        <div><i class="fa-solid fa-briefcase></i> </div>
+          부산대학교 기계공학부 교수 (2025-현재)<br>
+          부산대학교 기계공학부 부교수 (2021-2025)<br>
+          부산대학교 기계공학부 조교수 (2017-2021)<br>
+          일본 Kumamoto University 조교수 (2026-2017)<br>
+          미국 Northwestern University 박사후연구원 (2015) </div>
+        <div><i class="fa-solid fa-graduation-cap></i> </div>
+          POSTECH 신소재공학과 박사 (2024)<br>
+          POSTECH 신소재공학과 학사 (2009)<div>
       </div>
     </div>
   </div>
 
   <hr class="mt-5">
 
-  <h2 class="section-title">Education</h2>
+  <h2 class="section-title">Professional Activities</h2>
   <ul class="custom-list">
     <li><span class="year-span">2012</span> <strong>Ph.D.</strong> in Materials Science and Engineering, Seoul National University, Korea</li>
     <li><span class="year-span">2006</span> <strong>B.S.</strong> in Materials Science and Engineering, Seoul National University, Korea</li>

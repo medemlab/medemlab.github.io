@@ -18,6 +18,15 @@ permalink: /members/
     border: 1px solid var(--global-divider-color) !important;
     transition: all 0.3s ease;
   }
+  /* 박스 간 세로 간격 강제 지정 (가로 간격과 통일) */
+  .position-group .row {
+    row-gap: 1.5rem !important; /* Bootstrap g-4의 가로 간격 표준값인 1.5rem 적용 */
+  }
+
+  /* 카테고리 간의 간격도 명확히 조정 */
+  .position-group {
+    margin-bottom: 1.5rem !important;
+  }
   /* 텍스트 색상: 모드에 따라 자동 전환 */
   .card-title, .card-text {
     color: var(--global-text-color) !important;
