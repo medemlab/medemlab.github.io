@@ -428,8 +428,8 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "news-development-of-the-website-ver-2-has-now-begun-on-the-github-pages-site",
-          title: 'Development of the website ver. 2 has now begun on the GitHub Pages...',
+      },{id: "news-github-기반으로-새로운-연구실-홈페이지를-오픈하였습니다",
+          title: 'GitHub 기반으로 새로운 연구실 홈페이지를 오픈하였습니다!',
           description: "",
           section: "News",},{id: "profiles-taein-kong",
           title: 'Taein Kong',
