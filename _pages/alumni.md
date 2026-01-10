@@ -2,25 +2,34 @@
 layout: page
 title: Alumni
 permalink: /alumni/
-nav: false
 ---
 
 <style>
-  /* 다크 모드 대응을 위한 스타일 추가 */
+  /* 카테고리 헤더 색상 */
   .category {
     color: var(--global-theme-color) !important;
   }
+  
+  /* 카드 배경 및 테두리 (다크모드 대응) */
   .card {
     background-color: var(--global-card-bg) !important;
     border: 1px solid var(--global-divider-color) !important;
   }
+  
+  /* 이름 색상 */
   .card-title {
     color: var(--global-text-color) !important;
   }
-  /* 연도/계절 텍스트가 모드에 따라 자동 변경되도록 설정 */
+  
+  /* 졸업 연도/계절 텍스트 색상 */
   .graduation-text {
     color: var(--global-text-color) !important;
-    opacity: 0.75; /* 성함보다는 약간 흐리게 설정 */
+    opacity: 0.75;
+  }
+
+  /* 박스 간 세로 간격을 가로 간격(g-4)과 동일하게 1.5rem으로 설정 */
+  .position-group .row {
+    row-gap: 1.5rem !important;
   }
 </style>
 
