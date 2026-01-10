@@ -110,16 +110,15 @@ permalink: /professor/
 
   <h2 class="section-title">Professional Activities</h2>
   <ul class="custom-list">
-    <li><span class="year-span">2012</span> <strong>Ph.D.</strong> in Materials Science and Engineering, Seoul National University, Korea</li>
-    <li><span class="year-span">2006</span> <strong>B.S.</strong> in Materials Science and Engineering, Seoul National University, Korea</li>
-  </ul>
-
-  <h2 class="section-title">Career</h2>
-  <ul class="custom-list">
-    <li><span class="year-span">2021 - Present</span> <strong>Associate Professor</strong>, School of Mechanical Engineering, Pusan National University, Korea</li>
-    <li><span class="year-span">2017 - 2021</span> <strong>Assistant Professor</strong>, School of Mechanical Engineering, Pusan National University, Korea</li>
-    <li><span class="year-span">2014 - 2017</span> <strong>Senior Researcher</strong>, Korea Institute of Materials Science (KIMS), Korea</li>
-    <li><span class="year-span">2012 - 2014</span> <strong>Postdoctoral Researcher</strong>, University of Pennsylvania, USA</li>
+    <li><span class="year-span">2023 - 현재t</span> Journal of Magenisum and Alloys[https://www.jmamg.com/index.aspx] / Youth Committe Member</li>
+    <li><span class="year-span">2022 - 현재t</span> Metals and Materials International[https://www.springer.com/journal/12540]</li>
+    <li><span class="year-span">2022 - 현재t</span> Transactions of Materials Processing[http://kstp.or.kr/journal/archive.html]</li>
+    <li><span class="year-span">2022 - 현재t</span> Korean Journal of Metals and Materials[http://kjmm.org/]</li>    
+  
+    <li><span class="year-span">2023 - 현재t</span> 인공지능재료과학분과 간사위원</li>    
+    <li><span class="year-span">2020 - 현재t</span> 마그네슘분과 간사위원</li>    
+    <li><span class="year-span">2019 - 현재t</span> 타이타늄분과 간사위원</li>    
+    <li><span class="year-span">2020 - 2023t</span> 타이타늄분과 총무간사</li>        
   </ul>
 
   <h2 class="section-title">Honors and Awards</h2>
