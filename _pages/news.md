@@ -38,13 +38,13 @@ nav_order: 4
     border-bottom: none;
   }
 
-  /* 월(Month)만 표시되는 영역 */
+  /* 월(Month) 약자 표시 영역 */
   .news-date {
-    min-width: 120px;
+    min-width: 100px; /* 약자로 줄어듦에 따라 너비 소폭 조정 */
     font-weight: 700;
     color: var(--global-theme-color);
     font-size: 1rem;
-    text-transform: uppercase; /* 월 이름을 대문자로 강조 */
+    text-transform: uppercase; /* JAN, FEB 등 대문자 강조 */
   }
 
   .news-content {
@@ -67,7 +67,7 @@ nav_order: 4
 
 <div class="news">
   {% if site.news != blank %}
-    {% comment %} 날짜(연/월/일 전체)를 기준으로 내림차순 정렬 {% endcomment %}
+    {% comment %} 날짜(연/월/일 전체)를 기준으로 내림차순 정렬 (일 단위까지 반영) {% endcomment %}
     {% assign news_pages = site.news | sort: "date" | reverse %}
     
     {% assign current_year = "" %}
@@ -83,10 +83,10 @@ nav_order: 4
       {% endif %}
 
       <div class="news-item">
-        {% comment %} 화면에는 월(Month) 정보만 출력 {% endcomment %}
+        {% comment %} 화면에는 월(Month) 약자(%b)만 출력 {% endcomment %}
         <div class="news-date">
           <i class="fa-regular fa-calendar mr-2"></i>
-          {{ item.date | date: "%B" }}
+          {{ item.date | date: "%b" }}
         </div>
         <div class="news-content">
           {% if item.inline %}
