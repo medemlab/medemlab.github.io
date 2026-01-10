@@ -19,6 +19,40 @@ announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
+---
+
+<style>
+  /* About 페이지 뉴스 날짜 스타일 (테마색, 굵게) */
+  .news-date-cell {
+    color: var(--global-theme-color) !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    width: 80px;
+    font-size: 0.95rem;
+    padding-left: 0 !important;
+  }
+
+  /* 뉴스 항목 간 구분선 (점선) */
+  .news table tr {
+    border-bottom: 1px dashed var(--global-divider-color) !important;
+  }
+
+  .news table tr:last-child {
+    border-bottom: none !important;
+  }
+
+  /* 뉴스 본문 텍스트 스타일 */
+  .news-content-cell {
+    padding-right: 0 !important;
+    color: var(--global-text-color);
+  }
+
+  .news-title {
+    font-weight: 600;
+    color: var(--global-theme-color) !important;
+    text-decoration: none;
+  }
+</style>
 
 ---
 **MEDEM Lab** is established in 2018 by Prof. Taekyung Lee at Pusan National University, Korea. We specialize in research that combines microstructural characterization from materials science with fracture analysis from mechanical engineering, such as:
