@@ -428,7 +428,13 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "news-전류펄스의-열-효과와-비열-효과를-분리하여-분석할-수-있는-독창적-방법론에-대한-연구가-journal-of-magnesium-and-alloys에-게재되었습니다",
+      },{id: "news-medem-lab이-이공학학술연구기반구축사업-글로컬r-amp-amp-d지원-대상자로-최종-선정되었습니다-한국연구재단으로부터-향후-3년-간-7억-원을-지원받아-인공지능을-위한-소재-데이터베이스-구축-기술을-연구합니다",
+          title: 'MEDEM Lab이 이공학학술연구기반구축사업(글로컬R&amp;amp;amp;D지원) 대상자로 최종 선정되었습니다! 한국연구재단으로부터 향후 3년 간 7억 원을 지원받아...',
+          description: "",
+          section: "News",},{id: "news-물리식-기반-인공지능을-활용하여-gr-19-티타늄-합금의-고온-성형성을-예측한-연구가-journal-of-materials-research-and-technology에-게재되었습니다",
+          title: '물리식 기반 인공지능을 활용하여 Gr. 19 티타늄 합금의 고온 성형성을 예측한 연구가 Journal...',
+          description: "",
+          section: "News",},{id: "news-전류펄스의-열-효과와-비열-효과를-분리하여-분석할-수-있는-독창적-방법론에-대한-연구가-journal-of-magnesium-and-alloys에-게재-https-doi-org-10-1016-j-jma-2025-11-017-되었습니다",
           title: '전류펄스의 열 효과와 비열 효과를 분리하여 분석할 수 있는 독창적 방법론에 대한 연구가...',
           description: "",
           section: "News",},{id: "news-github-기반으로-새로운-연구실-홈페이지를-제작-중입니다",
