@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: MEDEM Lab # the website title (if blank, full name will be used instead)
+title: MEDEM # the website title (if blank, full name will be used instead)
 first_name: T.
 last_name: Lee
 description: Metal Design & Mechanics Lab supervised by Prof. T. Lee
