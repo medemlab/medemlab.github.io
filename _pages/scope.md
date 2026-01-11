@@ -6,28 +6,38 @@ nav: false
 ---
 
 <style>
-  /* --- Selected Publications 간소화 설정 --- */
-  
-  /* 1. 연도별 바(Yearly Bar) 및 배지(Badges/Abbr) 삭제 */
-  .representative-papers h2.bibliography,
-  .representative-papers .abbr {
-    display: none !important;
+  /* 1. 이미지 크기 복원 (원래 크기 유지 및 최대 너비 제한) */
+  .research-img {
+    width: auto !important;      /* 부모 너비에 맞추지 않고 이미지 원래 크기 유지 */
+    max-width: 100%;             /* 모바일 등 좁은 화면에서만 너비에 맞춤 */
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid var(--global-divider-color);
+    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));
+    margin-bottom: 20px;
   }
 
-  /* 2. 저자 목록(Author) 및 초록(Abstract) 숨기기 */
+  /* 2. 논문 정보 최소화 (논문명, 학술지, 연도만 표시) */
+  
+  /* 연도 바, 배지, 저자, 초록, 링크(DOI 포함) 모두 숨김 */
+  .representative-papers h2.bibliography,
+  .representative-papers .abbr,
   .representative-papers .author,
   .representative-papers .abstract,
-  .representative-papers .periodical + .links + .hidden {
+  .representative-papers .links,
+  .representative-papers .badges {
     display: none !important;
   }
 
-  /* 3. DOI를 제외한 나머지 버튼(PDF, Bib, HTML 등) 숨기기 */
-  /* al-folio 테마의 버튼들 중 DOI 링크만 남깁니다 */
-  .representative-papers .links a:not([href*="doi.org"]) {
+  /* 학술지 정보 내에서 권(Volume), 호(Number), 페이지(Pages) 숨기기 */
+  .representative-papers .periodical em + span, 
+  .representative-papers .periodical .volume,
+  .representative-papers .periodical .number,
+  .representative-papers .periodical .pages {
     display: none !important;
   }
 
-  /* 4. 리스트 여백 및 글꼴 최적화 */
+  /* 리스트 스타일 정리 */
   .representative-papers .publications ol.bibliography {
     margin-top: 0 !important;
     padding-left: 0 !important;
@@ -35,38 +45,25 @@ nav: false
   }
 
   .representative-papers ol.bibliography li {
-    margin-bottom: 20px !important;
+    margin-bottom: 15px !important;
     padding-left: 0 !important;
   }
 
-  /* 논문 제목 강조 */
+  /* 논문 제목 스타일 */
   .representative-papers .title {
     font-weight: 700 !important;
-    font-size: 1.05rem !important;
+    font-size: 1rem !important;
     display: block;
-    margin-bottom: 4px;
+    color: var(--global-text-color);
+    margin-bottom: 2px;
   }
 
-  /* 저널명 및 연도 스타일 */
+  /* 학술지 및 연도 스타일 */
   .representative-papers .periodical {
-    font-style: italic;
+    font-style: normal !important;
     color: var(--global-text-color);
     opacity: 0.8;
-    font-size: 0.95rem;
-  }
-
-  /* DOI 버튼 스타일링 (텍스트 형태나 작은 버튼으로 유지) */
-  .representative-papers .links {
-    margin-top: 5px;
-  }
-  
-  .representative-papers .links a.btn {
-    padding: 0px 5px !important;
-    font-size: 0.8rem !important;
-    height: auto !important;
-    border: none !important;
-    color: var(--global-theme-color) !important;
-    text-decoration: underline !important;
+    font-size: 0.9rem;
   }
 </style>
 
