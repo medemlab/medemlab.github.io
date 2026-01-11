@@ -55,3 +55,7 @@ $back-to-top-right: 30px;
 $back-to-top-diameter: 40px;
 $back-to-top-height: $back-to-top-diameter;
 $back-to-top-width: $back-to-top-diameter;
+
+// 4. Typography (글꼴 크기 조절)
+$global-font-size:    1.05rem; // 기존 대비 약 5~10% 커짐 (기본은 보통 1rem)
+$global-line-height:  1.6;    // 글자가 커지면 줄 간격도 비례해서 확보해야 가독성이 좋습니다.
