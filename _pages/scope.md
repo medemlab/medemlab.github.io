@@ -87,6 +87,17 @@ nav: false
     line-height: 1.5;
     margin-bottom: 15px;
   }
+
+  /* Selected Publications 내의 연도 헤더(2026, 2025 등)와 구분선 숨기기 */
+  .representative-papers h2.bibliography {
+    display: none !important;
+  }
+
+  /* 연도 헤더가 사라진 후 생기는 상단 여백 조정 */
+  .representative-papers ol.bibliography {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
 </style>
 
 <div class="research-scope">
@@ -219,13 +230,6 @@ nav: false
             <li>생체 임플란트용 합금 공정 (Fabricating Biomedical Metallic Alloys)</li>
             <li>전자제품용 강판의 강성 향상 (Improving Ferrous Stiffness for Electric Devices)</li>
           </ul>
-        </div>
-
-        <div class="representative-papers">
-          <span class="papers-label"><i class="fa-solid fa-file-lines mr-2"></i> Selected Publications</span>
-          <div class="publications">
-            {% bibliography -f {{ site.scholar.bibliography }} -q @*[area=electropulsing]* %}
-          </div>
         </div>
       </div>
     </div>
