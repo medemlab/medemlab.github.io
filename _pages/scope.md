@@ -174,13 +174,6 @@ nav: false
             <li>MEDEM은 국방과학연구소, 국방기술진흥연구소, 한화에어로스페이스 및 여러 방위산업 기관과 협력하여 대한민국 방산산업 발전에 기여하는 다양한 연구를 수행하고 있습니다.</li>
           </ul>
         </div>
-
-        <div class="representative-papers">
-          <span class="papers-label"><i class="fa-solid fa-file-lines mr-2"></i> Selected Publications</span>
-          <div class="publications">
-            {% bibliography -f {{ site.scholar.bibliography }} -q @*[area=electropulsing]* %}
-          </div>
-        </div>
       </div>
     </div>
   </div>
