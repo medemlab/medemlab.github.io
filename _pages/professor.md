@@ -48,9 +48,13 @@ permalink: /professor/
     align-items: flex-start;
   }
 
-  .basic-info i {
+  /* 아이콘 색상 강제 지정 */
+  .basic-info i, .section-title i, .link-icon i {
+    color: var(--global-theme-color) !important;
     width: 28px;
-    color: var(--global-theme-color);
+  }
+
+  .basic-info i {
     margin-top: 4px;
   }
 
@@ -76,26 +80,24 @@ permalink: /professor/
     left: 0;
   }
 
-  /* 텍스트 링크 스타일: 강조 및 색상 유지 */
-  .custom-list li a {
-    color: var(--global-text-color);
-    font-weight: 700;
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-    transition: all 0.2s ease;
-  }
-
-  .custom-list li a:hover {
-    color: var(--global-theme-color);
-    border-bottom: 1px solid var(--global-theme-color);
-  }
-
   .year-span {
     font-weight: 700;
     margin-right: 12px;
     color: var(--global-text-color);
     min-width: 90px;
     display: inline-block;
+  }
+
+  /* 링크 아이콘 스타일 */
+  .link-icon {
+    margin-left: 6px;
+    text-decoration: none !important;
+    font-size: 0.85rem;
+    vertical-align: middle;
+  }
+  
+  .link-icon:hover {
+    opacity: 0.7;
   }
 </style>
 
@@ -140,10 +142,10 @@ permalink: /professor/
 
   <h2 class="section-title"><i class="fa-solid fa-pen-nib mr-2"></i> 학술지 편집위원회</h2>
   <ul class="custom-list">
-    <li><span class="year-span">2023 - 현재</span> Journal of Magnesium and Alloys / Youth Committee Member[https://www.jmamg.com/index.aspx]</li>
-    <li><span class="year-span">2022 - 현재</span> Metals and Materials International<a href="https://www.springer.com/journal/12540"></a></li>
-    <li><span class="year-span">2022 - 현재</span> Transactions of Materials Processing<http://kstp.or.kr/journal/archive.html></li>
-    <li><span class="year-span">2022 - 현재</span> Korean Journal of Metals and Materials<http://kjmm.org/></li>
+    <li><span class="year-span">2023 - 현재</span> Journal of Magnesium and Alloys / Youth Committee Member <a href="https://www.jmamg.com/index.aspx" target="_blank" class="link-icon"><i class="fa-solid fa-link"></i></a></li>
+    <li><span class="year-span">2022 - 현재</span> Metals and Materials International <a href="https://www.springer.com/journal/12540" target="_blank" class="link-icon"><i class="fa-solid fa-link"></i></a></li>
+    <li><span class="year-span">2022 - 현재</span> Transactions of Materials Processing <a href="http://kstp.or.kr/journal/archive.html" target="_blank" class="link-icon"><i class="fa-solid fa-link"></i></a></li>
+    <li><span class="year-span">2022 - 현재</span> Korean Journal of Metals and Materials <a href="http://kjmm.org/" target="_blank" class="link-icon"><i class="fa-solid fa-link"></i></a></li>
   </ul>
 
   <h2 class="section-title"><i class="fa-solid fa-handshake mr-2"></i> 산학연 컨소시엄 및 자문위원회</h2>
@@ -155,14 +157,14 @@ permalink: /professor/
   
   <h2 class="section-title"><i class="fa-solid fa-university mr-2"></i> 대학 내부기관 및 사업단</h2>
   <ul class="custom-list">
-    <li><span class="year-span">2024 - 현재</span> 지역 원자력산업 기반 에너지기술공유대학<https://nuclear.aerodrone.kr/></li>
-    <li><span class="year-span">2023 - 현재</span> 하이브리드 제조혁신 엔지니어링 센터 (HIMEC)<https://pnu-himec.pusan.ac.kr/></li>
-    <li><span class="year-span">2023 - 현재</span> 미래모빌리티센터<https://futuremobility.pusan.ac.kr/></li>
-    <li><span class="year-span">2020 - 현재</span> 첨단기계부품소재 고급인력교육연구단 (BK21 FOUR)<https://bk21four-me.pusan.ac.kr/></li>
-    <li><span class="year-span">2018 - 현재</span> 기계기술연구원 (RIMT)<https://rimt.pusan.ac.kr/></li>
+    <li><span class="year-span">2024 - 현재</span> 지역 원자력산업 기반 에너지기술공유대학 <a href="https://nuclear.aerodrone.kr/" target="_blank" class="link-icon"><i class="fa-solid fa-link"></i></a></li>
+    <li><span class="year-span">2023 - 현재</span> 하이브리드 제조혁신 엔지니어링 센터 (HIMEC) <a href="https://pnu-himec.pusan.ac.kr/" target="_blank" class="link-icon"><i class="fa-solid fa-link"></i></a></li>
+    <li><span class="year-span">2023 - 현재</span> 미래모빌리티센터 <a href="https://futuremobility.pusan.ac.kr/" target="_blank" class="link-icon"><i class="fa-solid fa-link"></i></a></li>
+    <li><span class="year-span">2020 - 현재</span> 첨단기계부품소재 고급인력교육연구단 (BK21 FOUR) <a href="https://bk21four-me.pusan.ac.kr/" target="_blank" class="link-icon"><i class="fa-solid fa-link"></i></a></li>
+    <li><span class="year-span">2018 - 현재</span> 기계기술연구원 (RIMT) <a href="https://rimt.pusan.ac.kr/" target="_blank" class="link-icon"><i class="fa-solid fa-link"></i></a></li>
   </ul>
 
-  <h2 class="section-title"><i class="fa-solid fa-trophy mr-2"></i> 수상</h2>
+  <h2 class="section-title"><i class="fa-solid fa-trophy mr-2"></i> 수상 경력</h2>
   <ul class="custom-list">
     <li><span class="year-span">2025</span> 한국소성·가공학회 제14회 신진학술상</li>
     <li><span class="year-span">2025</span> KIM 논문상 (제1부문 및 제2부문)</li>
