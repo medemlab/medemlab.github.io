@@ -153,7 +153,7 @@ nav: false
   <div class="research-card">
     <div class="row">
       <div class="col-lg-4">
-        <img src="{{ '/assets/img/research_area_03.png' | relative_url }}" class="research-img" alt="Electropulsing">
+        <img src="{{ '/assets/img/research_area_03.jpg' | relative_url }}" class="research-img" alt="Electropulsing">
       </div>
       <div class="col-lg-8">
         <h3 class="research-title">
