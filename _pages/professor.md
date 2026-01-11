@@ -141,7 +141,7 @@ permalink: /professor/
   <h2 class="section-title"><i class="fa-solid fa-pen-nib mr-2"></i> 학술지 편집위원회</h2>
   <ul class="custom-list">
     <li><span class="year-span">2023 - 현재</span> Journal of Magnesium and Alloys / Youth Committee Member<https://www.jmamg.com/index.aspx></li>
-    <li><span class="year-span">2022 - 현재</span> Metals and Materials International<https://www.springer.com/journal/12540></li>
+    <li><span class="year-span">2022 - 현재</span> Metals and Materials International<a href="https://www.springer.com/journal/12540"></a></li>
     <li><span class="year-span">2022 - 현재</span> Transactions of Materials Processing<http://kstp.or.kr/journal/archive.html></li>
     <li><span class="year-span">2022 - 현재</span> Korean Journal of Metals and Materials<http://kjmm.org/></li>
   </ul>
@@ -181,12 +181,12 @@ permalink: /professor/
 
   <h2 class="section-title"><i class="fa-solid fa-chalkboard-user mr-2"></i> 강의 과목</h2>
   <ul class="custom-list">
-    <li><strong>대학원 과정</strong> 경량금속재료특론 (Theory of Lightweight Metals)</li>
-    <li><strong>대학원 과정</strong> 피로파괴론 (Fatigue Fracture)</li><br>
-    <li><strong>학부 과정</strong> 고체역학 (Solid Mechanics)</li>
-    <li><strong>학부 과정</strong> 응용고체역학 (Advanced Solid Mechanics)</li>
-    <li><strong>학부 과정</strong> 미래차 금속재료공학 (Metallic Materials Engineering for Future Vehicles)</li>
-    <li><strong>학부 과정</strong> 공학선형대수학 (Engineering Linear Algebra)</li>
-    <li><strong>학부 과정</strong> 공학미분방정식 (Engineering Differential Equation)</li>
+    <li><strong>(대학원)</strong> 경량금속재료특론 (Theory of Lightweight Metals)</li>
+    <li><strong>(대학원)</strong> 피로파괴론 (Fatigue Fracture)</li>
+    <li><strong>(학부)</strong> 고체역학 (Solid Mechanics)</li>
+    <li><strong>(학부)</strong> 응용고체역학 (Advanced Solid Mechanics)</li>
+    <li><strong>(학부)</strong> 미래차 금속재료공학 (Metallic Materials Engineering for Future Vehicles)</li>
+    <li><strong>(학부)</strong> 공학선형대수학 (Engineering Linear Algebra)</li>
+    <li><strong>(학부)</strong> 공학미분방정식 (Engineering Differential Equation)</li>
   </ul>
 </div>
