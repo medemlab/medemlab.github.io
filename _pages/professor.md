@@ -140,7 +140,7 @@ permalink: /professor/
 
   <h2 class="section-title"><i class="fa-solid fa-pen-nib mr-2"></i> 학술지 편집위원회</h2>
   <ul class="custom-list">
-    <li><span class="year-span">2023 - 현재</span> Journal of Magnesium and Alloys / Youth Committee Member<https://www.jmamg.com/index.aspx></li>
+    <li><span class="year-span">2023 - 현재</span> Journal of Magnesium and Alloys / Youth Committee Member[https://www.jmamg.com/index.aspx]</li>
     <li><span class="year-span">2022 - 현재</span> Metals and Materials International<a href="https://www.springer.com/journal/12540"></a></li>
     <li><span class="year-span">2022 - 현재</span> Transactions of Materials Processing<http://kstp.or.kr/journal/archive.html></li>
     <li><span class="year-span">2022 - 현재</span> Korean Journal of Metals and Materials<http://kjmm.org/></li>
@@ -162,7 +162,7 @@ permalink: /professor/
     <li><span class="year-span">2018 - 현재</span> 기계기술연구원 (RIMT)<https://rimt.pusan.ac.kr/></li>
   </ul>
 
-  <h2 class="section-title"><i class="fa-solid fa-trophy mr-2"></i> 수상 경력</h2>
+  <h2 class="section-title"><i class="fa-solid fa-trophy mr-2"></i> 수상</h2>
   <ul class="custom-list">
     <li><span class="year-span">2025</span> 한국소성·가공학회 제14회 신진학술상</li>
     <li><span class="year-span">2025</span> KIM 논문상 (제1부문 및 제2부문)</li>
@@ -179,7 +179,7 @@ permalink: /professor/
     <li><span class="year-span">2018</span> Metals and Materials International 논문상</li>
   </ul>
 
-  <h2 class="section-title"><i class="fa-solid fa-chalkboard-user mr-2"></i> 강의 과목</h2>
+  <h2 class="section-title"><i class="fa-solid fa-chalkboard-user mr-2"></i> 강의</h2>
   <ul class="custom-list">
     <li><strong>(대학원)</strong> 경량금속재료특론 (Theory of Lightweight Metals)</li>
     <li><strong>(대학원)</strong> 피로파괴론 (Fatigue Fracture)</li>
