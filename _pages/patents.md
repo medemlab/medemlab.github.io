@@ -94,39 +94,57 @@ permalink: /patents/
 
 <div class="patents">
 
-  <h2 class="patent-year">2026</h2>
+  <h2 class="patent-year">2017</h2>
   <ul class="patent-list">
 
     <li class="patent-item">
       <div class="patent-icon"><i class="fa-solid fa-certificate"></i></div>
       <div class="patent-content">
-        <span class="patent-title">특허 국문 명칭 또는 영문 명칭 (Patent Title) <span class="status-badge status-registered">등록</span></span>
-        <span class="patent-authors"><strong>이태경</strong>, 홍길동, 김철수</span>
-        <span class="patent-details">대한민국 등록번호: 10-XXXXXXX-0000 | 등록일자: 2026.01.11</span>
+        <span class="patent-title">뼈의 형상을 모방한 생체 의료용 다공성 타이타늄 및 그의 제조방법 (Human Bone Mimetic Porous Titanium for Biomedical Application and Manufacturing Method Thereof) <span class="status-badge status-registered">등록</span></span>
+        <span class="patent-authors">이종수, 이병갑, 김형섭, 이용문, 오상호, 차형준, 한세광, <u>이태경</u></span>
+        <span class="patent-details">등록번호: 10-1767756-0000 | 등록일자: 2017. 8. 7.</span>
       </div>
     </li>
 
   </ul>
 
-
-  <h2 class="patent-year">2025</h2>
+  <h2 class="patent-year">2014</h2>
   <ul class="patent-list">
-
-    <li class="patent-item">
-      <div class="patent-icon"><i class="fa-solid fa-file-signature"></i></div>
-      <div class="patent-content">
-        <span class="patent-title">마그네슘 합금의 미세조직 제어 방법 (Method for Controlling Microstructure of Mg Alloys) <span class="status-badge status-pending">출원</span></span>
-        <span class="patent-authors"><strong>이태경</strong>, 박영희</span>
-        <span class="patent-details">대한민국 출원번호: 10-2025-XXXXXXX | 출원일자: 2025.10.20</span>
-      </div>
-    </li>
 
     <li class="patent-item">
       <div class="patent-icon"><i class="fa-solid fa-certificate"></i></div>
       <div class="patent-content">
-        <span class="patent-title">티타늄 합금의 동적 파괴 저항성 향상 기술 <span class="status-badge status-registered">등록</span></span>
-        <span class="patent-authors"><strong>이태경</strong>, 최민수, 이준호</span>
-        <span class="patent-details">대한민국 등록번호: 10-XXXXXXX-0000 | 등록일자: 2025.05.15</span>
+        <span class="patent-title">의료용 초세립 티타늄 합금 봉재의 제조방법 및 이에 의해 제조된 티타늄 합금 봉재 (Method of Manufacturing Ultrafine-Grained Titanium Rod for Biomedical Applications, and Titanium Rod Manufactured by the Same) <span class="status-badge status-registered">등록</span></span>
+        <span class="patent-authors">이종수, 이병갑, 이준모, <u>이태경</u></span>
+        <span class="patent-details">등록번호: 10-1374233-0000 | 등록일자: 2014. 3. 7.</span>
+      </div>
+    </li>
+
+  </ul>
+
+  <h2 class="patent-year">2013</h2>
+  <ul class="patent-list">
+
+    <li class="patent-item">
+      <div class="patent-icon"><i class="fa-solid fa-certificate"></i></div>
+      <div class="patent-content">
+        <span class="patent-title">초세립 고강도 선재 및 그 제조방법 (Ultrafine-Grained Wire Rod Having High Strength and Method for Manufacturing the Same) <span class="status-badge status-registered">등록</span></span>
+        <span class="patent-authors">이종수, <u>이태경</u>, 이상윤, 손일헌</span>
+        <span class="patent-details">등록번호: 10-1228798-0000 | 등록일자: 2013. 1. 25.</span>
+      </div>
+    </li>
+
+  </ul>
+
+<h2 class="patent-year">2012</h2>
+  <ul class="patent-list">
+
+    <li class="patent-item">
+      <div class="patent-icon"><i class="fa-solid fa-certificate"></i></div>
+      <div class="patent-content">
+        <span class="patent-title">우수한 강도와 연성을 갖는 초세립 선재 및 그 제조방법 (Ultrafine-Grained Wire Rod Having High Strength and Ducility and Method for Manufacturing the Same) <span class="status-badge status-registered">등록</span></span>
+        <span class="patent-authors">이종수, <u>이태경</u>, 손일헌, 이상윤, 이유환, 김용우</span>
+        <span class="patent-details">등록번호: 10-1180196-0000 | 등록일자: 2012. 8. 30.</span>
       </div>
     </li>
 
