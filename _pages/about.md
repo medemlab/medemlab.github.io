@@ -69,7 +69,7 @@ announcements:
 </style>
 
 ---
-**MEDEM** is established in 2018 by Prof. Taekyung Lee at Pusan National University, Korea. We specialize in research that combines microstructural characterization from materials science with fracture analysis from mechanical engineering, such as:
+**Metal Design & Mechanics Lab (MEDEM)** is established in 2018 by Prof. Taekyung Lee at Pusan National University, Korea. We specialize in research that combines microstructural characterization from materials science with fracture analysis from mechanical engineering, such as:
 1. Elucidating mechanisms under the dynamic fracture of metals.
 2. Improving the performance of metal products and weapons.
 3. AI-aided optimization of metal-forming processes.
