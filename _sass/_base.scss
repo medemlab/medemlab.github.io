@@ -2,6 +2,19 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+ 
+// 전체 기본 글꼴 크기 강제 설정
+html {
+  /* 기본 16px에서 18px로 약 12% 상향 */
+  font-size: 18px !important; 
+}
+
+body {
+  /* 전체적인 텍스트 렌더링을 깔끔하게 유지 */
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.6;
+}
+
 // Typography
 
 p,
