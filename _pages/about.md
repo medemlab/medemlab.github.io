@@ -22,17 +22,17 @@ announcements:
 ---
 
 <style>
-  /* About 페이지 뉴스 날짜 스타일 (테마색, 굵게) */
+  /* 날짜 셀 너비 조정 (2026 JAN 등 연도 포함 대응) */
   .news-date-cell {
     color: var(--global-theme-color) !important;
     font-weight: 700 !important;
     text-transform: uppercase;
-    width: 80px;
-    font-size: 0.95rem;
+    width: 100px; /* 80px에서 100px로 확장 */
+    font-size: 0.9rem;
     padding-left: 0 !important;
+    white-space: nowrap;
   }
 
-  /* 뉴스 항목 간 구분선 (점선) */
   .news table tr {
     border-bottom: 1px dashed var(--global-divider-color) !important;
   }
@@ -41,7 +41,6 @@ announcements:
     border-bottom: none !important;
   }
 
-  /* 뉴스 본문 텍스트 스타일 */
   .news-content-cell {
     padding-right: 0 !important;
     color: var(--global-text-color);
@@ -52,6 +51,22 @@ announcements:
     color: var(--global-theme-color) !important;
     text-decoration: none;
   }
+
+  /* 더보기 버튼(summary) 스타일 */
+  .news-more-btn {
+    list-style: none;
+    cursor: pointer;
+    color: var(--global-theme-color);
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid var(--global-divider-color);
+    margin-top: 5px;
+  }
+  
+  .news-more-btn:hover { text-decoration: underline; }
+  .news-details[open] .news-more-btn { display: none; } /* 열리면 버튼 숨김 */
 </style>
 
 ---

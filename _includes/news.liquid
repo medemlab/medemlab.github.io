@@ -1,23 +1,36 @@
 {% if site.news != blank %}
-  {% comment %} 날짜 기준 내림차순 정렬 (최신 항목 상단) {% endcomment %}
   {% assign news = site.news | sort: 'date' | reverse %}
   <div class="news">
     <table class="table table-sm table-borderless">
-      {% for item in news limit: site.announcements.limit %}
+      {% comment %} 1~3번째 뉴스: 항상 노출 {% endcomment %}
+      {% for item in news limit: 3 %}
         <tr>
-          <th scope="row" class="news-date-cell">
-            {{ item.date | date: "%b" }}
-          </th>
+          <th scope="row" class="news-date-cell">{{ item.date | date: "%Y %b" }}</th>
           <td class="news-content-cell">
-            {% if item.inline %}
-              {{ item.content | remove: '<p>' | remove: '</p>' }}
-            {% else %}
-              <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-            {% endif %}
+            {% if item.inline %}{{ item.content | remove: '<p>' | remove: '</p>' }}
+            {% else %}<a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>{% endif %}
           </td>
         </tr>
       {% endfor %}
     </table>
+
+    {% comment %} 4~10번째 뉴스: 접어서 숨김 {% endcomment %}
+    {% if news.size > 3 %}
+    <details class="news-details">
+      <summary class="news-more-btn">More news...</summary>
+      <table class="table table-sm table-borderless">
+        {% for item in news offset: 3 limit: 7 %}
+          <tr>
+            <th scope="row" class="news-date-cell">{{ item.date | date: "%Y %b" }}</th>
+            <td class="news-content-cell">
+              {% if item.inline %}{{ item.content | remove: '<p>' | remove: '</p>' }}
+              {% else %}<a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>{% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </table>
+    </details>
+    {% endif %}
   </div>
 {% else %}
   <p>No news so far...</p>
