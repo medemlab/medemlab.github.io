@@ -428,7 +428,16 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "news-medem-lab이-이공학학술연구기반구축사업-글로컬r-amp-amp-d지원-대상자로-최종-선정되었습니다-한국연구재단으로부터-향후-3년-간-7억-원을-지원받아-인공지능을-위한-소재-데이터베이스-구축-기술을-연구합니다",
+      },{id: "news-medem-lab이-한화에어로스페이스-ls사업부와-방위산업용-특수합금-연구를-개시하였습니다",
+          title: 'MEDEM Lab이 한화에어로스페이스 LS사업부와 방위산업용 특수합금 연구를 개시하였습니다.',
+          description: "",
+          section: "News",},{id: "news-이태경-교수님이-춘계-한국소성-가공학회에서-제14회-신진학술상을-수상하셨습니다",
+          title: '이태경 교수님이 춘계 한국소성·가공학회에서 제14회 신진학술상을 수상하셨습니다.',
+          description: "",
+          section: "News",},{id: "news-mg-zn-y-mn-합금에-al을-첨가함으로써-발생하는-변화를-규명한-연구가-journal-of-magnesium-and-alloys에-게재되었습니다",
+          title: 'Mg-Zn-Y-Mn 합금에 Al을 첨가함으로써 발생하는 변화를 규명한 연구가 Journal of Magnesium and Alloys에...',
+          description: "",
+          section: "News",},{id: "news-medem-lab이-이공학학술연구기반구축사업-글로컬r-amp-amp-d지원-대상자로-최종-선정되었습니다-한국연구재단으로부터-향후-3년-간-7억-원을-지원받아-인공지능을-위한-소재-데이터베이스-구축-기술을-연구합니다",
           title: 'MEDEM Lab이 이공학학술연구기반구축사업(글로컬R&amp;amp;amp;D지원) 대상자로 최종 선정되었습니다! 한국연구재단으로부터 향후 3년 간 7억 원을 지원받아...',
           description: "",
           section: "News",},{id: "news-물리식-기반-인공지능을-활용하여-gr-19-티타늄-합금의-고온-성형성을-예측한-연구가-journal-of-materials-research-and-technology에-게재되었습니다",
