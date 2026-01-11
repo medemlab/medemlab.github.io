@@ -94,6 +94,20 @@ permalink: /patents/
 
 <div class="patents">
 
+  <h2 class="patent-year">2025</h2>
+  <ul class="patent-list">
+
+    <li class="patent-item">
+      <div class="patent-icon"><i class="fa-solid fa-certificate"></i></div>
+      <div class="patent-content">
+        <span class="patent-title">뼈의 형상을 모방한 생체 의료용 다공성 타이타늄 및 그의 제조방법 (Human Bone Mimetic Porous Titanium for Biomedical Application and Manufacturing Method Thereof) <span class="status-badge status-registered">출원</span></span>
+        <span class="patent-authors">유진영, 김성원, 천세호, 이성호, <u>이태경</u></span>
+        <span class="patent-details">출원번호: 10-2025-0066644 | 출원일자: 2025. 5. 22.</span>
+      </div>
+    </li>
+
+  </ul>
+
   <h2 class="patent-year">2017</h2>
   <ul class="patent-list">
 

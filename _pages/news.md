@@ -63,6 +63,18 @@ nav_order: 4
   .news-content a:hover {
     text-decoration: underline;
   }
+
+    /* 링크 아이콘 스타일 */
+  .link-icon {
+    margin-left: 6px;
+    text-decoration: none !important;
+    font-size: 0.85rem;
+    vertical-align: middle;
+  }
+  
+  .link-icon:hover {
+    opacity: 0.7;
+  }
 </style>
 
 <div class="news">
