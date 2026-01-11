@@ -6,97 +6,67 @@ nav: false
 ---
 
 <style>
-  /* 1. 섹션 및 연구 분야 타이틀 스타일 */
-  .research-card {
-    margin-bottom: 80px;
-  }
-
-  .research-title {
-    font-size: 1.6rem;
-    font-weight: 800;
-    color: var(--global-theme-color);
-    margin-bottom: 20px;
-    border-left: 5px solid var(--global-theme-color);
-    padding-left: 15px;
-    line-height: 1.2;
-  }
-
-  .research-title small {
-    font-size: 1rem;
-    color: var(--global-text-color);
-    opacity: 0.7;
-    display: block;
-    margin-top: 5px;
-  }
-
-  /* 2. 이미지 스타일 (좌측 정렬 통일) */
-  .research-img {
-    width: 100%;
-    border-radius: 12px;
-    border: 1px solid var(--global-divider-color);
-    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));
-    margin-bottom: 20px;
-  }
-
-  /* 3. 본문 텍스트 스타일 */
-  .research-text {
-    font-size: 1.05rem;
-    line-height: 1.8;
-    color: var(--global-text-color);
-    margin-bottom: 25px;
-  }
-
-  .research-text ul {
-    list-style: none;
-    padding-left: 0;
-  }
-
-  .research-text li {
-    margin-bottom: 10px;
-    padding-left: 20px;
-    position: relative;
-  }
-
-  .research-text li::before {
-    content: "○";
-    color: var(--global-theme-color);
-    font-weight: bold;
-    position: absolute;
-    left: 0;
-  }
-
-  /* 4. 대표 논문 섹션 (Selected Publications 서식) */
-  .representative-papers {
-    margin-top: 30px;
-    padding-top: 20px;
-    border-top: 1px dashed var(--global-divider-color);
-  }
-
-  .papers-label {
-    font-weight: 800;
-    color: var(--global-theme-color);
-    font-size: 0.95rem;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-    display: block;
-  }
-
-  /* 논문 리스트 가독성 조정 */
-  .representative-papers .publications ol.bibliography li {
-    font-size: 0.95rem;
-    line-height: 1.5;
-    margin-bottom: 15px;
-  }
-
-  /* Selected Publications 내의 연도 헤더(2026, 2025 등)와 구분선 숨기기 */
-  .representative-papers h2.bibliography {
+  /* --- Selected Publications 간소화 설정 --- */
+  
+  /* 1. 연도별 바(Yearly Bar) 및 배지(Badges/Abbr) 삭제 */
+  .representative-papers h2.bibliography,
+  .representative-papers .abbr {
     display: none !important;
   }
 
-  /* 연도 헤더가 사라진 후 생기는 상단 여백 조정 */
-  .representative-papers ol.bibliography {
+  /* 2. 저자 목록(Author) 및 초록(Abstract) 숨기기 */
+  .representative-papers .author,
+  .representative-papers .abstract,
+  .representative-papers .periodical + .links + .hidden {
+    display: none !important;
+  }
+
+  /* 3. DOI를 제외한 나머지 버튼(PDF, Bib, HTML 등) 숨기기 */
+  /* al-folio 테마의 버튼들 중 DOI 링크만 남깁니다 */
+  .representative-papers .links a:not([href*="doi.org"]) {
+    display: none !important;
+  }
+
+  /* 4. 리스트 여백 및 글꼴 최적화 */
+  .representative-papers .publications ol.bibliography {
     margin-top: 0 !important;
-    padding-top: 0 !important;
+    padding-left: 0 !important;
+    list-style: none !important;
+  }
+
+  .representative-papers ol.bibliography li {
+    margin-bottom: 20px !important;
+    padding-left: 0 !important;
+  }
+
+  /* 논문 제목 강조 */
+  .representative-papers .title {
+    font-weight: 700 !important;
+    font-size: 1.05rem !important;
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  /* 저널명 및 연도 스타일 */
+  .representative-papers .periodical {
+    font-style: italic;
+    color: var(--global-text-color);
+    opacity: 0.8;
+    font-size: 0.95rem;
+  }
+
+  /* DOI 버튼 스타일링 (텍스트 형태나 작은 버튼으로 유지) */
+  .representative-papers .links {
+    margin-top: 5px;
+  }
+  
+  .representative-papers .links a.btn {
+    padding: 0px 5px !important;
+    font-size: 0.8rem !important;
+    height: auto !important;
+    border: none !important;
+    color: var(--global-theme-color) !important;
+    text-decoration: underline !important;
   }
 </style>
 
