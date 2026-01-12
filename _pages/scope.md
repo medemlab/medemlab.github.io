@@ -96,7 +96,7 @@ permalink: /scope/
     color: var(--global-text-color);
   }
 
-  /* DOI 및 아이콘 스타일 */
+  /* 및 아이콘 스타일 */
   .doi-link {
     color: var(--global-theme-color) !important;
     text-decoration: none !important;
@@ -139,11 +139,11 @@ permalink: /scope/
           <ul class="manual-pub-list">
             <li>
               Lee et al., <b>J. Mater. Res. Technol.</b>, 2025.
-              <a href="https://doi.org/10.1016/j.jmrt.2025.10.222" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i> DOI</a>
+              <a href="https://doi.org/10.1016/j.jmrt.2025.10.222" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i></a><br>
               Yu et al., <b>J. Magnes. Alloy.</b>, 2024.
-              <a href="https://doi.org/10.1016/j.jma.2024.10.014" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i> DOI</a>
+              <a href="https://doi.org/10.1016/j.jma.2024.10.014" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i></a><br>
               Byun et al., <b>J. Magnes. Alloy.</b>, 2024.
-              <a href="https://doi.org/10.1016/j.jma.2023.12.007" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i> DOI</a>
+              <a href="https://doi.org/10.1016/j.jma.2023.12.007" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i></a>
             </li>
           </ul>
         </div>
@@ -173,7 +173,7 @@ permalink: /scope/
           <ul class="manual-pub-list">
             <li>
               Shams et al., <b>J. Mater. Sci. Technol.</b>, 2022.
-              <a href="https://doi.org/10.1016/j.jmst.2021.10.010" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i> DOI</a>
+              <a href="https://doi.org/10.1016/j.jmst.2021.10.010" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i></a>
             </li>
           </ul>
         </div>
@@ -203,11 +203,11 @@ permalink: /scope/
           <ul class="manual-pub-list">
             <li>
               Song et al., <b>J. Magnes. Alloy.</b>, 2026.
-              <a href="https://doi.org/10.1016/j.jma.2025.11.017" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i> DOI</a>
+              <a href="https://doi.org/10.1016/j.jma.2025.11.017" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i></a><br>
               Oh et al., <b>J. Mater. Res. Technol.</b>, 2024.
-              <a href="https://doi.org/10.1016/j.jmrt.2023.08.103" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i> DOI</a>
+              <a href="https://doi.org/10.1016/j.jmrt.2023.08.103" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i></a><br>
               Lee et al., <b>Int. J. Plast.</b>, 2017.
-              <a href="https://doi.org/10.1016/j.ijplas.2017.02.012" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i> DOI</a>
+              <a href="https://doi.org/10.1016/j.ijplas.2017.02.012" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i></a><br>
             </li>
           </ul>
         </div>
