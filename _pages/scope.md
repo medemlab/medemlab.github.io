@@ -66,7 +66,7 @@ permalink: /scope/
     left: 0;
   }
 
-  /* 4. Relevant Publications 스타일 (한 줄 서식) */
+  /* 4. 주요 연구 성과 스타일 (한 줄 서식) */
   .representative-papers {
     margin-top: 30px;
     padding-top: 20px;
@@ -134,13 +134,16 @@ permalink: /scope/
             <li>이를 통해 최적 금속성형 공정 변수를 도출하고, 최고의 신소재를 제조하는 인프라를 구축하였습니다.</li>
           </ul>
         </div>
-        
         <div class="representative-papers">
-          <span class="papers-label"><i class="fa-solid fa-file-lines mr-2"></i> Relevant Publications</span>
+          <span class="papers-label"><i class="fa-solid fa-file-lines mr-2"></i> 주요 연구 성과</span>
           <ul class="manual-pub-list">
             <li>
-              <i>T. Lee, et al.</i>, <b>Journal of Materials Research and Technology</b>, 2025
+              Lee et al., <b>J. Mater. Res. Technol.</b>, 2025.
               <a href="https://doi.org/10.1016/j.jmrt.2025.10.222" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i> DOI</a>
+              Yu et al., <b>J. Magnes. Alloy.</b>, 2024.
+              <a href="https://doi.org/10.1016/j.jma.2024.10.014" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i> DOI</a>
+              Byun et al., <b>J. Magnes. Alloy.</b>, 2024.
+              <a href="https://doi.org/10.1016/j.jma.2023.12.007" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i> DOI</a>
             </li>
           </ul>
         </div>
@@ -165,13 +168,12 @@ permalink: /scope/
             <li>MEDEM은 피로파괴, 충격파괴, 수소취성, 고온성형 등 다양한 동적파괴 현상을 측정/평가/분석 가능한 인프라를 구축하고 있으며, 이를 바탕으로 여러 기업 및 연구소와 공동 연구를 수행하고 있습니다.</li>
           </ul>
         </div>
-
         <div class="representative-papers">
-          <span class="papers-label"><i class="fa-solid fa-file-lines mr-2"></i> Relevant Publications</span>
+          <span class="papers-label"><i class="fa-solid fa-file-lines mr-2"></i> 주요 연구 성과</span>
           <ul class="manual-pub-list">
             <li>
-              <i>T. Lee, et al.</i>, <b>Acta Materialia</b>, 2024
-              <a href="#" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i> DOI</a>
+              Shams et al., <b>J. Mater. Sci. Technol.</b>, 2022.
+              <a href="https://doi.org/10.1016/j.jmst.2021.10.010" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i> DOI</a>
             </li>
           </ul>
         </div>
@@ -196,13 +198,16 @@ permalink: /scope/
             <li>MEDEM은 티타늄, 마그네슘, 알루미늄, 니켈, 강철 등 다양한 금속 소재에 적용 가능한 EPT 및 EAF 인프라를 구축하고, 이를 바탕으로 공정 효과/제어/최적화 분야에서 폭넓은 연구를 수행하고 있습니다.</li>
           </ul>
         </div>
-
         <div class="representative-papers">
-          <span class="papers-label"><i class="fa-solid fa-file-lines mr-2"></i> Relevant Publications</span>
+          <span class="papers-label"><i class="fa-solid fa-file-lines mr-2"></i> 주요 연구 성과</span>
           <ul class="manual-pub-list">
             <li>
-              <i>T. Lee, et al.</i>, <b>Journal of Magnesium and Alloys</b>, 2024
-              <a href="#" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i> DOI</a>
+              Song et al., <b>J. Magnes. Alloy.</b>, 2026.
+              <a href="https://doi.org/10.1016/j.jma.2025.11.017" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i> DOI</a>
+              Oh et al., <b>J. Mater. Res. Technol.</b>, 2024.
+              <a href="https://doi.org/10.1016/j.jmrt.2023.08.103" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i> DOI</a>
+              Lee et al., <b>Int. J. Plast.</b>, 2017.
+              <a href="https://doi.org/10.1016/j.ijplas.2017.02.012" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i> DOI</a>
             </li>
           </ul>
         </div>
@@ -223,6 +228,19 @@ permalink: /scope/
         <div class="research-text">
           <ul>
             <li>MEDEM은 국방과학연구소, 국방기술진흥연구소, 한화에어로스페이스 및 여러 방위산업 기관과 협력하여 대한민국 방산산업 발전에 기여하는 다양한 연구를 수행하고 있습니다.</li>
+          </ul>
+        </div>
+        <div class="representative-papers">
+          <span class="papers-label"><i class="fa-solid fa-file-lines mr-2"></i> 주요 연구 성과</span>
+          <ul class="manual-pub-list">
+            <li>
+              Song et al., <b>J. Magnes. Alloy.</b>, 2026.
+              <a href="https://doi.org/10.1016/j.jma.2025.11.017" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i> DOI</a>
+              Oh et al., <b>J. Mater. Res. Technol.</b>, 2024.
+              <a href="https://doi.org/10.1016/j.jmrt.2023.08.103" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i> DOI</a>
+              Lee et al., <b>Int. J. Plast.</b>, 2017.
+              <a href="https://doi.org/10.1016/j.ijplas.2017.02.012" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i> DOI</a>
+            </li>
           </ul>
         </div>
       </div>
