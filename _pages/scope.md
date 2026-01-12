@@ -5,89 +5,117 @@ permalink: /scope/
 ---
 
 <style>
-  /* 1. 이미지 크기 복원 및 유지 */
+  /* 1. 섹션 및 연구 분야 타이틀 스타일 */
+  .research-card {
+    margin-bottom: 80px;
+  }
+
+  .research-title {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: var(--global-theme-color);
+    margin-bottom: 20px;
+    border-left: 5px solid var(--global-theme-color);
+    padding-left: 15px;
+    line-height: 1.2;
+  }
+
+  .research-title small {
+    font-size: 1rem;
+    color: var(--global-text-color);
+    opacity: 0.7;
+    display: block;
+    margin-top: 5px;
+  }
+
+  /* 2. 이미지 스타일 (원래 크기 유지) */
   .research-img {
-    width: auto !important;
-    max-width: 100%;
+    width: auto !important;      /* 부모 너비에 맞추지 않고 이미지 원래 크기 유지 */
+    max-width: 100%;             /* 모바일 등 좁은 화면에서만 너비에 맞춤 */
     height: auto;
     border-radius: 12px;
     border: 1px solid var(--global-divider-color);
+    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));
     margin-bottom: 20px;
   }
 
-  /* 2. 필수 요소 외 모두 숨기기 (초기 로딩 시 깔끔하게 유지) */
-  .representative-papers .author,
-  .representative-papers .abstract,
-  .representative-papers .links,
-  .representative-papers .badges,
-  .representative-papers .abbr,
-  .representative-papers h2.bibliography {
-    display: none !important;
-  }
-
-  /* 3. 타이틀 스타일 복구 및 강화 */
-  .representative-papers .title {
-    font-weight: 700 !important;
-    font-size: 1.1rem !important; /* 가독성을 위해 살짝 키움 */
-    display: block;
-    color: var(--global-text-color) !important;
-    margin-bottom: 4px !important;
-    border: none !important; /* 혹시 모를 테두리 제거 */
-  }
-
-  /* 4. 학술지, 연도, DOI 라인 스타일 */
-  .representative-papers .periodical {
-    font-style: normal !important;
+  /* 3. 본문 텍스트 스타일 */
+  .research-text {
+    font-size: 1.05rem;
+    line-height: 1.8;
     color: var(--global-text-color);
-    opacity: 0.8;
-    font-size: 0.95rem;
-    display: block;
-    line-height: 1.5;
+    margin-bottom: 25px;
   }
 
-  /* DOI 링크 스타일 (라인 맨 뒤) */
-  .doi-link {
-    margin-left: 8px;
+  .research-text ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .research-text li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+  }
+
+  .research-text li::before {
+    content: "○";
+    color: var(--global-theme-color);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+  }
+
+  /* 4. 수동 논문 섹션 스타일 */
+  .representative-papers {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px dashed var(--global-divider-color);
+  }
+
+  .papers-label {
+    font-weight: 800;
+    color: var(--global-theme-color);
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    display: block;
+  }
+
+  /* 수동 입력 리스트 스타일 */
+  .manual-pub-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  .manual-pub-list li {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 12px;
+    color: var(--global-text-color);
+  }
+
+  .manual-pub-list .pub-title {
+    font-weight: 700;
+    display: block;
+    margin-bottom: 2px;
+  }
+
+  .manual-pub-list .pub-info {
+    opacity: 0.8;
+  }
+
+  .manual-pub-list .doi-link {
     color: var(--global-theme-color) !important;
     text-decoration: underline !important;
+    margin-left: 5px;
     font-size: 0.85rem;
-    font-weight: 500;
   }
 </style>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const papers = document.querySelectorAll('.representative-papers ol.bibliography > li');
-    
-    papers.forEach(function(paper) {
-      // 1. DOI 링크 추출
-      const doiAttr = paper.querySelector('.links a[href*="doi.org"]');
-      const doiUrl = doiAttr ? doiAttr.getAttribute('href') : null;
-      
-      // 2. 학술지 및 연도 정보 정리
-      const periodicalEl = paper.querySelector('.periodical');
-      if (periodicalEl) {
-        const journalElement = periodicalEl.querySelector('em');
-        const text = periodicalEl.textContent;
-        const yearMatch = text.match(/\d{4}/);
-        
-        if (journalElement && yearMatch) {
-          let newHtml = "<em>" + journalElement.innerText + "</em>, " + yearMatch[0];
-          
-          // 3. DOI 링크가 있으면 맨 뒤에 추가
-          if (doiUrl) {
-            newHtml += ' <a href="' + doiUrl + '" target="_blank" class="doi-link">[DOI]</a>';
-          }
-          
-          periodicalEl.innerHTML = newHtml;
-        }
-      }
-    });
-  });
-</script>
-
 <div class="research-scope">
-  
+
   <div class="research-card">
     <div class="row">
       <div class="col-lg-4">
@@ -108,9 +136,13 @@ permalink: /scope/
         
         <div class="representative-papers">
           <span class="papers-label"><i class="fa-solid fa-file-lines mr-2"></i> Selected Publications</span>
-          <div class="publications">
-            {% bibliography -f {{ site.scholar.bibliography }} -q @*[area=plasticity]* %}
-          </div>
+          <ul class="manual-pub-list">
+            <li>
+              <span class="pub-title">논문 제목을 여기에 입력하세요</span>
+              <span class="pub-info"><em>Journal Name</em>, 2026</span>
+              <a href="DOI_URL" class="doi-link" target="_blank">[DOI]</a>
+            </li>
+            </ul>
         </div>
       </div>
     </div>
@@ -136,9 +168,13 @@ permalink: /scope/
 
         <div class="representative-papers">
           <span class="papers-label"><i class="fa-solid fa-file-lines mr-2"></i> Selected Publications</span>
-          <div class="publications">
-            {% bibliography -f {{ site.scholar.bibliography }} -q @*[area=fracture]* %}
-          </div>
+          <ul class="manual-pub-list">
+            <li>
+              <span class="pub-title">대표 논문 제목 입력</span>
+              <span class="pub-info"><em>Nature Materials</em>, 2025</span>
+              <a href="#" class="doi-link">[DOI]</a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -164,9 +200,13 @@ permalink: /scope/
 
         <div class="representative-papers">
           <span class="papers-label"><i class="fa-solid fa-file-lines mr-2"></i> Selected Publications</span>
-          <div class="publications">
-            {% bibliography -f {{ site.scholar.bibliography }} -q @*[area=electropulsing]* %}
-          </div>
+          <ul class="manual-pub-list">
+            <li>
+              <span class="pub-title">전류펄스 관련 논문 제목</span>
+              <span class="pub-info"><em>Acta Materialia</em>, 2024</span>
+              <a href="#" class="doi-link">[DOI]</a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -175,7 +215,7 @@ permalink: /scope/
   <div class="research-card">
     <div class="row">
       <div class="col-lg-4">
-        <img src="{{ '/assets/img/research_area_04.png' | relative_url }}" class="research-img" alt="Electropulsing">
+        <img src="{{ '/assets/img/research_area_04.png' | relative_url }}" class="research-img" alt="Defense Research">
       </div>
       <div class="col-lg-8">
         <h3 class="research-title">
@@ -191,18 +231,15 @@ permalink: /scope/
     </div>
   </div>
 
-
   <div class="research-card">
     <div class="row">
-    <div class="col-lg-8">
-        <h3 class="research-title">
-          기타 연구주제
-        </h3>
+      <div class="col-lg-12">
+        <h3 class="research-title">기타 연구주제</h3>
         <div class="research-text">
           <ul>
             <li>다중공형압연 (Multi-Pass Caliber Rolling)</li>
             <li>강소성가공 (Severe Plastic Deformation Processes)</li>
-            <li>탄성계수 정밀 측정  (Precise Measurement of Elastic Modulus)</li>
+            <li>탄성계수 정밀 측정 (Precise Measurement of Elastic Modulus)</li>
             <li>생체 임플란트용 합금 공정 (Fabricating Biomedical Metallic Alloys)</li>
             <li>전자제품용 강판의 강성 향상 (Improving Ferrous Stiffness for Electric Devices)</li>
           </ul>
