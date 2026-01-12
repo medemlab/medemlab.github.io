@@ -5,106 +5,25 @@ permalink: /scope/
 ---
 
 <style>
-  /* 1. 섹션 및 연구 분야 타이틀 스타일 */
-  .research-card {
-    margin-bottom: 80px;
-  }
-
-  .research-title {
-    font-size: 1.6rem;
-    font-weight: 800;
-    color: var(--global-theme-color);
-    margin-bottom: 20px;
-    border-left: 5px solid var(--global-theme-color);
-    padding-left: 15px;
-    line-height: 1.2;
-  }
-
-  .research-title small {
-    font-size: 1rem;
-    color: var(--global-text-color);
-    opacity: 0.7;
-    display: block;
-    margin-top: 5px;
-  }
-
-  /* 2. 이미지 스타일 (좌측 정렬 통일) */
+  /* 1. 이미지 크기 복원 */
   .research-img {
-    width: 100%;
+    width: auto !important;
+    max-width: 100%;
+    height: auto;
     border-radius: 12px;
     border: 1px solid var(--global-divider-color);
-    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));
     margin-bottom: 20px;
   }
 
-  /* 3. 본문 텍스트 스타일 */
-  .research-text {
-    font-size: 1.05rem;
-    line-height: 1.8;
-    color: var(--global-text-color);
-    margin-bottom: 25px;
-  }
-
-  .research-text ul {
-    list-style: none;
-    padding-left: 0;
-  }
-
-  .research-text li {
-    margin-bottom: 10px;
-    padding-left: 20px;
-    position: relative;
-  }
-
-  .research-text li::before {
-    content: "○";
-    color: var(--global-theme-color);
-    font-weight: bold;
-    position: absolute;
-    left: 0;
-  }
-
-/* 4. 대표 논문 섹션 (최소 정보만 표시) */
-  .representative-papers {
-    margin-top: 30px;
-    padding-top: 20px;
-    border-top: 1px dashed var(--global-divider-color);
-  }
-
-  .papers-label {
-    font-weight: 800;
-    color: var(--global-theme-color);
-    font-size: 0.95rem;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-    display: block;
-  }
-
-  /* [핵심] 논문 정보 필터링: 저널명, 연도, 링크(DOI 등)만 노출 */
-  .representative-papers h2.bibliography, /* 연도 헤더 삭제 */
-  .representative-papers .abbr,           /* 학술지 약어 배지 삭제 */
-  .representative-papers .author,         /* 저자 삭제 */
-  .representative-papers .abstract,       /* 초록 삭제 */
-  .representative-papers .volume,         /* 권 삭제 */
-  .representative-papers .number,         /* 호 삭제 */
-  .representative-papers .pages,          /* 페이지 삭제 */
-  .representative-papers .badges {        /* 기타 배지 삭제 */
+  /* 2. CSS로 숨길 수 있는 요소들 (저자, 초록, 링크, 배지 등) */
+  .representative-papers .title,
+  .representative-papers .author,
+  .representative-papers .abstract,
+  .representative-papers .links,
+  .representative-papers .badges,
+  .representative-papers .abbr,
+  .representative-papers h2.bibliography {
     display: none !important;
-  }
-  
-  .representative-papers ol.bibliography {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-    list-style: none;
-    padding-left: 0;
-  }
-
-  .representative-papers .title {
-    font-weight: 700 !important;
-    font-size: 1rem !important;
-    display: block;
-    color: var(--global-text-color);
-    margin-bottom: 2px;
   }
 
   .representative-papers .periodical {
@@ -112,24 +31,25 @@ permalink: /scope/
     color: var(--global-text-color);
     opacity: 0.8;
     font-size: 0.9rem;
-    display: inline-block;
-    margin-right: 10px;
-  }
-
-  /* 링크(DOI 등) 스타일링: 텍스트 형태로 간결하게 표시 */
-  .representative-papers .links {
-    display: inline-block !important;
-  }
-
-  .representative-papers .links a.btn {
-    padding: 0px 5px !important;
-    font-size: 0.8rem !important;
-    height: auto !important;
-    border: none !important;
-    color: var(--global-theme-color) !important;
-    text-decoration: underline !important;
   }
 </style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // 학술지 정보에서 권, 호, 페이지 정보를 강제로 제거하고 [학술지명, 연도]만 추출
+    const periodicals = document.querySelectorAll('.representative-papers .periodical');
+    periodicals.forEach(function(el) {
+      const journalElement = el.querySelector('em');
+      const text = el.textContent;
+      const yearMatch = text.match(/\d{4}/); // 4자리 숫자(연도) 추출
+      
+      if (journalElement && yearMatch) {
+        // 이탤릭체 학술지명과 연도만 남기고 다시 작성
+        el.innerHTML = "<em>" + journalElement.innerText + "</em>, " + yearMatch[0];
+      }
+    });
+  });
+</script>
 
 <div class="research-scope">
   
