@@ -5,7 +5,7 @@ permalink: /scope/
 ---
 
 <style>
-  /* 1. 이미지 크기 복원 */
+  /* 1. 이미지 크기 복원 및 유지 */
   .research-img {
     width: auto !important;
     max-width: 100%;
@@ -15,8 +15,7 @@ permalink: /scope/
     margin-bottom: 20px;
   }
 
-  /* 2. CSS로 숨길 수 있는 요소들 (저자, 초록, 링크, 배지 등) */
-  .representative-papers .title,
+  /* 2. 필수 요소 외 모두 숨기기 (초기 로딩 시 깔끔하게 유지) */
   .representative-papers .author,
   .representative-papers .abstract,
   .representative-papers .links,
@@ -26,26 +25,62 @@ permalink: /scope/
     display: none !important;
   }
 
+  /* 3. 타이틀 스타일 복구 및 강화 */
+  .representative-papers .title {
+    font-weight: 700 !important;
+    font-size: 1.1rem !important; /* 가독성을 위해 살짝 키움 */
+    display: block;
+    color: var(--global-text-color) !important;
+    margin-bottom: 4px !important;
+    border: none !important; /* 혹시 모를 테두리 제거 */
+  }
+
+  /* 4. 학술지, 연도, DOI 라인 스타일 */
   .representative-papers .periodical {
     font-style: normal !important;
     color: var(--global-text-color);
     opacity: 0.8;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
+    display: block;
+    line-height: 1.5;
+  }
+
+  /* DOI 링크 스타일 (라인 맨 뒤) */
+  .doi-link {
+    margin-left: 8px;
+    color: var(--global-theme-color) !important;
+    text-decoration: underline !important;
+    font-size: 0.85rem;
+    font-weight: 500;
   }
 </style>
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    // 학술지 정보에서 권, 호, 페이지 정보를 강제로 제거하고 [학술지명, 연도]만 추출
-    const periodicals = document.querySelectorAll('.representative-papers .periodical');
-    periodicals.forEach(function(el) {
-      const journalElement = el.querySelector('em');
-      const text = el.textContent;
-      const yearMatch = text.match(/\d{4}/); // 4자리 숫자(연도) 추출
+    const papers = document.querySelectorAll('.representative-papers ol.bibliography > li');
+    
+    papers.forEach(function(paper) {
+      // 1. DOI 링크 추출
+      const doiAttr = paper.querySelector('.links a[href*="doi.org"]');
+      const doiUrl = doiAttr ? doiAttr.getAttribute('href') : null;
       
-      if (journalElement && yearMatch) {
-        // 이탤릭체 학술지명과 연도만 남기고 다시 작성
-        el.innerHTML = "<em>" + journalElement.innerText + "</em>, " + yearMatch[0];
+      // 2. 학술지 및 연도 정보 정리
+      const periodicalEl = paper.querySelector('.periodical');
+      if (periodicalEl) {
+        const journalElement = periodicalEl.querySelector('em');
+        const text = periodicalEl.textContent;
+        const yearMatch = text.match(/\d{4}/);
+        
+        if (journalElement && yearMatch) {
+          let newHtml = "<em>" + journalElement.innerText + "</em>, " + yearMatch[0];
+          
+          // 3. DOI 링크가 있으면 맨 뒤에 추가
+          if (doiUrl) {
+            newHtml += ' <a href="' + doiUrl + '" target="_blank" class="doi-link">[DOI]</a>';
+          }
+          
+          periodicalEl.innerHTML = newHtml;
+        }
       }
     });
   });
