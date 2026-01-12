@@ -234,12 +234,7 @@ permalink: /scope/
           <span class="papers-label"><i class="fa-solid fa-file-lines mr-2"></i> 주요 연구 성과</span>
           <ul class="manual-pub-list">
             <li>
-              Song et al., <b>J. Magnes. Alloy.</b>, 2026.
-              <a href="https://doi.org/10.1016/j.jma.2025.11.017" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i> DOI</a>
-              Oh et al., <b>J. Mater. Res. Technol.</b>, 2024.
-              <a href="https://doi.org/10.1016/j.jmrt.2023.08.103" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i> DOI</a>
-              Lee et al., <b>Int. J. Plast.</b>, 2017.
-              <a href="https://doi.org/10.1016/j.ijplas.2017.02.012" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i> DOI</a>
+              비공개
             </li>
           </ul>
         </div>
