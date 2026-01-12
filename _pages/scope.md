@@ -92,16 +92,10 @@ permalink: /scope/
   .representative-papers .abbr,
   .representative-papers .author,
   .representative-papers .abstract,
-  .representative-papers .links,
+  .representative-papers .volume,
+  .representative-papers .number,
+  .representative-papers .pages,
   .representative-papers .badges {
-    display: none !important;
-  }
-
-  /* 학술지 정보 내에서 권(Volume), 호(Number), 페이지(Pages) 숨기기 */
-  .representative-papers .periodical em + span, 
-  .representative-papers .periodical .volume,
-  .representative-papers .periodical .number,
-  .representative-papers .periodical .pages {
     display: none !important;
   }
   
@@ -220,7 +214,6 @@ permalink: /scope/
 
   <div class="research-card">
     <div class="row">
-      <div class="col-lg-8">
         <h3 class="research-title">
           기타 연구주제
         </h3>
@@ -233,7 +226,6 @@ permalink: /scope/
             <li>전자제품용 강판의 강성 향상 (Improving Ferrous Stiffness for Electric Devices)</li>
           </ul>
         </div>
-      </div>
     </div>
   </div>
 
