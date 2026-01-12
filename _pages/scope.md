@@ -28,10 +28,10 @@ permalink: /scope/
     margin-top: 5px;
   }
 
-  /* 2. 이미지 스타일 (원래 크기 유지) */
+  /* 2. 이미지 스타일 (원본 크기 유지) */
   .research-img {
-    width: auto !important;      /* 부모 너비에 맞추지 않고 이미지 원래 크기 유지 */
-    max-width: 100%;             /* 모바일 등 좁은 화면에서만 너비에 맞춤 */
+    width: auto !important;
+    max-width: 100%;
     height: auto;
     border-radius: 12px;
     border: 1px solid var(--global-divider-color);
@@ -66,7 +66,7 @@ permalink: /scope/
     left: 0;
   }
 
-  /* 4. 수동 논문 섹션 스타일 */
+  /* 4. Relevant Publications 스타일 (한 줄 서식) */
   .representative-papers {
     margin-top: 30px;
     padding-top: 20px;
@@ -76,13 +76,13 @@ permalink: /scope/
   .papers-label {
     font-weight: 800;
     color: var(--global-theme-color);
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     text-transform: uppercase;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
     display: block;
+    letter-spacing: 0.5px;
   }
 
-  /* 수동 입력 리스트 스타일 */
   .manual-pub-list {
     list-style: none;
     padding-left: 0;
@@ -92,25 +92,26 @@ permalink: /scope/
   .manual-pub-list li {
     font-size: 0.95rem;
     line-height: 1.6;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     color: var(--global-text-color);
   }
 
-  .manual-pub-list .pub-title {
-    font-weight: 700;
-    display: block;
-    margin-bottom: 2px;
-  }
-
-  .manual-pub-list .pub-info {
-    opacity: 0.8;
-  }
-
-  .manual-pub-list .doi-link {
+  /* DOI 및 아이콘 스타일 */
+  .doi-link {
     color: var(--global-theme-color) !important;
+    text-decoration: none !important;
+    margin-left: 8px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .doi-link i {
+    font-size: 0.8rem;
+    margin-right: 3px;
+  }
+
+  .doi-link:hover {
     text-decoration: underline !important;
-    margin-left: 5px;
-    font-size: 0.85rem;
   }
 </style>
 
@@ -135,14 +136,13 @@ permalink: /scope/
         </div>
         
         <div class="representative-papers">
-          <span class="papers-label"><i class="fa-solid fa-file-lines mr-2"></i> Selected Publications</span>
+          <span class="papers-label"><i class="fa-solid fa-file-lines mr-2"></i> Relevant Publications</span>
           <ul class="manual-pub-list">
             <li>
-              <span class="pub-title">논문 제목을 여기에 입력하세요</span>
-              <span class="pub-info"><em>Journal Name</em>, 2026</span>
-              <a href="DOI_URL" class="doi-link" target="_blank">[DOI]</a>
+              <i>T. Lee, et al.</i>, <b>Journal of Materials Research and Technology</b>, 2025
+              <a href="https://doi.org/10.1016/j.jmrt.2025.10.222" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i> DOI</a>
             </li>
-            </ul>
+          </ul>
         </div>
       </div>
     </div>
@@ -167,12 +167,11 @@ permalink: /scope/
         </div>
 
         <div class="representative-papers">
-          <span class="papers-label"><i class="fa-solid fa-file-lines mr-2"></i> Selected Publications</span>
+          <span class="papers-label"><i class="fa-solid fa-file-lines mr-2"></i> Relevant Publications</span>
           <ul class="manual-pub-list">
             <li>
-              <span class="pub-title">대표 논문 제목 입력</span>
-              <span class="pub-info"><em>Nature Materials</em>, 2025</span>
-              <a href="#" class="doi-link">[DOI]</a>
+              <i>T. Lee, et al.</i>, <b>Acta Materialia</b>, 2024
+              <a href="#" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i> DOI</a>
             </li>
           </ul>
         </div>
@@ -199,12 +198,11 @@ permalink: /scope/
         </div>
 
         <div class="representative-papers">
-          <span class="papers-label"><i class="fa-solid fa-file-lines mr-2"></i> Selected Publications</span>
+          <span class="papers-label"><i class="fa-solid fa-file-lines mr-2"></i> Relevant Publications</span>
           <ul class="manual-pub-list">
             <li>
-              <span class="pub-title">전류펄스 관련 논문 제목</span>
-              <span class="pub-info"><em>Acta Materialia</em>, 2024</span>
-              <a href="#" class="doi-link">[DOI]</a>
+              <i>T. Lee, et al.</i>, <b>Journal of Magnesium and Alloys</b>, 2024
+              <a href="#" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i> DOI</a>
             </li>
           </ul>
         </div>
