@@ -64,7 +64,7 @@ permalink: /scope/
     left: 0;
   }
 
-  /* 4. 대표 논문 섹션 (Selected Publications 서식) */
+/* 4. 대표 논문 섹션 (최소 정보만 표시) */
   .representative-papers {
     margin-top: 30px;
     padding-top: 20px;
@@ -80,29 +80,54 @@ permalink: /scope/
     display: block;
   }
 
-  /* 논문 리스트 가독성 조정 */
-  .representative-papers .publications ol.bibliography li {
-    font-size: 0.95rem;
-    line-height: 1.5;
-    margin-bottom: 15px;
-  }
-
-  /* Selected Publications 내의 연도 헤더(2026, 2025 등)와 구분선 숨기기 */
-  .representative-papers h2.bibliography,
-  .representative-papers .abbr,
-  .representative-papers .author,
-  .representative-papers .abstract,
-  .representative-papers .volume,
-  .representative-papers .number,
-  .representative-papers .pages,
-  .representative-papers .badges {
+  /* [핵심] 논문 정보 필터링: 저널명, 연도, 링크(DOI 등)만 노출 */
+  .representative-papers h2.bibliography, /* 연도 헤더 삭제 */
+  .representative-papers .abbr,           /* 학술지 약어 배지 삭제 */
+  .representative-papers .author,         /* 저자 삭제 */
+  .representative-papers .abstract,       /* 초록 삭제 */
+  .representative-papers .volume,         /* 권 삭제 */
+  .representative-papers .number,         /* 호 삭제 */
+  .representative-papers .pages,          /* 페이지 삭제 */
+  .representative-papers .badges {        /* 기타 배지 삭제 */
     display: none !important;
   }
   
-  /* 연도 헤더가 사라진 후 생기는 상단 여백 조정 */
   .representative-papers ol.bibliography {
     margin-top: 0 !important;
     padding-top: 0 !important;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .representative-papers .title {
+    font-weight: 700 !important;
+    font-size: 1rem !important;
+    display: block;
+    color: var(--global-text-color);
+    margin-bottom: 2px;
+  }
+
+  .representative-papers .periodical {
+    font-style: normal !important;
+    color: var(--global-text-color);
+    opacity: 0.8;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  /* 링크(DOI 등) 스타일링: 텍스트 형태로 간결하게 표시 */
+  .representative-papers .links {
+    display: inline-block !important;
+  }
+
+  .representative-papers .links a.btn {
+    padding: 0px 5px !important;
+    font-size: 0.8rem !important;
+    height: auto !important;
+    border: none !important;
+    color: var(--global-theme-color) !important;
+    text-decoration: underline !important;
   }
 </style>
 
@@ -214,6 +239,7 @@ permalink: /scope/
 
   <div class="research-card">
     <div class="row">
+    <div class="col-lg-8">
         <h3 class="research-title">
           기타 연구주제
         </h3>
@@ -226,6 +252,7 @@ permalink: /scope/
             <li>전자제품용 강판의 강성 향상 (Improving Ferrous Stiffness for Electric Devices)</li>
           </ul>
         </div>
+      </div>
     </div>
   </div>
 
