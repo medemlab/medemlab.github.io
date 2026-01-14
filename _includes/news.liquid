@@ -1,14 +1,20 @@
 {% if site.news != blank %}
   {% assign news = site.news | sort: 'date' | reverse %}
+  {% assign current_date = "" %}
   <div class="news">
     <table class="table table-sm table-borderless">
       {% comment %} 1~3번째 뉴스: 항상 노출 {% endcomment %}
       {% for item in news limit: 3 %}
+        {% capture item_date %}{{ item.date | date: "%Y %b" }}{% endcapture %}
         <tr>
-          <th scope="row" class="news-date-cell">{{ item.date | date: "%Y %b" }}</th>
+          <th scope="row" class="news-date-cell">
+            {% if item_date != current_date %}
+              <i class="fa-regular fa-calendar mr-2"></i> {{ item_date }}
+              {% assign current_date = item_date %}
+            {% endif %}
+          </th>
           <td class="news-content-cell">
-            {% if item.inline %}{{ item.content | remove: '<p>' | remove: '</p>' }}
-            {% else %}<a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>{% endif %}
+            {% if item.inline %}{{ item.content | remove: '<p>' | remove: '</p>' }}{% else %}<a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>{% endif %}
           </td>
         </tr>
       {% endfor %}
@@ -20,11 +26,16 @@
       <summary class="news-more-btn">More news...</summary>
       <table class="table table-sm table-borderless">
         {% for item in news offset: 3 limit: 7 %}
+          {% capture item_date %}{{ item.date | date: "%Y %b" }}{% endcapture %}
           <tr>
-            <th scope="row" class="news-date-cell">{{ item.date | date: "%Y %b" }}</th>
+            <th scope="row" class="news-date-cell">
+              {% if item_date != current_date %}
+                <i class="fa-regular fa-calendar mr-2"></i> {{ item_date }}
+                {% assign current_date = item_date %}
+              {% endif %}
+            </th>
             <td class="news-content-cell">
-              {% if item.inline %}{{ item.content | remove: '<p>' | remove: '</p>' }}
-              {% else %}<a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>{% endif %}
+              {% if item.inline %}{{ item.content | remove: '<p>' | remove: '</p>' }}{% else %}<a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>{% endif %}
             </td>
           </tr>
         {% endfor %}
@@ -32,6 +43,4 @@
     </details>
     {% endif %}
   </div>
-{% else %}
-  <p>No news so far...</p>
 {% endif %}
