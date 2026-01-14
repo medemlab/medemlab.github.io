@@ -40,11 +40,11 @@ nav_order: 4
 
   /* 월(Month) 약자 표시 영역 */
   .news-date {
-    min-width: 100px; /* 약자로 줄어듦에 따라 너비 소폭 조정 */
+    min-width: 100px;
     font-weight: 700;
     color: var(--global-theme-color);
     font-size: 1rem;
-    text-transform: uppercase; /* JAN, FEB 등 대문자 강조 */
+    text-transform: uppercase;
   }
 
   .news-content {
@@ -64,7 +64,7 @@ nav_order: 4
     text-decoration: underline;
   }
 
-    /* 링크 아이콘 스타일 */
+  /* 링크 아이콘 스타일 */
   .link-icon {
     margin-left: 6px;
     text-decoration: none !important;
@@ -79,26 +79,26 @@ nav_order: 4
 
 <div class="news">
   {% if site.news != blank %}
-    {% comment %} 날짜(연/월/일 전체)를 기준으로 내림차순 정렬 (일 단위까지 반영) {% endcomment %}
     {% assign news_pages = site.news | sort: "date" | reverse %}
-    
     {% assign current_year = "" %}
-    
+    {% assign current_month = "" %}
     {% for item in news_pages %}
       {% capture item_year %}{{ item.date | date: "%Y" }}{% endcapture %}
-      
+      {% capture item_month %}{{ item.date | date: "%b" }}{% endcapture %}
       {% if item_year != current_year %}
         {% if current_year != "" %}</div>{% endif %}
         <h2 class="news-year">{{ item_year }}</h2>
         <div class="news-list-container">
         {% assign current_year = item_year %}
+        {% assign current_month = "" %}{% comment %} 연도가 바뀌면 월 체크 변수 초기화 {% endcomment %}
       {% endif %}
-
       <div class="news-item">
-        {% comment %} 화면에는 월(Month) 약자(%b)만 출력 {% endcomment %}
         <div class="news-date">
           <i class="fa-regular fa-calendar mr-2"></i>
-          {{ item.date | date: "%b" }}
+          {% if item_month != current_month %}
+            {{ item_month }}
+            {% assign current_month = item_month %}
+          {% endif %}
         </div>
         <div class="news-content">
           {% if item.inline %}
@@ -109,9 +109,7 @@ nav_order: 4
         </div>
       </div>
     {% endfor %}
-    
     </div>
-    
   {% else %}
     <p>등록된 뉴스가 없습니다.</p>
   {% endif %}
