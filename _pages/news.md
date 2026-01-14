@@ -38,7 +38,7 @@ nav_order: 4
     border-bottom: none;
   }
 
-  /* 월(Month) 약자 표시 영역 */
+  /* 월(Month) 약자 및 아이콘 표시 영역 */
   .news-date {
     min-width: 100px;
     font-weight: 700;
@@ -80,22 +80,27 @@ nav_order: 4
 <div class="news">
   {% if site.news != blank %}
     {% assign news_pages = site.news | sort: "date" | reverse %}
+    
     {% assign current_year = "" %}
     {% assign current_month = "" %}
+    
     {% for item in news_pages %}
       {% capture item_year %}{{ item.date | date: "%Y" }}{% endcapture %}
       {% capture item_month %}{{ item.date | date: "%b" }}{% endcapture %}
+      
       {% if item_year != current_year %}
         {% if current_year != "" %}</div>{% endif %}
         <h2 class="news-year">{{ item_year }}</h2>
         <div class="news-list-container">
         {% assign current_year = item_year %}
-        {% assign current_month = "" %}{% comment %} 연도가 바뀌면 월 체크 변수 초기화 {% endcomment %}
+        {% assign current_month = "" %}
       {% endif %}
+
       <div class="news-item">
         <div class="news-date">
-          <i class="fa-regular fa-calendar mr-2"></i>
+          {% comment %} 같은 달의 최신 뉴스인 경우에만 아이콘과 월 이름을 출력 {% endcomment %}
           {% if item_month != current_month %}
+            <i class="fa-regular fa-calendar mr-2"></i>
             {{ item_month }}
             {% assign current_month = item_month %}
           {% endif %}
@@ -109,7 +114,9 @@ nav_order: 4
         </div>
       </div>
     {% endfor %}
+    
     </div>
+    
   {% else %}
     <p>등록된 뉴스가 없습니다.</p>
   {% endif %}
