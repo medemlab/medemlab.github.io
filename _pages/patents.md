@@ -97,7 +97,7 @@ permalink: /patents/
   <h2 class="patent-year">2025</h2>
   <ul class="patent-list">
     <li class="patent-item">
-      <div class="patent-icon"><i class="fa-solid fa-certificate"></i></div>
+      <div class="patent-icon"><i class="fa-solid fa-lightbulb"></i></div>
       <div class="patent-content">
         <span class="patent-title">저열전도성 CP-Ti 판재의 제조방법 및 이에 의해 제조된 저열전도성 CP-Ti 판재 <span class="status-badge status-registered">출원</span></span>
         <span class="patent-authors">구현곤, <u>이태경</u>, 박우진, 안재웅, 천세호, 이승엽, 이정훈</span>
@@ -106,7 +106,7 @@ permalink: /patents/
     </li>
   <ul class="patent-list">
     <li class="patent-item">
-      <div class="patent-icon"><i class="fa-solid fa-certificate"></i></div>
+      <div class="patent-icon"><i class="fa-solid fa-lightbulb"></i></div>
       <div class="patent-content">
         <span class="patent-title">인공지능 기술을 활용한 마그네슘 합금의 저주기 피로 수명 예측 방법 및 그 장치 (Method for predicting low-cycle fatigue life of magnesium alloy using artificial intelligence technology and its device) <span class="status-badge status-registered">출원</span></span>
         <span class="patent-authors">유진영, 김성원, 천세호, 이성호, <u>이태경</u></span>
@@ -118,7 +118,7 @@ permalink: /patents/
   <h2 class="patent-year">2017</h2>
   <ul class="patent-list">
     <li class="patent-item">
-      <div class="patent-icon"><i class="fa-solid fa-certificate"></i></div>
+      <div class="patent-icon"><i class="fa-solid fa-lightbulb"></i></div>
       <div class="patent-content">
         <span class="patent-title">뼈의 형상을 모방한 생체 의료용 다공성 타이타늄 및 그의 제조방법 (Human Bone Mimetic Porous Titanium for Biomedical Application and Manufacturing Method Thereof) <span class="status-badge status-registered">등록</span></span>
         <span class="patent-authors">이종수, 이병갑, 김형섭, 이용문, 오상호, 차형준, 한세광, <u>이태경</u></span>
@@ -130,7 +130,7 @@ permalink: /patents/
   <h2 class="patent-year">2014</h2>
   <ul class="patent-list">
     <li class="patent-item">
-      <div class="patent-icon"><i class="fa-solid fa-certificate"></i></div>
+      <div class="patent-icon"><i class="fa-solid fa-lightbulb"></i></div>
       <div class="patent-content">
         <span class="patent-title">의료용 초세립 티타늄 합금 봉재의 제조방법 및 이에 의해 제조된 티타늄 합금 봉재 (Method of Manufacturing Ultrafine-Grained Titanium Rod for Biomedical Applications, and Titanium Rod Manufactured by the Same) <span class="status-badge status-registered">등록</span></span>
         <span class="patent-authors">이종수, 이병갑, 이준모, <u>이태경</u></span>
@@ -142,7 +142,7 @@ permalink: /patents/
   <h2 class="patent-year">2013</h2>
   <ul class="patent-list">
     <li class="patent-item">
-      <div class="patent-icon"><i class="fa-solid fa-certificate"></i></div>
+      <div class="patent-icon"><i class="fa-solid fa-lightbulb"></i></div>
       <div class="patent-content">
         <span class="patent-title">초세립 고강도 선재 및 그 제조방법 (Ultrafine-Grained Wire Rod Having High Strength and Method for Manufacturing the Same) <span class="status-badge status-registered">등록</span></span>
         <span class="patent-authors">이종수, <u>이태경</u>, 이상윤, 손일헌</span>
@@ -154,7 +154,7 @@ permalink: /patents/
 <h2 class="patent-year">2012</h2>
   <ul class="patent-list">
     <li class="patent-item">
-      <div class="patent-icon"><i class="fa-solid fa-certificate"></i></div>
+      <div class="patent-icon"><i class="fa-solid fa-lightbulb"></i></div>
       <div class="patent-content">
         <span class="patent-title">우수한 강도와 연성을 갖는 초세립 선재 및 그 제조방법 (Ultrafine-Grained Wire Rod Having High Strength and Ducility and Method for Manufacturing the Same) <span class="status-badge status-registered">등록</span></span>
         <span class="patent-authors">이종수, <u>이태경</u>, 손일헌, 이상윤, 이유환, 김용우</span>
