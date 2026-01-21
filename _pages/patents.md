@@ -104,9 +104,6 @@ permalink: /patents/
         <span class="patent-details">출원번호: 10-2025-0213657 | 출원일자: 2025. 12. 30.</span>
       </div>
     </li>
-  </ul>
-
-  <h2 class="patent-year">2025</h2>
   <ul class="patent-list">
     <li class="patent-item">
       <div class="patent-icon"><i class="fa-solid fa-certificate"></i></div>
