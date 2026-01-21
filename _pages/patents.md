@@ -96,7 +96,18 @@ permalink: /patents/
 
   <h2 class="patent-year">2025</h2>
   <ul class="patent-list">
+    <li class="patent-item">
+      <div class="patent-icon"><i class="fa-solid fa-certificate"></i></div>
+      <div class="patent-content">
+        <span class="patent-title">저열전도성 CP-Ti 판재의 제조방법 및 이에 의해 제조된 저열전도성 CP-Ti 판재 <span class="status-badge status-registered">출원</span></span>
+        <span class="patent-authors">구현곤, <u>이태경</u>, 박우진, 안재웅, 천세호, 이승엽, 이정훈</span>
+        <span class="patent-details">출원번호: 10-2025-0213657 | 출원일자: 2025. 12. 30.</span>
+      </div>
+    </li>
+  </ul>
 
+  <h2 class="patent-year">2025</h2>
+  <ul class="patent-list">
     <li class="patent-item">
       <div class="patent-icon"><i class="fa-solid fa-certificate"></i></div>
       <div class="patent-content">
@@ -105,12 +116,10 @@ permalink: /patents/
         <span class="patent-details">출원번호: 10-2025-0066644 | 출원일자: 2025. 5. 22.</span>
       </div>
     </li>
-
   </ul>
 
   <h2 class="patent-year">2017</h2>
   <ul class="patent-list">
-
     <li class="patent-item">
       <div class="patent-icon"><i class="fa-solid fa-certificate"></i></div>
       <div class="patent-content">
@@ -119,12 +128,10 @@ permalink: /patents/
         <span class="patent-details">등록번호: 10-1767756-0000 | 등록일자: 2017. 8. 7.</span>
       </div>
     </li>
-
   </ul>
 
   <h2 class="patent-year">2014</h2>
   <ul class="patent-list">
-
     <li class="patent-item">
       <div class="patent-icon"><i class="fa-solid fa-certificate"></i></div>
       <div class="patent-content">
@@ -133,12 +140,10 @@ permalink: /patents/
         <span class="patent-details">등록번호: 10-1374233-0000 | 등록일자: 2014. 3. 7.</span>
       </div>
     </li>
-
   </ul>
 
   <h2 class="patent-year">2013</h2>
   <ul class="patent-list">
-
     <li class="patent-item">
       <div class="patent-icon"><i class="fa-solid fa-certificate"></i></div>
       <div class="patent-content">
@@ -147,12 +152,10 @@ permalink: /patents/
         <span class="patent-details">등록번호: 10-1228798-0000 | 등록일자: 2013. 1. 25.</span>
       </div>
     </li>
-
   </ul>
 
 <h2 class="patent-year">2012</h2>
   <ul class="patent-list">
-
     <li class="patent-item">
       <div class="patent-icon"><i class="fa-solid fa-certificate"></i></div>
       <div class="patent-content">
@@ -161,7 +164,5 @@ permalink: /patents/
         <span class="patent-details">등록번호: 10-1180196-0000 | 등록일자: 2012. 8. 30.</span>
       </div>
     </li>
-
   </ul>
-
 </div>
