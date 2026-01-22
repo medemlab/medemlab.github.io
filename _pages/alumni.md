@@ -41,7 +41,7 @@ permalink: /alumni/
     {% if alumni_members.size > 0 %}
       <div class="position-group mb-5">
         {% case type %}
-          {% when 'PhD' %} <h2 class="category mb-4">Ph.D. Alumni</h2>
+          {% when 'PhD' %} <h2 class="category">Ph.D. Alumni</h2>
           {% when 'MS' %} <h2 class="category mb-4">M.S. Alumni</h2>
         {% endcase %}
         
