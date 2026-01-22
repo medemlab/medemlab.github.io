@@ -5,17 +5,12 @@ permalink: /alumni/
 ---
 
 <style>
-  /* 카테고리 헤더 스타일 (Members/Professor 페이지와 통일) */
+  /* 카테고리 제목: 라이트-블루 / 다크-골드 반영 */
   .category {
     color: var(--global-theme-color) !important;
-    border-bottom: 1px solid var(--global-divider-color); /* 하단 선 추가 */
-    padding-bottom: 10px;                                 /* 선과의 간격 */
-    margin-top: 50px !important;                         /* 위쪽 여백 */
-    margin-bottom: 25px !important;                      /* 아래쪽 여백 */
-    font-weight: 800 !important;                         /* 아주 굵게 */
-    text-transform: uppercase;                           /* 대문자로 변환 */
-    letter-spacing: 1px;                                 /* 자간 조절 */
-    display: block;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-weight: 700;
   }
   
   /* 카드 배경 및 테두리 (다크모드 대응) */
@@ -49,7 +44,7 @@ permalink: /alumni/
     {% if alumni_members.size > 0 %}
       <div class="position-group mb-5">
         {% case type %}
-          {% when 'PhD' %} <h2 class="category mb-4">Ph.D. Alumni</h2>
+          {% when 'PhD' %} <h2 class="category">Ph.D. Alumni</h2>
           {% when 'MS' %} <h2 class="category mb-4">M.S. Alumni</h2>
         {% endcase %}
         
