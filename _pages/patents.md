@@ -156,7 +156,7 @@ permalink: /patents/
     <li class="patent-item">
       <div class="patent-icon"><i class="fa-solid fa-lightbulb"></i></div>
       <div class="patent-content">
-        <span class="patent-title">우수한 강도와 연성을 갖는 초세립 선재 및 그 제조방법 (Ultrafine-Grained Wire Rod Having High Strength and Ducility and Method for Manufacturing the Same) <span class="status-badge status-registered">등록</span></span>
+        <span class="patent-title">우수한 강도와 연성을 갖는 초세립 선재 및 그 제조방법 (Ultrafine-Grained Wire Rod Having High Strength and Ductility and Method for Manufacturing the Same) <span class="status-badge status-registered">등록</span></span>
         <span class="patent-authors">이종수, <u>이태경</u>, 손일헌, 이상윤, 이유환, 김용우</span>
         <span class="patent-details">등록번호: 10-1180196-0000 | 등록일자: 2012. 8. 30.</span>
       </div>
