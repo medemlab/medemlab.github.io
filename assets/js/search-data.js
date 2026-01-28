@@ -453,7 +453,7 @@ ninja.data = [{
           title: 'Mg-Y-Cu-Ni LPSO 합금에서 Y 함량이 재료 성능에 미치는 영향에 대해 연구한 결과가 Journal...',
           description: "",
           section: "News",},{id: "news-이태경-교수님이-일본-kyushu-university의-campus-asia-plus-eest-교수를-겸임하시게-되었습니다",
-          title: '이태경 교수님이 일본 Kyushu University의 Campus Asia Plus EEST 교수를 겸임하시게 되었습니다.',
+          title: '이태경 교수님이 일본 Kyushu University의 CAMPUS Asia Plus EEST 교수를 겸임하시게 되었습니다.',
           description: "",
           section: "News",},{id: "profiles-taein-kong",
           title: 'Taein Kong',
