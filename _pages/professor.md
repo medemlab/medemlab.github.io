@@ -158,6 +158,7 @@ permalink: /professor/
   
   <h2 class="section-title"><i class="fa-solid fa-university mr-2"></i> 대학 내부기관 및 사업단</h2>
   <ul class="custom-list">
+    <li><span class="year-span">2026 - 현재</span> 국방기술연구센터 <a href="https://www.pusan.ac.kr/news/CMS/Board/Board.do?mCode=MN001&mode=view&board_seq=1503526&temp_data1=944&news_ho=944" target="_blank" class="link-icon"><i class="fa-solid fa-link"></i></a></li>
     <li><span class="year-span">2024 - 현재</span> 지역 원자력산업 기반 에너지기술공유대학 <a href="https://nuclear.aerodrone.kr/" target="_blank" class="link-icon"><i class="fa-solid fa-link"></i></a></li>
     <li><span class="year-span">2023 - 현재</span> 하이브리드 제조혁신 엔지니어링 센터 (HIMEC) <a href="https://pnu-himec.pusan.ac.kr/" target="_blank" class="link-icon"><i class="fa-solid fa-link"></i></a></li>
     <li><span class="year-span">2023 - 현재</span> 미래모빌리티센터 <a href="https://futuremobility.pusan.ac.kr/" target="_blank" class="link-icon"><i class="fa-solid fa-link"></i></a></li>
