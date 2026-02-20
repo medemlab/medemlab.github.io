@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-16'
+  last_updated: '2026-02-20'
 papers:
   Oha_H-oAAAAJ:08ZZubdj9fEC:
     citations: 20
@@ -30,7 +30,7 @@ papers:
     title: Phase transformation and its effect on mechanical characteristics in warm-deformed Ti-29Nb-13Ta-4.6Zr alloy
     year: '2015'
   Oha_H-oAAAAJ:3s1wT3WcHBgC:
-    citations: 98
+    citations: 99
     title: "Effect of heat treatment on LPSO morphology and mechanical properties of Mg\u2013Zn\u2013Y\u2013Gd alloys"
     year: '2020'
   Oha_H-oAAAAJ:4JMBOYKVnBMC:
@@ -54,7 +54,7 @@ papers:
     title: Space-holder effect on designing pore structure and determining mechanical properties in porous titanium
     year: '2014'
   Oha_H-oAAAAJ:5ugPr518TE4C:
-    citations: 9
+    citations: 10
     title: Comparative study of dynamic recrystallization behavior, microstructural characteristics, and mechanical properties of high-speed-extruded AZ31 and BA56 magnesium alloys
     year: '2025'
   Oha_H-oAAAAJ:70eg2SAEIzsC:
@@ -142,7 +142,7 @@ papers:
     title: Enhancing mechanical properties of Mg-Gd-Y-Zn alloys via microalloying with Ce and La
     year: '2022'
   Oha_H-oAAAAJ:LPZeul_q3PIC:
-    citations: 13
+    citations: 14
     title: Enhanced prediction of anisotropic deformation behavior using machine learning with data augmentation
     year: '2024'
   Oha_H-oAAAAJ:LkGwnXOMwfcC:
@@ -246,7 +246,7 @@ papers:
     title: 'Internal-variable analysis of high-temperature deformation behavior of Ti-6Al-4V: A comparative study of the strain-rate-jump and load-relaxation tests'
     year: '2013'
   Oha_H-oAAAAJ:WA5NYHcadZ8C:
-    citations: 1
+    citations: 2
     title: Influence of initial texture on twinning and slip behaviors in rolled AZ31 magnesium alloy during three-point bending deformation
     year: '2025'
   Oha_H-oAAAAJ:WbkHhVStYXYC:
@@ -262,7 +262,7 @@ papers:
     title: "Anisotropic properties of directed energy deposition (DED)-processed Ti\u20136Al\u20134V. J Manuf Process 24: 397\u2013405"
     year: '2016'
   Oha_H-oAAAAJ:YFjsv_pBGBYC:
-    citations: 26
+    citations: 27
     title: High-Strength AZ91 Alloy Fabricated by Rapidly Solidified Flaky Powder Metallurgy and Hot Extrusion
     year: '2019'
   Oha_H-oAAAAJ:YOwf2qJgpHMC:
@@ -306,7 +306,7 @@ papers:
     title: Accelerating globularization in additively manufactured Ti-6Al-4V by exploiting martensitic laths
     year: '2021'
   Oha_H-oAAAAJ:blknAaTinKkC:
-    citations: 17
+    citations: 18
     title: Improved cold-rollability of duplex lightweight steels utilizing deformation-induced ferritic transformation
     year: '2019'
   Oha_H-oAAAAJ:bnK-pcrLprsC:
@@ -330,7 +330,7 @@ papers:
     title: "Tuning the texture characteristics and superelastic behaviors of Ti\u2013Zr\u2013Nb\u2013Sn shape memory alloys by varying Nb content"
     year: '2022'
   Oha_H-oAAAAJ:e5wmG9Sq2KIC:
-    citations: 92
+    citations: 93
     title: Constitutive analysis of electrically-assisted tensile deformation of CP-Ti based on non-uniform thermal expansion, plastic softening and dynamic strain aging
     year: '2017'
   Oha_H-oAAAAJ:eJXPG6dFmWUC:
@@ -346,7 +346,7 @@ papers:
     title: Effect of Type-B liquid metal embrittlement cracks on high-cycle fatigue properties of spot-welded 1180 TRIP steel
     year: '2021'
   Oha_H-oAAAAJ:fPk4N6BV_jEC:
-    citations: 28
+    citations: 29
     title: High-strength bolt manufactured by an extrusion-based forming process using twinning-induced plasticity steel
     year: '2020'
   Oha_H-oAAAAJ:fQNAKQ3IYiAC:
@@ -458,7 +458,7 @@ papers:
     title: Enhancing tensile properties of ultrafine-grained medium-carbon steel utilizing fine carbides
     year: '2011'
   Oha_H-oAAAAJ:u5HHmVD_uO8C:
-    citations: 242
+    citations: 243
     title: Work hardening associated with-martensitic transformation, deformation twinning and dynamic strain aging in Fe-17Mn-0.6 C and Fe-17Mn-0.8 C TWIP steels
     year: '2011'
   Oha_H-oAAAAJ:u9iWguZQMMsC:
