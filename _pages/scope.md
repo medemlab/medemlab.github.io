@@ -174,6 +174,8 @@ permalink: /scope/
             <li>
               Shams et al., <b>J. Mater. Sci. Technol.</b>, 2022.
               <a href="https://doi.org/10.1016/j.jmst.2021.10.010" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i></a>
+              Lee et al., <b>J. Alloys Compd.</b>, 2020.
+              <a href="https://doi.org/10.1016/j.jallcom.2020.154401" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i></a>
             </li>
           </ul>
         </div>
