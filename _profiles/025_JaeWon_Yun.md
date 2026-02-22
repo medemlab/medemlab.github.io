@@ -2,7 +2,7 @@
 layout: about
 title: 윤재원
 first_name: Jae Won
-last_name: Yoon
+last_name: Yun
 category: Member    # Professor / Member / Almuni
 course: MS        # (Members) Post-Doc / PhD / MS / Undergrad
                     # (Alumni) PhD / MS
