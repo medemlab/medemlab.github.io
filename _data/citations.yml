@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-20'
+  last_updated: '2026-02-27'
 papers:
   Oha_H-oAAAAJ:08ZZubdj9fEC:
     citations: 20
@@ -66,7 +66,7 @@ papers:
     title: Heterogeneous-structured Ti-6Al-4V with enhanced mechanical properties in monotonic and cyclic deformation modes
     year: '2023'
   Oha_H-oAAAAJ:8AbLer7MMksC:
-    citations: 11
+    citations: 12
     title: "Mechanical property of the shape memorable Ti\u2013Zr\u2013Nb\u2013Sn alloy manufactured by in-situ alloying in directed energy deposition"
     year: '2024'
   Oha_H-oAAAAJ:8k81kl-MbHgC:
@@ -90,7 +90,7 @@ papers:
     title: Comparative study on the effects of Cr, V, and Mo carbides for hydrogen-embrittlement resistance of tempered martensitic steel
     year: '2019'
   Oha_H-oAAAAJ:BrmTIyaxlBUC:
-    citations: 8
+    citations: 9
     title: 'Electropulsing anisotropy of cold-rolled Grade 2 titanium sheet: Effect of electric current direction on recrystallization and hardness'
     year: '2024'
   Oha_H-oAAAAJ:CHSYGLWDkRkC:
@@ -142,7 +142,7 @@ papers:
     title: Enhancing mechanical properties of Mg-Gd-Y-Zn alloys via microalloying with Ce and La
     year: '2022'
   Oha_H-oAAAAJ:LPZeul_q3PIC:
-    citations: 14
+    citations: 13
     title: Enhanced prediction of anisotropic deformation behavior using machine learning with data augmentation
     year: '2024'
   Oha_H-oAAAAJ:LkGwnXOMwfcC:
@@ -326,7 +326,7 @@ papers:
     title: Variation in mechanical properties of TI-13NB-13ZR depending on annealing temperature
     year: '2020'
   Oha_H-oAAAAJ:dshw04ExmUIC:
-    citations: 24
+    citations: 25
     title: "Tuning the texture characteristics and superelastic behaviors of Ti\u2013Zr\u2013Nb\u2013Sn shape memory alloys by varying Nb content"
     year: '2022'
   Oha_H-oAAAAJ:e5wmG9Sq2KIC:
@@ -366,7 +366,7 @@ papers:
     title: Prediction of hole expansion ratio for various steel sheets based on uniaxial tensile properties
     year: '2018'
   Oha_H-oAAAAJ:kNdYIx-mwKoC:
-    citations: 101
+    citations: 103
     title: Surface modification of multipass caliber-rolled Ti alloy with dexamethasone-loaded graphene for dental applications
     year: '2015'
   Oha_H-oAAAAJ:kRWSkSYxWN8C:
@@ -466,7 +466,7 @@ papers:
     title: Microstructure, transformation behavior and superelasticity of an aged Ti-40Ni-12Cu (at%) shape memory alloy
     year: '2022'
   Oha_H-oAAAAJ:uWQEDVKXjbEC:
-    citations: 39
+    citations: 40
     title: Towards bone-like elastic modulus in TiNbSn alloys with large recovery strain for biomedical applications
     year: '2022'
   Oha_H-oAAAAJ:u_35RYKgDlwC:
