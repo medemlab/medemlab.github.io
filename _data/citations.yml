@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-27'
+  last_updated: '2026-03-09'
 papers:
   Oha_H-oAAAAJ:08ZZubdj9fEC:
     citations: 20
@@ -14,7 +14,7 @@ papers:
     title: Transformation-induced plasticity in the heterogeneous microstructured Ti-Zr-Nb-Sn alloy via in-situ alloying with directed energy deposition
     year: '2022'
   Oha_H-oAAAAJ:2P1L_qKh6hAC:
-    citations: 26
+    citations: 27
     title: Deep-learning approach to predict a severe plastic anisotropy of caliber-rolled Mg alloy
     year: '2020'
   Oha_H-oAAAAJ:2osOgNQ5qMEC:
@@ -30,7 +30,7 @@ papers:
     title: Phase transformation and its effect on mechanical characteristics in warm-deformed Ti-29Nb-13Ta-4.6Zr alloy
     year: '2015'
   Oha_H-oAAAAJ:3s1wT3WcHBgC:
-    citations: 99
+    citations: 100
     title: "Effect of heat treatment on LPSO morphology and mechanical properties of Mg\u2013Zn\u2013Y\u2013Gd alloys"
     year: '2020'
   Oha_H-oAAAAJ:4JMBOYKVnBMC:
@@ -126,7 +126,7 @@ papers:
     title: High strain-rate superplasticity of AZ91 alloy achieved by rapidly solidified flaky powder metallurgy
     year: '2019'
   Oha_H-oAAAAJ:J_g5lzvAfSwC:
-    citations: 16
+    citations: 17
     title: "Fabrication of porous titanium parts by powder bed fusion of Ti\u2013TiH2 blended powder"
     year: '2020'
   Oha_H-oAAAAJ:K3LRdlH-MEoC:
@@ -142,11 +142,11 @@ papers:
     title: Enhancing mechanical properties of Mg-Gd-Y-Zn alloys via microalloying with Ce and La
     year: '2022'
   Oha_H-oAAAAJ:LPZeul_q3PIC:
-    citations: 13
+    citations: 15
     title: Enhanced prediction of anisotropic deformation behavior using machine learning with data augmentation
     year: '2024'
   Oha_H-oAAAAJ:LkGwnXOMwfcC:
-    citations: 89
+    citations: 90
     title: Grain refinement effect on cryogenic tensile ductility in a Fe-Mn-C twinning-induced plasticity steel
     year: '2013'
   Oha_H-oAAAAJ:M05iB0D1s5AC:
@@ -266,7 +266,7 @@ papers:
     title: High-Strength AZ91 Alloy Fabricated by Rapidly Solidified Flaky Powder Metallurgy and Hot Extrusion
     year: '2019'
   Oha_H-oAAAAJ:YOwf2qJgpHMC:
-    citations: 44
+    citations: 45
     title: "Microstructural evolution and strain-hardening behavior of multi-pass caliber-rolled Ti\u201313Nb\u201313Zr"
     year: '2015'
   Oha_H-oAAAAJ:ZHo1McVdvXMC:
@@ -278,7 +278,7 @@ papers:
     title: Manufacturing ultrafine-grained Ti-6Al-4V bulk rod using multi-pass caliber-rolling
     year: '2015'
   Oha_H-oAAAAJ:_kc_bZDykSQC:
-    citations: 35
+    citations: 36
     title: Tribological and corrosion behaviors of warm- and hot-rolled Ti-13Nb-13Zr alloys in simulated body fluid conditions
     year: '2015'
   Oha_H-oAAAAJ:_xSYboBqXhAC:
@@ -302,11 +302,11 @@ papers:
     title: Brazing method to join a novel Cu54Ni6Zr22Ti18 bulk metallic glass to carbon steel
     year: '2017'
   Oha_H-oAAAAJ:bFI3QPDXJZMC:
-    citations: 22
+    citations: 23
     title: Accelerating globularization in additively manufactured Ti-6Al-4V by exploiting martensitic laths
     year: '2021'
   Oha_H-oAAAAJ:blknAaTinKkC:
-    citations: 18
+    citations: 20
     title: Improved cold-rollability of duplex lightweight steels utilizing deformation-induced ferritic transformation
     year: '2019'
   Oha_H-oAAAAJ:bnK-pcrLprsC:
@@ -318,11 +318,11 @@ papers:
     title: Constitutive Analysis of the Anisotropic Flow Behavior of Commercially Pure Titanium
     year: '2020'
   Oha_H-oAAAAJ:d1gkVwhDpl0C:
-    citations: 87
+    citations: 88
     title: "Tensile deformation behavior of Fe\u2013Mn\u2013C TWIP steel with ultrafine elongated grain structure"
     year: '2012'
   Oha_H-oAAAAJ:dfsIfKJdRG4C:
-    citations: 20
+    citations: 21
     title: Variation in mechanical properties of TI-13NB-13ZR depending on annealing temperature
     year: '2020'
   Oha_H-oAAAAJ:dshw04ExmUIC:
@@ -346,7 +346,7 @@ papers:
     title: Effect of Type-B liquid metal embrittlement cracks on high-cycle fatigue properties of spot-welded 1180 TRIP steel
     year: '2021'
   Oha_H-oAAAAJ:fPk4N6BV_jEC:
-    citations: 29
+    citations: 30
     title: High-strength bolt manufactured by an extrusion-based forming process using twinning-induced plasticity steel
     year: '2020'
   Oha_H-oAAAAJ:fQNAKQ3IYiAC:
@@ -434,7 +434,7 @@ papers:
     title: Kinetics of capability aging in Ti-13Nb-13Zr alloy
     year: '2020'
   Oha_H-oAAAAJ:roLk4NBRz8UC:
-    citations: 63
+    citations: 64
     title: "Microstructure tailoring to enhance strength and ductility in Ti\u201313Nb\u201313Zr for biomedical applications"
     year: '2013'
   Oha_H-oAAAAJ:sSrBHYA8nusC:
@@ -458,7 +458,7 @@ papers:
     title: Enhancing tensile properties of ultrafine-grained medium-carbon steel utilizing fine carbides
     year: '2011'
   Oha_H-oAAAAJ:u5HHmVD_uO8C:
-    citations: 243
+    citations: 245
     title: Work hardening associated with-martensitic transformation, deformation twinning and dynamic strain aging in Fe-17Mn-0.6 C and Fe-17Mn-0.8 C TWIP steels
     year: '2011'
   Oha_H-oAAAAJ:u9iWguZQMMsC:
