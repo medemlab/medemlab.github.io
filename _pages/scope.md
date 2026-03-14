@@ -138,6 +138,8 @@ permalink: /scope/
           <span class="papers-label"><i class="fa-solid fa-file-lines mr-2"></i> 주요 연구 성과</span>
           <ul class="manual-pub-list">
             <li>
+              Yu et al., <b>J. Magnes. Alloy.</b>, 2026.
+              <a href="https://doi.org/10.1016/j.jma.2026.102028" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i></a><br>
               Lee et al., <b>J. Mater. Res. Technol.</b>, 2025.
               <a href="https://doi.org/10.1016/j.jmrt.2025.10.222" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i></a><br>
               Yu et al., <b>J. Magnes. Alloy.</b>, 2024.
