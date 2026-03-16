@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-11'
+  last_updated: '2026-03-16'
 papers:
   Oha_H-oAAAAJ:08ZZubdj9fEC:
     citations: 20
@@ -94,7 +94,7 @@ papers:
     title: 'Electropulsing anisotropy of cold-rolled Grade 2 titanium sheet: Effect of electric current direction on recrystallization and hardness'
     year: '2024'
   Oha_H-oAAAAJ:CHSYGLWDkRkC:
-    citations: 31
+    citations: 32
     title: "Effect on Zn on microstructures and mechanical properties of Mg\u2013Gd\u2013Y\u2013Zn LPSO alloys"
     year: '2022'
   Oha_H-oAAAAJ:D03iK_w7-QYC:
@@ -182,7 +182,7 @@ papers:
     title: Origin of superior low-cycle fatigue resistance of an interstitial metastable high-entropy alloy
     year: '2022'
   Oha_H-oAAAAJ:O3NaXMp0MMsC:
-    citations: 53
+    citations: 54
     title: Improved tensile properties of AZ31 Mg alloy subjected to various caliber-rolling strains
     year: '2019'
   Oha_H-oAAAAJ:OU6Ihb5iCvQC:
@@ -210,7 +210,7 @@ papers:
     title: Tempcore process simulator to analyze microstructural evolution of quenched and tempered rebar
     year: '2019'
   Oha_H-oAAAAJ:SP6oXDckpogC:
-    citations: 13
+    citations: 15
     title: "Improvement in the superelasticity of a Ti\u201335.5 Ni\u201315Cu (at.%) alloy using Ti (Ni, Cu) 2 phase"
     year: '2022'
   Oha_H-oAAAAJ:SeFeTyx0c_EC:
@@ -222,7 +222,7 @@ papers:
     title: Effects of drawing strain and post-annealing conditions on microstructural evolution and tensile properties of medium-and high-carbon steels
     year: '2017'
   Oha_H-oAAAAJ:TQgYirikUcIC:
-    citations: 198
+    citations: 199
     title: "Anisotropic properties of directed energy deposition (DED)-processed Ti\u20136Al\u20134V"
     year: '2016'
   Oha_H-oAAAAJ:Tiz5es2fbqcC:
@@ -246,7 +246,7 @@ papers:
     title: 'Internal-variable analysis of high-temperature deformation behavior of Ti-6Al-4V: A comparative study of the strain-rate-jump and load-relaxation tests'
     year: '2013'
   Oha_H-oAAAAJ:WA5NYHcadZ8C:
-    citations: 2
+    citations: 3
     title: Influence of initial texture on twinning and slip behaviors in rolled AZ31 magnesium alloy during three-point bending deformation
     year: '2025'
   Oha_H-oAAAAJ:WbkHhVStYXYC:
@@ -282,7 +282,7 @@ papers:
     title: Tribological and corrosion behaviors of warm- and hot-rolled Ti-13Nb-13Zr alloys in simulated body fluid conditions
     year: '2015'
   Oha_H-oAAAAJ:_xSYboBqXhAC:
-    citations: 18
+    citations: 19
     title: Effect of type-C liquid metal embrittlement on mechanical properties of spot-welded TRIP steel
     year: '2021'
   Oha_H-oAAAAJ:a0OBvERweLwC:
@@ -294,7 +294,7 @@ papers:
     title: Accelerated recrystallization behavior of commercially pure titanium subjected to an alternating-current electropulse
     year: '2021'
   Oha_H-oAAAAJ:b0M2c_1WBrUC:
-    citations: 41
+    citations: 42
     title: "Effects of laser power on the microstructure evolution and mechanical properties of Ti\u20136Al\u20134V alloy manufactured by direct energy deposition"
     year: '2022'
   Oha_H-oAAAAJ:bEWYMUwI8FkC:
@@ -362,7 +362,7 @@ papers:
     title: "Twinning-induced plasticity mechanism of \u03B1 \u2033-martensitic titanium alloy"
     year: '2023'
   Oha_H-oAAAAJ:isC4tDSrTZIC:
-    citations: 33
+    citations: 34
     title: Prediction of hole expansion ratio for various steel sheets based on uniaxial tensile properties
     year: '2018'
   Oha_H-oAAAAJ:kNdYIx-mwKoC:
@@ -462,11 +462,11 @@ papers:
     title: Work hardening associated with-martensitic transformation, deformation twinning and dynamic strain aging in Fe-17Mn-0.6 C and Fe-17Mn-0.8 C TWIP steels
     year: '2011'
   Oha_H-oAAAAJ:u9iWguZQMMsC:
-    citations: 12
+    citations: 13
     title: Microstructure, transformation behavior and superelasticity of an aged Ti-40Ni-12Cu (at%) shape memory alloy
     year: '2022'
   Oha_H-oAAAAJ:uWQEDVKXjbEC:
-    citations: 40
+    citations: 41
     title: Towards bone-like elastic modulus in TiNbSn alloys with large recovery strain for biomedical applications
     year: '2022'
   Oha_H-oAAAAJ:u_35RYKgDlwC:
