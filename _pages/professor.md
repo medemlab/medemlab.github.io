@@ -123,6 +123,7 @@ permalink: /professor/
   <h2 class="section-title"><i class="fa-solid fa-briefcase mr-2"></i> 학력 및 경력</h2>
   <ul class="custom-list">
     <li><span class="year-span">2025 - 현재</span> <strong>부산대학교</strong> 기계공학부 교수</li>
+    <li><span class="year-span">2026 - 현재</span> <strong>Kyushu University</strong> (일본) 겸임교수</li>
     <li><span class="year-span">2021 - 2025</span> <strong>부산대학교</strong> 기계공학부 부교수</li>
     <li><span class="year-span">2017 - 2021</span> <strong>부산대학교</strong> 기계공학부 조교수</li>
     <li><span class="year-span">2016 - 2017</span> <strong>Kumamoto University</strong> (일본) 조교수</li>
