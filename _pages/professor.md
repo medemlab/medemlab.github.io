@@ -136,10 +136,11 @@ permalink: /professor/
   <ul class="custom-list">
     <li><span class="year-span">2025 - 현재</span> <strong>한국군사과학기술학회</strong> 정회원</li>
     <li><span class="year-span">2025 - 현재</span> <strong>The Japan Institute of Light Metals (JILM)</strong> 정회원</li>
-    <li><span class="year-span">2022 - 현재</span> <strong>한국소성·가공학회</strong> 편집이사</li>
+    <li><span class="year-span">2026 - 현재</span> <strong>대한금속·재료학회</strong> 국제위원회 위원</li>
     <li><span class="year-span">2023 - 현재</span> <strong>대한금속·재료학회</strong> 인공지능재료과학분과 간사위원</li>
     <li><span class="year-span">2020 - 현재</span> <strong>대한금속·재료학회</strong> 마그네슘분과 간사위원</li>
     <li><span class="year-span">2019 - 현재</span> <strong>대한금속·재료학회</strong> 타이타늄분과 간사위원</li>
+    <li><span class="year-span">2022 - 현재</span> <strong>한국소성·가공학회</strong> 편집이사</li>
   </ul>
 
   <h2 class="section-title"><i class="fa-solid fa-pen-nib mr-2"></i> 학술지 편집위원회</h2>
