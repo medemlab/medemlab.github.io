@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-13'
+  last_updated: '2026-04-17'
 papers:
   Oha_H-oAAAAJ:08ZZubdj9fEC:
     citations: 20
@@ -22,7 +22,7 @@ papers:
     title: Mechanisms of tensile improvement in caliber-rolled high-carbon steel
     year: '2012'
   Oha_H-oAAAAJ:35N4QoGY0k4C:
-    citations: 72
+    citations: 73
     title: Tailoring strength-ductility balance of caliber-rolled AZ31 Mg alloy through subsequent annealing
     year: '2020'
   Oha_H-oAAAAJ:3fE2CSJIrl8C:
@@ -54,7 +54,7 @@ papers:
     title: Space-holder effect on designing pore structure and determining mechanical properties in porous titanium
     year: '2014'
   Oha_H-oAAAAJ:5ugPr518TE4C:
-    citations: 12
+    citations: 14
     title: Comparative study of dynamic recrystallization behavior, microstructural characteristics, and mechanical properties of high-speed-extruded AZ31 and BA56 magnesium alloys
     year: '2025'
   Oha_H-oAAAAJ:70eg2SAEIzsC:
@@ -82,7 +82,7 @@ papers:
     title: "Morphological evolution of \u03B1-Mg and LPSO phases in MgYxCu1Ni1 alloys via thermal and electrical processing"
     year: '2026'
   Oha_H-oAAAAJ:B3FOqHPlNUQC:
-    citations: 19
+    citations: 20
     title: Effect of oxygen content on microstructure and mechanical properties of additive manufactured Ti-6Al-4V
     year: '2023'
   Oha_H-oAAAAJ:BqipwSGYUEgC:
@@ -122,7 +122,7 @@ papers:
     title: crystals MDPI
     year: '2021'
   Oha_H-oAAAAJ:JV2RwH3_ST0C:
-    citations: 24
+    citations: 25
     title: High strain-rate superplasticity of AZ91 alloy achieved by rapidly solidified flaky powder metallurgy
     year: '2019'
   Oha_H-oAAAAJ:J_g5lzvAfSwC:
@@ -166,7 +166,7 @@ papers:
     title: Integrated constitutive model for flow behavior of pure Titanium considering interstitial solute concentration
     year: '2014'
   Oha_H-oAAAAJ:Mojj43d5GZwC:
-    citations: 2
+    citations: 1
     title: Validating the athermal contribution of electropulsing treatment utilizing T-type Mg specimen
     year: '2025'
   Oha_H-oAAAAJ:NMxIlDl6LWMC:
@@ -214,7 +214,7 @@ papers:
     title: "Improvement in the superelasticity of a Ti\u201335.5 Ni\u201315Cu (at.%) alloy using Ti (Ni, Cu) 2 phase"
     year: '2022'
   Oha_H-oAAAAJ:SeFeTyx0c_EC:
-    citations: 20
+    citations: 21
     title: Effect of undissolved Nb carbides on mechanical properties of hydrogen-precharged tempered martensitic steel
     year: '2020'
   Oha_H-oAAAAJ:TFP_iSt0sucC:
@@ -242,7 +242,7 @@ papers:
     title: Microstructural Evolution Near Microcrack in AZ31 Mg Alloy Under Electropulses
     year: '2024'
   Oha_H-oAAAAJ:W7OEmFMy1HYC:
-    citations: 23
+    citations: 24
     title: 'Internal-variable analysis of high-temperature deformation behavior of Ti-6Al-4V: A comparative study of the strain-rate-jump and load-relaxation tests'
     year: '2013'
   Oha_H-oAAAAJ:WA5NYHcadZ8C:
@@ -334,7 +334,7 @@ papers:
     title: "Tuning the texture characteristics and superelastic behaviors of Ti\u2013Zr\u2013Nb\u2013Sn shape memory alloys by varying Nb content"
     year: '2022'
   Oha_H-oAAAAJ:e5wmG9Sq2KIC:
-    citations: 96
+    citations: 97
     title: Constitutive analysis of electrically-assisted tensile deformation of CP-Ti based on non-uniform thermal expansion, plastic softening and dynamic strain aging
     year: '2017'
   Oha_H-oAAAAJ:eJXPG6dFmWUC:
@@ -374,7 +374,7 @@ papers:
     title: Prediction of hole expansion ratio for various steel sheets based on uniaxial tensile properties
     year: '2018'
   Oha_H-oAAAAJ:kNdYIx-mwKoC:
-    citations: 104
+    citations: 103
     title: Surface modification of multipass caliber-rolled Ti alloy with dexamethasone-loaded graphene for dental applications
     year: '2015'
   Oha_H-oAAAAJ:kRWSkSYxWN8C:
@@ -506,7 +506,7 @@ papers:
     title: Additive Manufacturing Optimization of Directed Energy Deposition-Processed Ti-6Al-4V Alloy using Energy Density and Powder Deposition Density
     year: '2021'
   Oha_H-oAAAAJ:yD5IFk8b50cC:
-    citations: 19
+    citations: 20
     title: "Microstructural influence on stretch flangeability of Ferrite\u2013Martensite Dual-Phase steels"
     year: '2020'
   Oha_H-oAAAAJ:zA6iFVUQeVQC:
