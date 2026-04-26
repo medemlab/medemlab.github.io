@@ -1,7 +1,7 @@
 ---
 layout: about
 title: 문무성
-first_name: Mooseong
+first_name: Moo Seong
 last_name: Mun
 category: Alumni    # Professor / Member / Almuni
 course: MS        # (Members) Post-Doc / PhD / MS / Undergrad

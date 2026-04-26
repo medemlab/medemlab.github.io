@@ -1,7 +1,7 @@
 ---
 layout: about
 title: 김지우
-first_name: Jiwoo
+first_name: Ji Woo
 last_name: Kim
 category: Alumni    # Professor / Member / Almuni
 course: MS        # (Members) Post-Doc / PhD / MS / Undergrad
