@@ -550,7 +550,7 @@ ninja.data = [{
           title: '문무성',
           description: "",
           section: "Profiles",handler: () => {
-              window.location.href = "/profiles/015_Mooseong_Mun/";
+              window.location.href = "/profiles/015_MooSeong_Mun/";
             },},{id: "profiles-변수정",
           title: '변수정',
           description: "",
@@ -560,7 +560,7 @@ ninja.data = [{
           title: '김지우',
           description: "",
           section: "Profiles",handler: () => {
-              window.location.href = "/profiles/017_Jiwoo_Kim/";
+              window.location.href = "/profiles/017_JiWoo_Kim/";
             },},{id: "profiles-박동준",
           title: '박동준',
           description: "",
