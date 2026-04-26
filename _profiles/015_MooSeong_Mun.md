@@ -12,5 +12,5 @@ graduation_season: Fall # Spring / Fall
 degree: M.S.
 current_affl: "LG전자"
 affl_url: "https://www.lge.co.kr/company/main"
-excluded_from: 2025 # ~년부터 출판된 논문에는 밑줄 제외
+excluded_from: 2027 # ~년부터 출판된 논문에는 밑줄 제외
 ---
