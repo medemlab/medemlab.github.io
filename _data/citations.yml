@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-24'
+  last_updated: '2026-05-08'
 papers:
   Oha_H-oAAAAJ:08ZZubdj9fEC:
     citations: 20
@@ -22,7 +22,7 @@ papers:
     title: Mechanisms of tensile improvement in caliber-rolled high-carbon steel
     year: '2012'
   Oha_H-oAAAAJ:35N4QoGY0k4C:
-    citations: 73
+    citations: 75
     title: Tailoring strength-ductility balance of caliber-rolled AZ31 Mg alloy through subsequent annealing
     year: '2020'
   Oha_H-oAAAAJ:3fE2CSJIrl8C:
@@ -30,7 +30,7 @@ papers:
     title: Phase transformation and its effect on mechanical characteristics in warm-deformed Ti-29Nb-13Ta-4.6Zr alloy
     year: '2015'
   Oha_H-oAAAAJ:3s1wT3WcHBgC:
-    citations: 101
+    citations: 102
     title: "Effect of heat treatment on LPSO morphology and mechanical properties of Mg\u2013Zn\u2013Y\u2013Gd alloys"
     year: '2020'
   Oha_H-oAAAAJ:4JMBOYKVnBMC:
@@ -46,7 +46,7 @@ papers:
     title: Role of Mo/V carbides in hydrogen embrittlement of tempered martensitic steel
     year: '2015'
   Oha_H-oAAAAJ:4fKUyHm3Qg0C:
-    citations: 15
+    citations: 16
     title: "Enhanced kinetics of microstructural evolution in Ti\u20136Al\u20134V through electropulsing treatment"
     year: '2023'
   Oha_H-oAAAAJ:5nxA0vEk-isC:
@@ -66,13 +66,17 @@ papers:
     title: Heterogeneous-structured Ti-6Al-4V with enhanced mechanical properties in monotonic and cyclic deformation modes
     year: '2023'
   Oha_H-oAAAAJ:8AbLer7MMksC:
-    citations: 12
+    citations: 13
     title: "Mechanical property of the shape memorable Ti\u2013Zr\u2013Nb\u2013Sn alloy manufactured by in-situ alloying in directed energy deposition"
     year: '2024'
   Oha_H-oAAAAJ:8k81kl-MbHgC:
-    citations: 30
+    citations: 31
     title: "Enhancing yield strength by suppressing detwinning in a rolled Mg\u20133Al\u20131Zn alloy with {10-12} twins"
     year: '2014'
+  Oha_H-oAAAAJ:9vf0nzSNQJEC:
+    citations: 2
+    title: Prediction of Cryogenic-and Room-Temperature Deformation Behavior of Rolled Titanium using Machine Learning
+    year: '2023'
   Oha_H-oAAAAJ:9yKSN-GCB0IC:
     citations: 9
     title: 'The effect of porosity on the elasticity of pure titanium: An atomistic simulation'
@@ -106,7 +110,7 @@ papers:
     title: Fused Deposition Modeling of Iron-alloy using Carrier Composition
     year: '2023'
   Oha_H-oAAAAJ:GnPB-g6toBAC:
-    citations: 35
+    citations: 36
     title: "Enhanced yield symmetry and strength-ductility balance of caliber-rolled Mg\u20136Zn-0.5 Zr with ultrafine-grained structure and bulk dimension"
     year: '2019'
   Oha_H-oAAAAJ:HE397vMXCloC:
@@ -122,19 +126,23 @@ papers:
     title: crystals MDPI
     year: '2021'
   Oha_H-oAAAAJ:JV2RwH3_ST0C:
-    citations: 25
+    citations: 26
     title: High strain-rate superplasticity of AZ91 alloy achieved by rapidly solidified flaky powder metallurgy
     year: '2019'
   Oha_H-oAAAAJ:J_g5lzvAfSwC:
-    citations: 17
+    citations: 18
     title: "Fabrication of porous titanium parts by powder bed fusion of Ti\u2013TiH2 blended powder"
     year: '2020'
+  Oha_H-oAAAAJ:JoZmwDi-zQgC:
+    citations: 6
+    title: Predicting deformation behavior of additively manufactured Ti-6Al-4V based on XGB and LGBM
+    year: '2022'
   Oha_H-oAAAAJ:K3LRdlH-MEoC:
     citations: 10
     title: "Microstructures and mechanical behavior of Ti-(38+ x) Ni-12Cu (at%)(x= 0\u223C 3) alloys"
     year: '2023'
   Oha_H-oAAAAJ:KlAtU1dfN6UC:
-    citations: 70
+    citations: 71
     title: "Role of Cu on hydrogen embrittlement behavior in Fe\u2013Mn\u2013C\u2013Cu TWIP steel"
     year: '2015'
   Oha_H-oAAAAJ:KxtntwgDAa4C:
@@ -142,7 +150,7 @@ papers:
     title: Enhancing mechanical properties of Mg-Gd-Y-Zn alloys via microalloying with Ce and La
     year: '2022'
   Oha_H-oAAAAJ:LPZeul_q3PIC:
-    citations: 23
+    citations: 18
     title: Enhanced prediction of anisotropic deformation behavior using machine learning with data augmentation
     year: '2024'
   Oha_H-oAAAAJ:LkGwnXOMwfcC:
@@ -166,7 +174,7 @@ papers:
     title: Integrated constitutive model for flow behavior of pure Titanium considering interstitial solute concentration
     year: '2014'
   Oha_H-oAAAAJ:Mojj43d5GZwC:
-    citations: 1
+    citations: 2
     title: Validating the athermal contribution of electropulsing treatment utilizing T-type Mg specimen
     year: '2025'
   Oha_H-oAAAAJ:NMxIlDl6LWMC:
@@ -186,13 +194,17 @@ papers:
     title: Improved tensile properties of AZ31 Mg alloy subjected to various caliber-rolling strains
     year: '2019'
   Oha_H-oAAAAJ:OU6Ihb5iCvQC:
-    citations: 8
+    citations: 9
     title: "Polyvinyl pyrrolidone (PVP) as an efficient and biocompatible binder for metal alloy processing: A case study with Ti\u201020Zr\u201011Nb\u20103Sn"
     year: '2022'
   Oha_H-oAAAAJ:P5F9QuxV20EC:
     citations: 27
     title: "Improvement in tensile strength of extruded Mg\u20135Bi alloy through addition of Sn and its underlying strengthening mechanisms"
     year: '2022'
+  Oha_H-oAAAAJ:PELIpwtuRlgC:
+    citations: 4
+    title: Effect of Al addition on microstructure, texture evolution and mechanical properties of Mg-1Zn-1Y-0.1 Mn alloy sheets
+    year: '2025'
   Oha_H-oAAAAJ:R3hNpaxXUhUC:
     citations: 3
     title: "Interface Characterization of Al\u2013Cu Microlaminates Fabricated By Electrically Assisted Roll Bonding"
@@ -213,6 +225,10 @@ papers:
     citations: 17
     title: "Improvement in the superelasticity of a Ti\u201335.5 Ni\u201315Cu (at.%) alloy using Ti (Ni, Cu) 2 phase"
     year: '2022'
+  Oha_H-oAAAAJ:SdhP9T11ey4C:
+    citations: 0
+    title: "Effect of Yb Addition on the Microstructure, Mechanical Properties and Flame Resistance of Mg\u2013Gd\u2013Y\u2013Zn Alloys"
+    year: '2026'
   Oha_H-oAAAAJ:SeFeTyx0c_EC:
     citations: 21
     title: Effect of undissolved Nb carbides on mechanical properties of hydrogen-precharged tempered martensitic steel
@@ -222,7 +238,7 @@ papers:
     title: Effects of drawing strain and post-annealing conditions on microstructural evolution and tensile properties of medium-and high-carbon steels
     year: '2017'
   Oha_H-oAAAAJ:TQgYirikUcIC:
-    citations: 200
+    citations: 201
     title: "Anisotropic properties of directed energy deposition (DED)-processed Ti\u20136Al\u20134V"
     year: '2016'
   Oha_H-oAAAAJ:Tiz5es2fbqcC:
@@ -242,7 +258,7 @@ papers:
     title: Microstructural Evolution Near Microcrack in AZ31 Mg Alloy Under Electropulses
     year: '2024'
   Oha_H-oAAAAJ:W7OEmFMy1HYC:
-    citations: 24
+    citations: 25
     title: 'Internal-variable analysis of high-temperature deformation behavior of Ti-6Al-4V: A comparative study of the strain-rate-jump and load-relaxation tests'
     year: '2013'
   Oha_H-oAAAAJ:WA5NYHcadZ8C:
@@ -266,7 +282,7 @@ papers:
     title: 'CIFLE: A physics-based machine learning framework with probabilistic inference for low-cycle fatigue life prediction'
     year: '2026'
   Oha_H-oAAAAJ:YFjsv_pBGBYC:
-    citations: 27
+    citations: 28
     title: High-Strength AZ91 Alloy Fabricated by Rapidly Solidified Flaky Powder Metallurgy and Hot Extrusion
     year: '2019'
   Oha_H-oAAAAJ:YOwf2qJgpHMC:
@@ -274,13 +290,17 @@ papers:
     title: "Microstructural evolution and strain-hardening behavior of multi-pass caliber-rolled Ti\u201313Nb\u201313Zr"
     year: '2015'
   Oha_H-oAAAAJ:ZHo1McVdvXMC:
-    citations: 12
+    citations: 13
     title: Underwater surface remelting of selective laser melted titanium parts
     year: '2020'
   Oha_H-oAAAAJ:Zph67rFs4hoC:
     citations: 27
     title: Manufacturing ultrafine-grained Ti-6Al-4V bulk rod using multi-pass caliber-rolling
     year: '2015'
+  Oha_H-oAAAAJ:_B80troHkn4C:
+    citations: 1
+    title: Thermal Gradient Change of T-shaped Mg Alloy Specimen Exposed to Electropulses
+    year: '2024'
   Oha_H-oAAAAJ:_kc_bZDykSQC:
     citations: 37
     title: Tribological and corrosion behaviors of warm- and hot-rolled Ti-13Nb-13Zr alloys in simulated body fluid conditions
@@ -294,11 +314,11 @@ papers:
     title: Graded grain structure to improve hydrogen-embrittlement resistance of TWIP steel
     year: '2020'
   Oha_H-oAAAAJ:abG-DnoFyZgC:
-    citations: 40
+    citations: 41
     title: Accelerated recrystallization behavior of commercially pure titanium subjected to an alternating-current electropulse
     year: '2021'
   Oha_H-oAAAAJ:b0M2c_1WBrUC:
-    citations: 43
+    citations: 45
     title: "Effects of laser power on the microstructure evolution and mechanical properties of Ti\u20136Al\u20134V alloy manufactured by direct energy deposition"
     year: '2022'
   Oha_H-oAAAAJ:bEWYMUwI8FkC:
@@ -325,12 +345,16 @@ papers:
     citations: 88
     title: "Tensile deformation behavior of Fe\u2013Mn\u2013C TWIP steel with ultrafine elongated grain structure"
     year: '2012'
+  Oha_H-oAAAAJ:dTyEYWd-f8wC:
+    citations: 0
+    title: Enhanced microstructural homogeneity and tensile properties of bimodal AZ31 alloy sheet via combined ultrasonic nanocrystal surface modification and electropulsing treatment
+    year: '2026'
   Oha_H-oAAAAJ:dfsIfKJdRG4C:
     citations: 23
     title: Variation in mechanical properties of TI-13NB-13ZR depending on annealing temperature
     year: '2020'
   Oha_H-oAAAAJ:dshw04ExmUIC:
-    citations: 27
+    citations: 28
     title: "Tuning the texture characteristics and superelastic behaviors of Ti\u2013Zr\u2013Nb\u2013Sn shape memory alloys by varying Nb content"
     year: '2022'
   Oha_H-oAAAAJ:e5wmG9Sq2KIC:
@@ -338,7 +362,7 @@ papers:
     title: Constitutive analysis of electrically-assisted tensile deformation of CP-Ti based on non-uniform thermal expansion, plastic softening and dynamic strain aging
     year: '2017'
   Oha_H-oAAAAJ:eJXPG6dFmWUC:
-    citations: 9
+    citations: 10
     title: Effect of the initial texture of AZ31 Mg alloys on their microstructure and texture evolution during single pulse laser shock peening
     year: '2024'
   Oha_H-oAAAAJ:eMMeJKvmdy0C:
@@ -349,6 +373,10 @@ papers:
     citations: 2
     title: Numerical study on the dynamic behavior of layered structures under high-velocity impact
     year: '2025'
+  Oha_H-oAAAAJ:eq2jaN3J8jMC:
+    citations: 0
+    title: Effect of Laser Shock Peening Direction on Twinning Behavior and Bending Formability in AZ31 Mg Alloy
+    year: '2026'
   Oha_H-oAAAAJ:f2IySw72cVMC:
     citations: 8
     title: Effect of Type-B liquid metal embrittlement cracks on high-cycle fatigue properties of spot-welded 1180 TRIP steel
@@ -374,11 +402,11 @@ papers:
     title: Prediction of hole expansion ratio for various steel sheets based on uniaxial tensile properties
     year: '2018'
   Oha_H-oAAAAJ:kNdYIx-mwKoC:
-    citations: 103
+    citations: 104
     title: Surface modification of multipass caliber-rolled Ti alloy with dexamethasone-loaded graphene for dental applications
     year: '2015'
   Oha_H-oAAAAJ:kRWSkSYxWN8C:
-    citations: 13
+    citations: 14
     title: Alternative predictive approach for low-cycle fatigue life based on machine learning and energy-based modeling
     year: '2024'
   Oha_H-oAAAAJ:k_IJM867U9cC:
@@ -390,7 +418,7 @@ papers:
     title: Prediction of Tempcore rebar strength using a thermomechanical simulator with a designed hollow specimen
     year: '2020'
   Oha_H-oAAAAJ:ldfaerwXgEUC:
-    citations: 27
+    citations: 28
     title: Plastic anisotropy of multi-pass caliber-rolled Mg alloy with split texture distribution
     year: '2020'
   Oha_H-oAAAAJ:maZDTaKrznsC:
@@ -430,7 +458,7 @@ papers:
     title: Role of deformation twins in static recrystallization kinetics of high-purity alpha titanium
     year: '2016'
   Oha_H-oAAAAJ:qxL8FJ1GzNcC:
-    citations: 132
+    citations: 133
     title: Effects of vanadium carbides on hydrogen embrittlement of tempered martensitic steel
     year: '2016'
   Oha_H-oAAAAJ:r0BpntZqJG4C:
@@ -454,11 +482,11 @@ papers:
     title: "Grain refinement and mechanical enhancement in high-speed-extruded Mg\u20135Bi\u20133Al Alloy via Si microalloying"
     year: '2025'
   Oha_H-oAAAAJ:tOudhMTPpwUC:
-    citations: 12
+    citations: 13
     title: Optimizing interlayer cooling for SUS316L thin wall fabricated by directed energy deposition
     year: '2023'
   Oha_H-oAAAAJ:tS2w5q8j5-wC:
-    citations: 19
+    citations: 20
     title: Effect of substituting Y with Gd on LPSO phase dispersion and mechanical properties of Mg-2Ni-2Y alloy
     year: '2024'
   Oha_H-oAAAAJ:tkaPQYYpVKoC:
@@ -470,15 +498,15 @@ papers:
     title: Enhancing tensile properties of ultrafine-grained medium-carbon steel utilizing fine carbides
     year: '2011'
   Oha_H-oAAAAJ:u5HHmVD_uO8C:
-    citations: 245
+    citations: 246
     title: Work hardening associated with-martensitic transformation, deformation twinning and dynamic strain aging in Fe-17Mn-0.6 C and Fe-17Mn-0.8 C TWIP steels
     year: '2011'
   Oha_H-oAAAAJ:u9iWguZQMMsC:
-    citations: 14
+    citations: 15
     title: Microstructure, transformation behavior and superelasticity of an aged Ti-40Ni-12Cu (at%) shape memory alloy
     year: '2022'
   Oha_H-oAAAAJ:uWQEDVKXjbEC:
-    citations: 44
+    citations: 45
     title: Towards bone-like elastic modulus in TiNbSn alloys with large recovery strain for biomedical applications
     year: '2022'
   Oha_H-oAAAAJ:u_35RYKgDlwC:
@@ -486,7 +514,7 @@ papers:
     title: Microforming of fine metallic rods by the selective laser melting of powder
     year: '2020'
   Oha_H-oAAAAJ:ufrVoPGSRksC:
-    citations: 20
+    citations: 21
     title: Effects of Tungsten Addition on the Microstructure and Mechanical Properties of Microalloyed Forging Steels
     year: '2013'
   Oha_H-oAAAAJ:vRqMK49ujn8C:
@@ -506,7 +534,7 @@ papers:
     title: Additive Manufacturing Optimization of Directed Energy Deposition-Processed Ti-6Al-4V Alloy using Energy Density and Powder Deposition Density
     year: '2021'
   Oha_H-oAAAAJ:yD5IFk8b50cC:
-    citations: 20
+    citations: 22
     title: "Microstructural influence on stretch flangeability of Ferrite\u2013Martensite Dual-Phase steels"
     year: '2020'
   Oha_H-oAAAAJ:zA6iFVUQeVQC:
