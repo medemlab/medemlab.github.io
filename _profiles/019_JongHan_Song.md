@@ -10,7 +10,7 @@ importance: 19
 graduation_year: 2025
 graduation_season: Fall # Spring / Fall
 degree: M.S.
-current_affl: "LS ELECTRIC"
+current_affl: "LS일렉트릭"
 affl_url: "https://www.ls-electric.com/ko/"
 excluded_from: 2027 # ~년부터 출판된 논문에는 밑줄 제외
 ---
