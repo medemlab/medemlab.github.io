@@ -1,12 +1,12 @@
 ---
 layout: about
 title: 장대웅
-first_name: Dae Woong
+first_name: Daewoong
 last_name: Jang
 category: Member    # Professor / Member / Almuni
 course: Undergrad        # (Members) Post-Doc / PhD / MS / Undergrad
                     # (Alumni) PhD / MS
-importance: 101
+importance: 28
 graduation_year: ""
 graduation_season: "" # Spring / Fall
 degree: ""
