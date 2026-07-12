@@ -621,7 +621,7 @@ ninja.data = [{
           title: '장대웅',
           description: "",
           section: "Profiles",handler: () => {
-              window.location.href = "/profiles/101_DaeWoong_Jang/";
+              window.location.href = "/profiles/028_Daewoong_Jang/";
             },},{id: "profiles-유진영",
           title: '유진영',
           description: "",
