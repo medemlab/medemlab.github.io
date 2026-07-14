@@ -145,7 +145,7 @@ permalink: /professor/
 
   <h2 class="section-title"><i class="fa-solid fa-pen-nib mr-2"></i> 학술지 편집위원회</h2>
   <ul class="custom-list">
-    <li><span class="year-span">2023 - 현재</span> Journal of Magnesium and Alloys / Youth Committee Member <a href="https://www.jmamg.com/index.aspx" target="_blank" class="link-icon"><i class="fa-solid fa-link"></i></a></li>
+    <li><span class="year-span">2023 - 현재</span> Journal of Magnesium and Alloys / Youth Editorial Board <a href="https://www.jmamg.com/Youth/index.aspx?lcid=99" target="_blank" class="link-icon"><i class="fa-solid fa-link"></i></a></li>
     <li><span class="year-span">2022 - 현재</span> Metals and Materials International <a href="https://www.springer.com/journal/12540" target="_blank" class="link-icon"><i class="fa-solid fa-link"></i></a></li>
     <li><span class="year-span">2022 - 현재</span> Transactions of Materials Processing <a href="http://kstp.or.kr/journal/archive.html" target="_blank" class="link-icon"><i class="fa-solid fa-link"></i></a></li>
     <li><span class="year-span">2022 - 현재</span> Korean Journal of Metals and Materials <a href="http://kjmm.org/" target="_blank" class="link-icon"><i class="fa-solid fa-link"></i></a></li>
