@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-14'
+  last_updated: '2026-08-17'
 papers:
   Oha_H-oAAAAJ:08ZZubdj9fEC:
     citations: 24
@@ -186,7 +186,7 @@ papers:
     title: Sinter-joining of Cu54Zr22Ti18Ni6 BMG powder to Cu powder by spark plasma sintering
     year: '2019'
   Oha_H-oAAAAJ:NaGl4SEjCO4C:
-    citations: 14
+    citations: 15
     title: Orientation dependence on plastic flow behavior of hydrogen-precharged micropillars of high-Mn steel
     year: '2020'
   Oha_H-oAAAAJ:NhqRSupF_l8C:
@@ -342,7 +342,7 @@ papers:
     title: Constitutive Analysis of the Anisotropic Flow Behavior of Commercially Pure Titanium
     year: '2020'
   Oha_H-oAAAAJ:d1gkVwhDpl0C:
-    citations: 91
+    citations: 92
     title: "Tensile deformation behavior of Fe\u2013Mn\u2013C TWIP steel with ultrafine elongated grain structure"
     year: '2012'
   Oha_H-oAAAAJ:dTyEYWd-f8wC:
@@ -394,7 +394,7 @@ papers:
     title: Prediction of electropulse-induced nonlinear temperature variation of Mg alloy based on machine learning
     year: '2020'
   Oha_H-oAAAAJ:geHnlv5EZngC:
-    citations: 78
+    citations: 79
     title: "Twinning-induced plasticity mechanism of \u03B1 \u2033-martensitic titanium alloy"
     year: '2023'
   Oha_H-oAAAAJ:isC4tDSrTZIC:
@@ -406,7 +406,7 @@ papers:
     title: Surface modification of multipass caliber-rolled Ti alloy with dexamethasone-loaded graphene for dental applications
     year: '2015'
   Oha_H-oAAAAJ:kRWSkSYxWN8C:
-    citations: 19
+    citations: 20
     title: Alternative predictive approach for low-cycle fatigue life based on machine learning and energy-based modeling
     year: '2024'
   Oha_H-oAAAAJ:k_IJM867U9cC:
@@ -450,7 +450,7 @@ papers:
     title: Manufacturing of a corrugated double-layered tube for the high-performance compact heat exchanger
     year: '2021'
   Oha_H-oAAAAJ:q3oQSFYPqjQC:
-    citations: 5
+    citations: 6
     title: "Role of Y in high-strength Mg\u2013Y\u2013Cu\u2013Ni alloy system with long-period stacking ordered phase"
     year: '2025'
   Oha_H-oAAAAJ:qUcmZB5y_30C:
@@ -498,7 +498,7 @@ papers:
     title: Enhancing tensile properties of ultrafine-grained medium-carbon steel utilizing fine carbides
     year: '2011'
   Oha_H-oAAAAJ:u5HHmVD_uO8C:
-    citations: 253
+    citations: 254
     title: Work hardening associated with-martensitic transformation, deformation twinning and dynamic strain aging in Fe-17Mn-0.6 C and Fe-17Mn-0.8 C TWIP steels
     year: '2011'
   Oha_H-oAAAAJ:u9iWguZQMMsC:
