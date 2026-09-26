@@ -174,6 +174,8 @@ permalink: /scope/
           <span class="papers-label"><i class="fa-solid fa-file-lines mr-2"></i> 주요 연구 성과</span>
           <ul class="manual-pub-list">
             <li>
+              Lee et al., <b>J. Magnes. Alloy.</b>, 2026.
+              <a href="https://doi.org/10.1016/j.jma.2026.102287" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i></a><br>
               Shams et al., <b>J. Mater. Sci. Technol.</b>, 2022.
               <a href="https://doi.org/10.1016/j.jmst.2021.10.010" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i></a><br>
               Lee et al., <b>J. Alloys Compd.</b>, 2020.
@@ -206,6 +208,8 @@ permalink: /scope/
           <span class="papers-label"><i class="fa-solid fa-file-lines mr-2"></i> 주요 연구 성과</span>
           <ul class="manual-pub-list">
             <li>
+              Cheon et al., <b>J. Magnes. Alloy.</b>, 2027.
+              <a href="https://doi.org/10.1016/j.jma.2026.102295" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i></a><br>
               Song et al., <b>J. Magnes. Alloy.</b>, 2026.
               <a href="https://doi.org/10.1016/j.jma.2025.11.017" class="doi-link" target="_blank"><i class="fa-solid fa-link"></i></a><br>
               Oh et al., <b>J. Mater. Res. Technol.</b>, 2024.
@@ -252,6 +256,8 @@ permalink: /scope/
         <h3 class="research-title">기타 연구주제</h3>
         <div class="research-text">
           <ul>
+            <li>주조성 평가 및 최적화 (Evaluation and Optimization of Castability)</li>
+            <li>수소지연파괴 (Hydrogen-Delayed Fracture)</li>           
             <li>다중공형압연 (Multi-Pass Caliber Rolling)</li>
             <li>강소성가공 (Severe Plastic Deformation Processes)</li>
             <li>탄성계수 정밀 측정 (Precise Measurement of Elastic Modulus)</li>
