@@ -10,7 +10,7 @@ importance: 5
 graduation_year: 2022
 graduation_season: Spring # Spring / Fall
 degree: M.S.
-current_affl: "화신"
+current_affl: "LS전선"
 affl_url: "https://www.hwashin.co.kr/kr/main.do"
 excluded_from: 2024 # ~년부터 출판된 논문에는 밑줄 제외
 ---
