@@ -170,10 +170,14 @@ permalink: /professor/
 
   <h2 class="section-title"><i class="fa-solid fa-trophy mr-2"></i> 수상 경력</h2>
   <ul class="custom-list">
+    <li><span class="year-span">2026</span> 2026 World's Top 2% Scientists 등재</li>
     <li><span class="year-span">2026</span> 부산대학교 공과대학 우수연구자상</li>
+    <li><span class="year-span">2025</span> 2025 World's Top 2% Scientists 등재</li>
     <li><span class="year-span">2025</span> 한국소성·가공학회 제14회 신진학술상</li>
     <li><span class="year-span">2025</span> KIM 논문상 (제1부문 및 제2부문)</li>
+    <li><span class="year-span">2024</span> 2024 World's Top 2% Scientists 등재</li>
     <li><span class="year-span">2024</span> MMI-SPRINGER 논문상</li>
+    <li><span class="year-span">2023</span> 2023 World's Top 2% Scientists 등재</li>
     <li><span class="year-span">2023</span> 부산대학교 공과대학 논문상</li>
     <li><span class="year-span">2023</span> 부산대학교 공과대학 우수연구자상</li>
     <li><span class="year-span">2023</span> 부산대학교 기계공학부 최우수신진연구실</li>
