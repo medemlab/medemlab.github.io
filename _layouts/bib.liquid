@@ -48,9 +48,17 @@
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
+    {% comment %}
+      status = {accepted}: title hidden, "accepted" shown instead of vol/no/pp
+      status = {in press}: title shown, "in press" shown instead of vol/no/pp
+    {% endcomment %}
+    {% assign pub_status = entry.status | default: '' | downcase | strip %}
     <div class="title">
-      <span class="bib-number" style="font-weight: bold; margin-right: 5px;"></span><br>
-      {{ entry.title }}
+      <span class="bib-number" style="font-weight: bold; margin-right: 5px;"></span>
+      {%- unless pub_status == 'accepted' -%}
+        <br>
+        {{ entry.title }}
+      {%- endunless %}
     </div>
     <!-- Author -->
 <div class="author">
@@ -169,7 +177,9 @@
 
     {% if entry.type == 'article' %} 
       {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %} 
-      {% if entry.volume %} 
+      {% if pub_status == 'accepted' or pub_status == 'in press' %}
+      {% capture entrytype %}{{ entrytype }}, {{ pub_status }}{% endcapture %}
+      {% elsif entry.volume %} 
       {% capture entrytype %}{{ entrytype }}, vol. {{ entry.volume }}{% endcapture %} 
       {% if entry.number %}{% capture entrytype %}{{ entrytype }}, no. {{ entry.number }}{% endcapture %}{% endif %} 
       {% if entry.pages %}{% capture entrytype %}{{ entrytype }}, pp. {{ entry.pages }}{% endcapture %}{% endif %} 
