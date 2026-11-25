@@ -760,6 +760,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/024_project/";
+            },},{id: "projects-︎-︎-︎-︎-︎-주조해석-검증-및-설계-가이드라인-개발",
+          title: '◼︎◼︎◼︎◼︎◼︎ 주조해석 검증 및 설계 가이드라인 개발',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/025_project/";
             },},{
         id: 'social-orcid',
         title: 'ORCID',
