@@ -49,10 +49,22 @@
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
     {% comment %}
-      status = {accepted}: title hidden, "accepted" shown instead of vol/no/pp
-      status = {in press}: title shown, "in press" shown instead of vol/no/pp
+      Publication status is derived from the bib fields:
+      - doi empty or missing              -> accepted  (title and year hidden)
+      - doi present, volume empty/missing -> in press  (title shown)
+      - doi and volume present            -> published
     {% endcomment %}
-    {% assign pub_status = entry.status | default: '' | downcase | strip %}
+    {% assign entry_doi = entry.doi | default: '' | strip %}
+    {% assign entry_volume = entry.volume | default: '' | strip %}
+    {% assign entry_number = entry.number | default: '' | strip %}
+    {% assign entry_pages = entry.pages | default: '' | strip %}
+    {% if entry_doi == '' %}
+      {% assign pub_status = 'accepted' %}
+    {% elsif entry_volume == '' %}
+      {% assign pub_status = 'in press' %}
+    {% else %}
+      {% assign pub_status = 'published' %}
+    {% endif %}
     <div class="title">
       <span class="bib-number" style="font-weight: bold; margin-right: 5px;"></span>
       {%- unless pub_status == 'accepted' -%}
@@ -177,14 +189,12 @@
 
     {% if entry.type == 'article' %} 
       {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %} 
-      {% if pub_status == 'accepted' or pub_status == 'in press' %}
+      {% if pub_status == 'published' %}
+      {% capture entrytype %}{{ entrytype }}, vol. {{ entry_volume }}{% endcapture %}
+      {% if entry_number != '' %}{% capture entrytype %}{{ entrytype }}, no. {{ entry_number }}{% endcapture %}{% endif %}
+      {% if entry_pages != '' %}{% capture entrytype %}{{ entrytype }}, pp. {{ entry_pages }}{% endcapture %}{% endif %}
+      {% else %}
       {% capture entrytype %}{{ entrytype }}, {{ pub_status }}{% endcapture %}
-      {% elsif entry.volume %} 
-      {% capture entrytype %}{{ entrytype }}, vol. {{ entry.volume }}{% endcapture %} 
-      {% if entry.number %}{% capture entrytype %}{{ entrytype }}, no. {{ entry.number }}{% endcapture %}{% endif %} 
-      {% if entry.pages %}{% capture entrytype %}{{ entrytype }}, pp. {{ entry.pages }}{% endcapture %}{% endif %} 
-      {% else %} 
-      {% capture entrytype %}{{ entrytype }}, in press{% endcapture %} 
       {% endif %}
 
     {% elsif proceedings contains entry.type %}
@@ -232,8 +242,8 @@
       {% if entry.abstract %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
       {% endif %}
-      {% if entry.doi %}
-        <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
+      {% if entry_doi != '' %}
+        <a href="https://doi.org/{{ entry_doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
       {% endif %}
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
@@ -295,14 +305,14 @@
       {% assign entry_has_altmetric_badge = false %}
       {% if entry.altmetric and entry.altmetric != 'false' %}
         {% assign entry_has_altmetric_badge = true %}
-      {% elsif entry.doi or entry.arxiv or entry.isbn %}
+      {% elsif entry_doi != '' or entry.arxiv or entry.isbn %}
         {% assign entry_has_altmetric_badge = true %}
       {% endif %}
 
       {% assign entry_has_dimensions_badge = false %}
       {% if entry.dimensions and entry.dimensions != 'false' %}
         {% assign entry_has_dimensions_badge = true %}
-      {% elsif entry.doi or entry.pmid %}
+      {% elsif entry_doi != '' or entry.pmid %}
         {% assign entry_has_dimensions_badge = true %}
       {% endif %}
 
@@ -320,7 +330,7 @@
               data-badge-popover="right"
               {% if entry.altmetric != blank and entry.altmetric != 'true' %}
                 data-altmetric-id="{{ entry.altmetric }}"
-              {% elsif entry.doi %}
+              {% elsif entry_doi != '' %}
                 data-doi="{{ entry.doi }}"
               {% elsif entry.arxiv %}
                 data-arxiv-id="{{ entry.arxiv }}"
@@ -332,7 +342,7 @@
               class="__dimensions_badge_embed__"
               {% if entry.dimensions != blank and entry.dimensions != 'true' %}
                 data-id="{{ entry.dimensions }}"
-              {% elsif entry.doi %}
+              {% elsif entry_doi != '' %}
                 data-doi="{{ entry.doi }}"
               {% else %}
                 data-pmid="{{ entry.pmid }}"
